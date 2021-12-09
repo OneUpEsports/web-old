@@ -45,7 +45,7 @@ const Footer = ({ data }) => {
                                 <i className="icofont-heart"></i> BY
                                 <a
                                     className="hover:text-primary"
-                                    href="https://hasthemes.com/"
+                                    href="https://oneupgaming.eu/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -56,14 +56,14 @@ const Footer = ({ data }) => {
                             <div className="footer-copyright-right">
                                 <div className="flex">
                                     <a
-                                        href="https://hasthemes.com/"
+                                        href="https://oneupgaming.eu/"
                                         className="text-white hover:text-primary"
                                     >
                                         Terms &amp; Condition{" "}
                                     </a>
                                     <span className="mx-3"> || </span>
                                     <a
-                                        href="https://hasthemes.com/"
+                                        href="https://oneupgaming.eu/"
                                         className="text-white hover:text-primary"
                                     >
                                         Privacy Policy{" "}

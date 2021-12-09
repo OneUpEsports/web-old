@@ -1,3 +1,3 @@
 /* eslint-disable prettier/prettier */
 
-export const account_link = "https://hasthemes.com/account/";
+export const account_link = "https://oneupgaming.eu/account/";
