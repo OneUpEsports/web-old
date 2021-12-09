@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import GamingUpdateArea from "./gaming-update-widget";
@@ -40,7 +41,7 @@ const Footer = ({ data }) => {
                     <div className="container">
                         <div className=" flex flex-col md:flex-row md:justify-between items-center py-6">
                             <div className="">
-                                &copy; {new Date().getFullYear()} BONX MADE WITH{" "}
+                                &copy; {new Date().getFullYear()} OneUpGaming MADE WITH{" "}
                                 <i className="icofont-heart"></i> BY
                                 <a
                                     className="hover:text-primary"

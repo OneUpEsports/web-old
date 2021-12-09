@@ -5,7 +5,7 @@ import React from "react";
 const Logo = () => {
     return (
         <Link to="/">
-            <StaticImage src="../../data/images/logo.webp" alt="Bonx" />
+            <StaticImage src="../../data/images/logo.webp" alt="OneUpGaming" />
         </Link>
     );
 };

@@ -14,7 +14,7 @@ const GamesDetails = ({ data, location, pageContext }) => {
     const content = normalizedData(data?.games.content || []);
 
     // Base Url
-    const baseUrl = "https://bonx.com";
+    const baseUrl = "https://oneupgaming.eu";
     // Disqus Comments add
     const disqusShorttname = "mitech-1";
     const disquscConfig = {

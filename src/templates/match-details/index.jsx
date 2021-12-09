@@ -15,7 +15,7 @@ const MatchDetails = ({ data, location, pageContext }) => {
     const globalContent = normalizedData(data?.allGeneral?.nodes || []);
     const content = normalizedData(data?.match.content || []);
     // Base Url
-    const baseUrl = "https://bonx.com";
+    const baseUrl = "https://oneupgaming.eu";
     // Disqus Comments add
     const disqusShorttname = "mitech-1";
     const disquscConfig = {

@@ -10,7 +10,7 @@ import { DiscussionEmbed } from "disqus-react";
 const SinglePosts = ({ data, location, pageContext }) => {
     const globalContent = normalizedData(data?.allGeneral?.nodes || []);
     // Social Share
-    const baseUrl = "https://bonx.com";
+    const baseUrl = "https://oneupgaming.eu";
 
     // Disqus Comments add
     const disqusShorttname = "mitech-1";

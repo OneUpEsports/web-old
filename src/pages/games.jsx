@@ -22,7 +22,7 @@ const MatchPage = ({ data, location, pageContext }) => {
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}
-                title="ALL BONX GAME"
+                title="ALL OneUpGaming Games"
             />
             <GamesArea
                 data={{
