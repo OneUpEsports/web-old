@@ -50,7 +50,7 @@ const Footer = ({ data }) => {
                                     rel="noopener noreferrer"
                                 >
                                     {" "}
-                                    HasThemes
+                                    OneUpGaming
                                 </a>
                             </div>
                             <div className="footer-copyright-right">
