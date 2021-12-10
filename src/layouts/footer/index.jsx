@@ -41,8 +41,7 @@ const Footer = ({ data }) => {
                     <div className="container">
                         <div className=" flex flex-col md:flex-row md:justify-between items-center py-6">
                             <div className="">
-                                &copy; {new Date().getFullYear()} OneUpGaming MADE WITH{" "}
-                                <i className="icofont-heart"></i> BY
+                                &copy; {new Date().getFullYear()} OneUpGaming
                                 <a
                                     className="hover:text-primary"
                                     href="https://oneupgaming.eu/"
@@ -50,7 +49,6 @@ const Footer = ({ data }) => {
                                     rel="noopener noreferrer"
                                 >
                                     {" "}
-                                    OneUpGaming
                                 </a>
                             </div>
                             <div className="footer-copyright-right">
