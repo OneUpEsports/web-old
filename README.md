@@ -63,6 +63,26 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 12. **`README.md`**: A text file containing useful reference information about your project.
 
+## Dockerized
+
+[Docs](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
+
+```
+docker build . -t <your username>/oneupgaming
+docker run -p 49160:8080 -d <your username>/oneupgaming
+```
+
+Print the output of your app:
+
+```
+$ docker ps
+
+$docker logs <container id>
+
+# Example
+Running on http:localhost:8080
+```
+
 ## 🎓 Learning Gatsby
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
@@ -76,5 +96,3 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [Build, Deploy, and Host On The Only Cloud Built For Gatsby](https://www.gatsbyjs.com/cloud/)
 
 Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
-
-<!-- AUTO-GENERATED-CONTENT:END -->
