@@ -16,6 +16,14 @@
     font-weight: 400;
     font-style: normal;
 } */
+h1.mb-6.sm\:mb-10.text-shadow.uppercase.max-w-3xl {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+
+
 :root {
     --swiper-theme-color: #007aff;
 }
