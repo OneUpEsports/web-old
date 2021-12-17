@@ -47,7 +47,7 @@
 @layer utilities {
     @variants responsive {
         .text-shadow {
-            text-shadow: 3px 3px 0px #b154f0;
+            ;
         }
     }
     @variants responsive {
