@@ -53,7 +53,7 @@
                             "alt": "LIVE STREAMING"
                         }
                     ],
-                    "description": "When unknown printer took type and scrambled it to make type specimen book centuries,"
+                    "description": "You can also Stream your Game on Twitch or other Platform. We also Casting Games."
                 },
                 {
                     "id": "features-2",
@@ -73,7 +73,7 @@
                             "alt": "LIVE STREAMING"
                         }
                     ],
-                    "description": "When unknown printer took type and scrambled it to make type specimen book centuries,"
+                    "description": "Always stay up to date with our Tournaments to get the best performance"
                 },
                 {
                     "id": "features-3",
@@ -93,7 +93,7 @@
                             "alt": "LIVE STREAMING"
                         }
                     ],
-                    "description": "When unknown printer took type and scrambled it to make type specimen book centuries,"
+                    "description": "GL & HF and dont be Toxic to your Enemys"
                 }
             ]
         },
@@ -171,7 +171,7 @@
             "items": [
                 {
                     "id": "funfact-01",
-                    "countNumber": 8697,
+                    "countNumber": 2341,
                     "headings": [
                         {
                             "level": "h3",
@@ -181,7 +181,7 @@
                 },
                 {
                     "id": "funfact-02",
-                    "countNumber": 520,
+                    "countNumber": 9,
                     "headings": [
                         {
                             "level": "h3",
@@ -191,7 +191,7 @@
                 },
                 {
                     "id": "funfact-03",
-                    "countNumber": 5367,
+                    "countNumber": 2341,
                     "headings": [
                         {
                             "level": "h3",
@@ -201,11 +201,11 @@
                 },
                 {
                     "id": "funfact-04",
-                    "countNumber": 249,
+                    "countNumber": 6,
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "PRO TEAM"
+                            "content": "Team Members"
                         }
                     ]
                 }

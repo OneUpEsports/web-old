@@ -15,21 +15,21 @@
             "headings": [
                 {
                     "level": "h3",
-                    "content": "ABOUT OneUpGaming STUDIO"
+                    "content": "ABOUT OneUpGaming"
                 },
                 {
                     "level": "h2",
-                    "content": "OneUpGaming is the best gaming studio for all gamer."
+                    "content": "OneUpGaming all inclusive eSports Gaming Platform"
                 }
             ],
             "items": [
                 {
                     "id": "about-01",
-                    "description": "It is a long established fact that a reader will be distracted the readable content of page when looking at it layout the point using lorem Ipsum is that it has a more-or-less normal distribution."
+                    "description": ""
                 },
                 {
                     "id": "about-02",
-                    "description": "It is a long established fact that a reader will be distracted the readable content of page when looking at it layout the point using lorem Ipsum is that it has a more-or-less normal distribution."
+                    "description": ""
                 }
             ],
             "buttons": [
@@ -56,10 +56,10 @@
                     "images": [
                         {
                             "src": "../../data/images/our-teams/team1.webp",
-                            "alt": "TASIA MANCUSO"
+                            "alt": "Alexander W."
                         }
                     ],
-                    "name": "TASIA MANCUSO",
+                    "name": "Alexander W.",
                     "designation": "CEO & Founder"
                 },
                 {
@@ -67,22 +67,22 @@
                     "images": [
                         {
                             "src": "../../data/images/our-teams/team2.webp",
-                            "alt": "ROSALINE EMMONS"
+                            "alt": "Michael M."
                         }
                     ],
-                    "name": "ROSALINE EMMONS",
-                    "designation": "Team Leader"
+                    "name": "Michael M.",
+                    "designation": "CEO & Founder"
                 },
                 {
                     "id": "our-team-03",
                     "images": [
                         {
                             "src": "../../data/images/our-teams/team3.webp",
-                            "alt": "WILBURN BEHRENS"
+                            "alt": "Arnis M."
                         }
                     ],
-                    "name": "WILBURN BEHRENS",
-                    "designation": "Team Member"
+                    "name": "Arnis M.",
+                    "designation": "Co Founder & Tournament Admin "
                 }
             ],
             "buttons": [
@@ -90,7 +90,7 @@
                     "id": 1,
                     "size": "lg",
                     "path": "/",
-                    "content": "Join Our Team"
+                    "content": "Click for more Information"
                 }
             ]
         },
@@ -100,8 +100,8 @@
             "section_title": {
                 "showDescription": false,
                 "align": "left",
-                "heading": "WHAT PEOPLE’S SAY ABOUT GAME STUDIO",
-                "description": "When unknown printer took type and scrambled it to make type specimen book centuries,"
+                "heading": "WHAT PEOPLE’S SAY ABOUT OneUpGaming",
+                "description": "OneUpGamign is a very nice Team, thank you so much i improved my Skills so much here,"
             },
             "items": [
                 {
@@ -112,9 +112,9 @@
                             "alt": "Panda"
                         }
                     ],
-                    "name": "Randolph Frazier",
+                    "name": "OneUpGaming User",
                     "designation": "Top Rated Gamer",
-                    "description": "Lorem long established fact that a reader will be distracted the readable content of page when looking at it layout the point using lorem Ipsum is that it has a more-or-less normal distribution lette as opposed to using  making it look like readable english, many desktop publishing packages and web page now editors."
+                    "description": "OneUpGaming is a very nice Team, thank you so much i improved my Skills so much here."
                 },
                 {
                     "id": "testimonial-02",
@@ -124,9 +124,9 @@
                             "alt": "Panda"
                         }
                     ],
-                    "name": "Johan Puker",
+                    "name": "OneUpGaming User",
                     "designation": "Top Rated Gamer",
-                    "description": "It is a long established fact that a reader will be distracted the readable content of page when looking at it layout the point using lorem Ipsum is that it has a more-or-less normal distribution lette as opposed to using  making it look like readable english, many desktop publishing packages and web page now editors."
+                    "description": "Thank you very much for all the games you offer here that really helped me."
                 }
             ]
         },
@@ -136,7 +136,7 @@
             "items": [
                 {
                     "id": "funfact-01",
-                    "countNumber": 8697,
+                    "countNumber": 2341,
                     "headings": [
                         {
                             "level": "h3",
@@ -146,7 +146,7 @@
                 },
                 {
                     "id": "funfact-02",
-                    "countNumber": 520,
+                    "countNumber": 9,
                     "headings": [
                         {
                             "level": "h3",
@@ -156,7 +156,7 @@
                 },
                 {
                     "id": "funfact-03",
-                    "countNumber": 5367,
+                    "countNumber": 2341,
                     "headings": [
                         {
                             "level": "h3",
@@ -166,11 +166,11 @@
                 },
                 {
                     "id": "funfact-04",
-                    "countNumber": 249,
+                    "countNumber": 6,
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "PRO TEAM"
+                            "content": "Team Members"
                         }
                     ]
                 }

@@ -8,7 +8,7 @@ const GamingUpdateCard = () => {
             <div className="gaming_update_text z-10 relative py-15 px-8 md:py-24 md:px-24 flex justify-between items-center flex-col lg:flex-row">
                 <h2 className="uppercase font-bold text-center md:text-left">
                     Connect with us <br />
-                    on Discord!.
+                    on Discord!
                 </h2>
                 <div className="gaming_update_btn mt-8 lg:mt-0">
                     <Button path="/" size="lg">
