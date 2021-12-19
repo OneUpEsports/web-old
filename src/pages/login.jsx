@@ -24,7 +24,7 @@ const Login = () => {
                     <input type="submit" value="LOG IN" className={submitStyle}/>
                 </form>
 
-                <h4 className={linkStyle}><a className="cursor-pointer" href="/signUp">Join the Community</a></h4>
+                <h4 className={linkStyle}><a className="cursor-pointer" href="/signUp">Don't have an account yet?</a></h4>
                 <h4 className={linkStyle}><a className="cursor-pointer">Forgot your password?</a></h4>
                 <br/>  
                   <OrBanner/>
