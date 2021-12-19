@@ -13,7 +13,8 @@ const Subscribe = () => {
    
    
     return (
-        <div className="bg-black m-0 h-screen py-3">
+        <>
+        <div className="absolute bottom-0 right-0 bg-black m-0 h-full w-full items-center py-24">
              <div className={containerStyle}>
                  <h2 className={mainTitleStyle}>be a part of the next adventure</h2>
                  <br/><br/>
@@ -30,6 +31,8 @@ const Subscribe = () => {
                   </div>
              </div>
         </div>
+        
+        </>
 
      
      

@@ -8,10 +8,11 @@ const Login = () => {
     const titleStyle="text-center  mb-2";
     const linkStyle="text-gray-400 text-sm font-bold mb-1";
     const SocialLinksStyle="min-w-fit  m-auto justify-items-center  justify-center items-center";
-    const containerStyle=" max-w-xl  text-white m-auto text-center justify-items-center  justify-center items-center";
+    const containerStyle=" max-w-xl  text-white m-auto my-auto text-center justify-items-center  justify-center items-center";
 
     return (
-        <div className="bg-black m-0 h-screen py-3">
+        <>
+        <div className="absolute bottom-0 right-0 bg-black m-0 h-full w-full items-center py-24">
             <div className={containerStyle}>
                 <h3 className={titleStyle}>Login with</h3>
                 <h4 className={titleStyle}>your oneUpGaming Account</h4>
@@ -33,6 +34,8 @@ const Login = () => {
                 </div>       
             </div>
         </div>
+ 
+        </>
         
     );
 }

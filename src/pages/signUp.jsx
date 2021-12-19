@@ -13,7 +13,8 @@ const SignUp = () => {
     const passwordNoteStyle="block text-left w-96 m-auto text-gray-400 text-sm relative mt-0 pt-0 top-0"
     
     return (
-        <div className="bg-black m-0 h-screen py-3">
+        <>
+        <div className="absolute bottom-0 right-0 bg-black m-0 h-full w-full items-center py-24">
             <div className={containerStyle}>
                 <h3 className={mainTitleStyle}>Subscribe with email</h3>
                 <form className="relative my-4 ">
@@ -44,9 +45,11 @@ const SignUp = () => {
                           <button  className={submitBtnStyle}>JOIN NOW</button>
                           <h4 className={labelStyle}>Already have an account?  <a className="text-white cursor-pointer" onClick={() => navigate("/login")}>Log in</a></h4>
                       </div>
-                </form>
+                </form> 
             </div>
         </div>
+        
+        </>
        
     );
 }
