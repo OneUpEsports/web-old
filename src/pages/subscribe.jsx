@@ -16,7 +16,7 @@ const Subscribe = () => {
         <>
         <div className="absolute bottom-0 right-0 bg-black m-0 h-full w-full items-center py-24">
              <div className={containerStyle}>
-                 <h2 className={mainTitleStyle}>be a part of the next adventure</h2>
+                 <h2 className={mainTitleStyle}>Be a part of the next Gaming Adventure</h2>
                  <br/><br/>
                  <div className={socialLinksBoxStyle}>
                      <h3 className={socialLinksTitleStyle}>Get an Account with</h3>

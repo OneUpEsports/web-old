@@ -4,7 +4,7 @@
     "footer": [
         {
             "id": "footer-1",
-            "text": "It long estabhed fact that reader will ditracted the readable content looking using readable.",
+            "text": "OneUpGaming is a eSports Tournament Organisation with the newest Games and Tournaments on the Market.",
             "socials": [
                 {
                     "id": 1,
@@ -12,12 +12,7 @@
                     "link": "https://www.facebook.com",
                     "title": "facebook"
                 },
-                {
-                    "id": 2,
-                    "icon": "icofont-dribbble",
-                    "link": "https://oneupgaming.eu",
-                    "title": "dribbble"
-                },
+               
                 {
                     "id": 3,
                     "icon": "icofont-youtube-play",
@@ -27,7 +22,7 @@
                 {
                     "id": 4,
                     "icon": "icofont-twitter",
-                    "link": "https://www.twitter.com",
+                    "link": "https://www.twitter.com/oneupgamingeu",
                     "title": "twitter"
                 }
             ]
@@ -39,12 +34,12 @@
                 {
                     "id": "contact_info-21",
                     "title": "Location",
-                    "text": "136 Harding Ave Wheeling, West Virginia"
+                    "text": "Austria, Tyrol"
                 },
                 {
                     "id": "contact_info-22",
                     "title": "Phone",
-                    "text": "00 (62) 632 867 4497"
+                    "text": "Currently not available"
                 }
             ]
         },
@@ -90,7 +85,7 @@
                 {
                     "id": "footer-follow-02",
                     "text": "Social Media",
-                    "link": "https://oneupgaming.eu"
+                    "link": "https://socials.oneupgaming.eu"
                 },
                 {
                     "id": "footer-follow-03",

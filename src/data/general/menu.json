@@ -46,7 +46,7 @@
         },
         {
             "id": "menu-4",
-            "text": "blog",
+            "text": "Blog",
             "link": "/blog-grid-without-sidebar",
             "submenu": [
                 {

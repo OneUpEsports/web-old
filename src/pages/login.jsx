@@ -15,7 +15,7 @@ const Login = () => {
         <div className="absolute bottom-0 right-0 bg-black m-0 h-full w-full items-center py-24">
             <div className={containerStyle}>
                 <h3 className={titleStyle}>Login with</h3>
-                <h4 className={titleStyle}>your oneUpGaming Account</h4>
+                <h4 className={titleStyle}>your OneUpGaming Account</h4>
 
                 <form className="relative my-4 "> 
                     <InputField value={"Email"} type={"email"} />
@@ -24,8 +24,8 @@ const Login = () => {
                     <input type="submit" value="LOG IN" className={submitStyle}/>
                 </form>
 
-                <h4 className={linkStyle}><a className="cursor-pointer">Join the Community </a></h4>
-                <h4 className={linkStyle}><a className="cursor-pointer">Forget your password?</a></h4>
+                <h4 className={linkStyle}><a className="cursor-pointer" href="/signUp">Join the Community</a></h4>
+                <h4 className={linkStyle}><a className="cursor-pointer">Forgot your password?</a></h4>
                 <br/>  
                   <OrBanner/>
                 <br/>

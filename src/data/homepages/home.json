@@ -13,7 +13,7 @@
             ],
             "texts": [
                 {
-                    "content": "Simply text of the printing and typesetting industry."
+                    "content": "Explore the Gaming World with OneUpGaming"
                 }
             ],
             "buttons": [
@@ -263,8 +263,8 @@
             "section_title": {
                 "showDescription": true,
                 "align": "center",
-                "heading": "LATEST BLOG",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+                "heading": "Newsletter",
+                "description": "Bored and ready to read our Newspaper? Here you can see the newest articles from our Website."
             }
         }
     ]
