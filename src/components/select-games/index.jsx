@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { All_Cards } from "../../constants/gaming-cards";
+import { Link } from "gatsby";
 const Index = () => {
+    const [selectedCards, setSellectedCards] = useState([]);
     const [cards, setCards] = useState([]);
     useEffect(() => {
         setCards(All_Cards);
@@ -10,10 +12,14 @@ const Index = () => {
             let duplicate = [...cards];
             duplicate[index].active = 0;
             setCards(duplicate);
+            let deleteCard = selectedCards?.filter((e) => e.id !== game.id);
+            setSellectedCards(deleteCard);
+            console.log("data", deleteCard);
         } else {
             let duplicate = [...cards];
             duplicate[index].active = 1;
             setCards(duplicate);
+            setSellectedCards([...selectedCards, game]);
         }
     };
     return (
@@ -37,7 +43,8 @@ const Index = () => {
                             {/* sub-heading_2_div */}
                             <div className="text-white py-4 text-center">
                                 <p className="text-base lg:text-md font-normal">
-                                    Select your favorite games to get faster access to them
+                                    Select your favorite games to get faster
+                                    access to them
                                 </p>
                             </div>
                             {/* images_div */}
@@ -68,6 +75,16 @@ const Index = () => {
                                     ))}
                                 </div>
                             </div>
+                            {/* button_div */}
+                            {selectedCards?.length >= 3 && (
+                                <div className="flex justify-center p-8">
+                                    <Link to="/contact-us">
+                                        <button className="button_color text-white  px-6 py-4 rounded">
+                                            START NOW{" "}
+                                        </button>
+                                    </Link>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>
