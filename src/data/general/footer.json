@@ -8,22 +8,22 @@
             "socials": [
                 {
                     "id": 1,
-                    "icon": "icofont-facebook",
-                    "link": "https://www.facebook.com",
-                    "title": "facebook"
+                    "icon": "icofont-instagram",
+                    "link": "https://www.instagram.com/oneupgamingeu/",
+                    "title": ""
                 },
                
                 {
                     "id": 3,
                     "icon": "icofont-youtube-play",
-                    "link": "https://www.youtube.com",
-                    "title": "youtube"
+                    "link": "https://www.youtube.com/channel/UCUA1kR6sFcWCpqVMMiKbPtw",
+                    "title": ""
                 },
                 {
                     "id": 4,
                     "icon": "icofont-twitter",
                     "link": "https://www.twitter.com/oneupgamingeu",
-                    "title": "twitter"
+                    "title": ""
                 }
             ]
         },
@@ -79,28 +79,28 @@
             "list": [
                 {
                     "id": "footer-follow-01",
-                    "text": "Copywriting",
-                    "link": "https://oneupgaming.eu"
+                    "text": "",
+                    "link": "https://oneupgaming.eu/"
                 },
                 {
                     "id": "footer-follow-02",
-                    "text": "Social Media",
+                    "text": "Social Media Link",
                     "link": "https://socials.oneupgaming.eu"
                 },
                 {
                     "id": "footer-follow-03",
-                    "text": "Interactive Media",
-                    "link": "https://oneupgaming.eu"
+                    "text": "Twitter",
+                    "link": "https://twitter.com/OneUpGamingEU"
                 },
                 {
                     "id": "footer-follow-04",
-                    "text": "Motion Design",
-                    "link": "https://oneupgaming.eu"
+                    "text": "Youtube",
+                    "link": "https://www.youtube.com/channel/UCUA1kR6sFcWCpqVMMiKbPtw"
                 },
                 {
                     "id": "footer-follow-05",
-                    "text": "Illustration",
-                    "link": "https://oneupgaming.eu"
+                    "text": "Instagram",
+                    "link": "https://www.instagram.com/oneupgamingeu/"
                 }
             ]
         }
