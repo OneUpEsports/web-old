@@ -19,7 +19,7 @@
             "submenu": [
                 {
                     "id": "menu-31",
-                    "text": "About Us Page",
+                    "text": "About Us",
                     "link": "/about-us"
                 },
                 {

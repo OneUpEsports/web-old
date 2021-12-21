@@ -21,7 +21,7 @@ const MatchPage = ({ data, location, pageContext }) => {
                 ...globalContent["footer"],
             }}
         >
-            <SEO title="About Us Page" pathname="/" />
+            <SEO title="About Us" pathname="/" />
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}
