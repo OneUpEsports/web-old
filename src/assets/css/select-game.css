@@ -1,0 +1,37 @@
+.container-select-game .height_img1 {
+    height: 85px;
+}
+.container-select-game .height_img2 {
+    height: 85px;
+}
+.container-select-game .height_img3 {
+    height: 85px;
+}
+.container-select-game .height_img4 {
+    height: 85px;
+}
+.container-select-game .height_img5 {
+    height: 85px;
+}
+.container-select-game .height_img6 {
+    height: 85px;
+}
+.container-select-game .height_img7 {
+    height: 85px;
+}
+.container-select-game .height_img8 {
+    height: 85px;
+}
+.container-select-game .height_img9 {
+    height: 85px;
+}
+.container-select-game .active_box {
+    border: 3px solid #fff;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.container-select-game .inActive_box {
+    border: 3px solid transparent;
+    border-radius: 25px;
+    transition: 0.3s;
+}
