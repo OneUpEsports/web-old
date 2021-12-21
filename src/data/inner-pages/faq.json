@@ -14,57 +14,57 @@
                             "content": "HOW CAN I CONTACT THE TEAM FOR HELP?"
                         }
                     ],
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry standard unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five reIcentem with desktop publishing softwa like including versions has been industry standard unknown printer took a galley of type and scramIblrd it to make a type specimen book ha with desktop publishing software like including versions."
+                    "description": "If you need any help from our Team contact us via Email "
                 },
                 {
                     "id": "FAQ-02",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "What should I do if I’m missing a part?"
+                            "content": "What time will the tournament start in my country?"
                         }
                     ],
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry standard unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five reIcentem with desktop publishing softwa like including versions has been industry standard unknown printer took a galley of type and scramIblrd it to make a type specimen book ha with desktop publishing software like including versions."
+                    "description": "Tournaments are Timezoned to your Browser. So when the Time display on you 2pm is start on 2pm."
                 },
                 {
                     "id": "FAQ-03",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "Can I play OneUpGaming more than once?"
+                            "content": "Can I play more then one Tournament per Day?"
                         }
                     ],
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry standard unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five reIcentem with desktop publishing softwa like including versions has been industry standard unknown printer took a galley of type and scramIblrd it to make a type specimen book ha with desktop publishing software like including versions."
+                    "description":"Yes you can play more then one Tournament per Day on our Website but its not allowed to play 2Tournaments at the same time because the delay to other Tournaments"
                 },
                 {
                     "id": "FAQ-04",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "Are there any expansion packs on the way?"
+                            "content": "What Games are you supporting??"
                         }
                     ],
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry standard unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five reIcentem with desktop publishing softwa like including versions has been industry standard unknown printer took a galley of type and scramIblrd it to make a type specimen book ha with desktop publishing software like including versions."
+                    "description": "You can see all current games what we offer on the Games Site "
                 },
                 {
                     "id": "FAQ-05",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "Where can I find the items so that I can print them again?"
+                            "content": "How can I claim my prize?"
                         }
                     ],
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry standard unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five reIcentem with desktop publishing softwa like including versions has been industry standard unknown printer took a galley of type and scramIblrd it to make a type specimen book ha with desktop publishing software like including versions."
+                    "description": "When you won a Tournament, your prize will automatically be in your Wallet, the next day following your victory."
                 },
                 {
                     "id": "FAQ-06",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "When I enter a correct code it says that it’s incorrect"
+                            "content": "Where should I fill in my score, at the end of a match?"
                         }
                     ],
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry standard unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five reIcentem with desktop publishing softwa like including versions has been industry standard unknown printer took a galley of type and scramIblrd it to make a type specimen book ha with desktop publishing software like including versions."
+                    "description": "Once the match is over, you can fill in your score directly on the Website on the Match site"
                 },
                 {
                     "id": "FAQ-07",
@@ -74,7 +74,7 @@
                             "content": "Is it possible to pause the OneUpGaming tournament?"
                         }
                     ],
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry standard unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five reIcentem with desktop publishing softwa like including versions has been industry standard unknown printer took a galley of type and scramIblrd it to make a type specimen book ha with desktop publishing software like including versions."
+                    "description": " desktop publishing software like including versions."
                 }
             ]
         }

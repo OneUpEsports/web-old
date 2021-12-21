@@ -11,7 +11,7 @@ const GamingUpdateCard = () => {
                     on Discord!
                 </h2>
                 <div className="gaming_update_btn mt-8 lg:mt-0">
-                    <Button path="https://discord.com/invite/WH8ANZ73Vs" size="lg">
+                    <Button path="https://bitly.com/ougdiscord" size="lg">
                         CONNECT NOW
                         <StaticImage
                             className="align-middle ml-3 transition-all group-hover:ml-5"
