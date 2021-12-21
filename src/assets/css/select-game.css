@@ -26,7 +26,7 @@
     height: 85px;
 }
 .container-select-game .active_box {
-    border: 3px solid #fff;
+    border: 3px solid #d1a516;
     border-radius: 25px;
     transition: 0.3s;
 }

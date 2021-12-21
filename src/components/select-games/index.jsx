@@ -37,7 +37,7 @@ const Index = () => {
                             {/* sub-heading_2_div */}
                             <div className="text-white py-4 text-center">
                                 <p className="text-base lg:text-md font-normal">
-                                    Select some Game you like
+                                    Select your favorite games to get faster access to them
                                 </p>
                             </div>
                             {/* images_div */}
