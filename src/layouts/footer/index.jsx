@@ -59,7 +59,7 @@ const Footer = ({ data }) => {
                                     >
                                         Terms &amp; Condition{" "}
                                     </a>
-                                    <span className="mx-3"> || </span>
+                                    <span className="mx-3"> | </span>
                                     <a
                                         href="https://oneupgaming.eu/"
                                         className="text-white hover:text-primary"
