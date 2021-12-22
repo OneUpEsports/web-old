@@ -1,6 +1,6 @@
 import React from "react"
 import { navigate } from "gatsby"
-import InputField from "../components/subscribe-comps/inputField"
+import InputField from "../../components/subscribe-comps/inputField"
 const SignUp = () => {
     // Styles
     const containerStyle=" max-w-xl  text-white m-auto text-center justify-items-center  justify-center items-center"
@@ -14,7 +14,7 @@ const SignUp = () => {
     
     return (
         <>
-        <div className="absolute bottom-0 right-0 bg-black m-0 h-full w-full items-center py-24">
+        <div className="absolute bottom-0 right-0 bg-black m-0 h-full w-full items-center py-24 mb-0 pb-0">
             <div className={containerStyle}>
                 <h3 className={mainTitleStyle}>Subscribe with email</h3>
                 <form className="relative my-4 ">

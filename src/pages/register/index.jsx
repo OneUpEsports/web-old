@@ -1,7 +1,7 @@
 import React from "react";
 import { navigate } from "gatsby"
-import SocialLinks from "../components/subscribe-comps/socialLinks"
-import OrBanner from "../components/subscribe-comps/orBanner"
+import SocialLinks from "../../components/subscribe-comps/socialLinks"
+import OrBanner from "../../components/subscribe-comps/orBanner"
 const Subscribe = () => {
 
     // Styles
@@ -13,8 +13,8 @@ const Subscribe = () => {
    
    
     return (
-        <>
-        <div className="absolute bottom-0 right-0 bg-black m-0 h-full w-full items-center py-24">
+        
+        <div className="absolute bottom-0 right-0  bg-black m-0 h-full  w-full items-center py-24 m-0 p-0">
              <div className={containerStyle}>
                  <h2 className={mainTitleStyle}>Be a part of the next Gaming Adventure</h2>
                  <br/><br/>
@@ -26,13 +26,13 @@ const Subscribe = () => {
                  <OrBanner/>
         
                   <div>
-                     <button onClick={() => navigate("/signUp")} className={signUpBtnStyle}>CONTINUE WITH EMAIL</button>
+                     <button onClick={() => navigate("/register/email")} className={signUpBtnStyle}>CONTINUE WITH EMAIL</button>
                      <h4 className="text-gray-400 text-sm font-bold">Already have an account?  <a className="text-white cursor-pointer"  onClick={() => navigate("/login")}>Log in</a></h4>
                   </div>
              </div>
         </div>
         
-        </>
+        
 
      
      
