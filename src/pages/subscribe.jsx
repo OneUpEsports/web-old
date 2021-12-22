@@ -14,7 +14,7 @@ const Subscribe = () => {
    
     return (
         <>
-        <div className="absolute bottom-0 right-0 bg-black m-0 h-full w-full items-center py-24">
+        <div className="bottom-0 right-0 bg-black m-0 h-full w-full items-center py-24">
              <div className={containerStyle}>
                  <h2 className={mainTitleStyle}>Be a part of the next Gaming Adventure</h2>
                  <br/><br/>
