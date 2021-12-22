@@ -40,7 +40,7 @@ const HeroArea = ({ data }) => {
             <div className="absolute right-0.5 bottom-0">
                 <StaticImage
                     className="w-96 md:w-650 xl:w-auto"
-                    src="../../../data/images/hero/hero-position-img.webp"
+                    src="Mainpage Link"
                     alt=""
                 />
             </div>
