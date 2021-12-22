@@ -32,7 +32,7 @@ const Subscribe = () => {
 
                 <div>
                     <button
-                        onClick={() => navigate("/register")}
+                        onClick={() => navigate("/register/email")}
                         className={signUpBtnStyle}
                     >
                         CONTINUE WITH EMAIL
