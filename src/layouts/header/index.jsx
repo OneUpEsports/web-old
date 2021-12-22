@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { StaticImage } from "gatsby-plugin-image";
 import PropTypes from "prop-types";
 import React, { Fragment, useState } from "react";
@@ -39,7 +40,7 @@ const Header = ({ data }) => {
                         <MainMenu allmenuData={data?.menu} />
                         <div className="header-right-action flex items-center">
                             <Button
-                                path="/subscribe"
+                                path="/login"
                                 shape="square2xl"
                                 className="text-white hidden xs:block"
                             >
