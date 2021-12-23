@@ -14,7 +14,7 @@ const Subscribe = () => {
         "bg-indigo-900 rounded block text-white w-64 h-10 mt-2 mb-4 text-sm font-bold  m-auto ";
 
     return (
-        <div className="absolute bottom-0 right-0  bg-black m-0 h-full  w-full items-center py-24 m-0 p-0 overflow-x-hidden overflow-y-hidden">
+        <div className="absolute bottom-0 right-0  bg-black m-0 h-full  w-full items-center py-24 m-0 p-0 overflow-x-hidden overflow-y-scroll">
             <div className={containerStyle}>
                 <h2 className={mainTitleStyle}>
                     Be a part of the next Gaming Adventure
