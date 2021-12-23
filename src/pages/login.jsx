@@ -15,7 +15,7 @@ const Login = () => {
 
     return (
         <>
-            <div className="flex flex-col justify-arround absolute bottom-0 right-0 bg-black m-0 h-full w-full items-center mb-0 pb-0 overflow-x-hidden overflow-y-scroll">
+            <div className=" absolute bottom-0 right-0 bg-black m-0 h-full w-full  items-center mb-0 pb-0 py-24 overflow-x-hidden overflow-y-scroll">
                 <div className={containerStyle}>
                     <h3 className={titleStyle}>Login with</h3>
                     <h4 className={titleStyle}>your OneUpGaming Account</h4>
