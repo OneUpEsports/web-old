@@ -14,7 +14,7 @@
                             "content": "HOW CAN I CONTACT THE TEAM FOR HELP?"
                         }
                     ],
-                    "description": "If you need any help from our Team contact us via Email "
+                    "description": "If you need any help from our Team contact us via Email. "
                 },
                 {
                     "id": "FAQ-02",
@@ -34,7 +34,7 @@
                             "content": "Can I play more then one Tournament per Day?"
                         }
                     ],
-                    "description":"Yes you can play more then one Tournament per Day on our Website but its not allowed to play 2Tournaments at the same time because the delay to other Tournaments"
+                    "description":"Yes you can play more then one Tournament per Day on our Website but its not allowed to play 2Tournaments at the same time because the delay to other Tournaments."
                 },
                 {
                     "id": "FAQ-04",
@@ -44,7 +44,7 @@
                             "content": "What Games are you supporting??"
                         }
                     ],
-                    "description": "You can see all current games what we offer on the Games Site "
+                    "description": "You can see all current games what we offer on the Games Site. "
                 },
                 {
                     "id": "FAQ-05",
@@ -64,7 +64,7 @@
                             "content": "Where should I fill in my score, at the end of a match?"
                         }
                     ],
-                    "description": "Once the match is over, you can fill in your score directly on the Website on the Match site"
+                    "description": "Once the match is over, you can fill in your score directly on the Website on the Match site. For a sure win, take a picture of your victory with the opponent's name and upload it to the website directly at the match page."
                 },
                 {
                     "id": "FAQ-07",
