@@ -6,15 +6,15 @@ const SignUp = () => {
     const containerStyle=" max-w-xl  text-white m-auto text-center justify-items-center  justify-center items-center"
     const mainTitleStyle="text-center  mb-2"
     const checkboxStyle=" inline-block h-4 w-4 pt-2 border border-gray-300 rounded-sm bg-transparent checked:bg-gray checked:border-gray focus:outline-none    mr-2 cursor-pointer"
-    const labelStyle=" text-gray-400 text-sm font-bold"
-    const checkboxContainerStyle="w-96 m-auto py-2 text-left"
+    const labelStyle=" text-gray-400 text-sm font-bold "
+    const checkboxContainerStyle="md:w-96 m-auto py-2  text-left  w-11/12"
     const checkboxLabelLinksStyle="cursor-pointer underline text-white"
     const submitBtnStyle="bg-indigo-900 rounded block text-white w-64 h-10 mt-2 mb-4 text-sm font-bold  m-auto "
-    const passwordNoteStyle="block text-left w-96 m-auto text-gray-400 text-sm relative mt-0 pt-0 top-0"
+    const passwordNoteStyle="block text-left  w-11/12 m-auto text-gray-400 text-sm relative mt-0 pt-0 top-0 md:w-96"
     
     return (
         <>
-        <div className=" absolute bottom-0 right-0 bg-black m-0 h-full w-full items-center  mb-0 pb-0 py-20 md:py-24 overflow-x-hidden overflow-y-scroll">
+        <div className=" absolute bottom-0 right-0 bg-black m-0 h-full w-full items-center  mb-0 pb-0 py-16 md:py-24 overflow-x-hidden overflow-y-scroll">
             <div className={containerStyle}>
                 <h3 className={mainTitleStyle}>Subscribe with email</h3>
                 <form className="relative my-4 ">
