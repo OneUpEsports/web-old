@@ -75,32 +75,32 @@
         },
         {
             "id": "footer-4",
-            "title": "Follow Us",
+            "title": "",
             "list": [
                 {
                     "id": "footer-follow-01",
                     "text": "",
-                    "link": "https://oneupgaming.eu/"
+                    "link": ""
                 },
                 {
                     "id": "footer-follow-02",
-                    "text": "Social Media Link",
-                    "link": "https://socials.oneupgaming.eu"
+                    "text": "",
+                    "link": ""
                 },
                 {
                     "id": "footer-follow-03",
-                    "text": "Twitter",
-                    "link": "https://twitter.com/OneUpGamingEU"
+                    "text": "",
+                    "link": ""
                 },
                 {
                     "id": "footer-follow-04",
-                    "text": "Youtube",
-                    "link": "https://www.youtube.com/channel/UCUA1kR6sFcWCpqVMMiKbPtw"
+                    "text": "",
+                    "link": ""
                 },
                 {
                     "id": "footer-follow-05",
-                    "text": "Instagram",
-                    "link": "https://www.instagram.com/oneupgamingeu/"
+                    "text": "",
+                    "link": ""
                 }
             ]
         }
