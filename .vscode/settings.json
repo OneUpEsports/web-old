@@ -22,5 +22,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "files.associations": {
         "*.jsx": "javascriptreact"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
