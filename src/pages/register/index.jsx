@@ -1,7 +1,9 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 import { navigate } from "gatsby";
 import SocialLinks from "../../components/subscribe-comps/socialLinks";
 import OrBanner from "../../components/subscribe-comps/orBanner";
+
 const Subscribe = () => {
     // Styles
     const containerStyle =
