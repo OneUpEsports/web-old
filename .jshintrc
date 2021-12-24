@@ -1,0 +1,32 @@
+{
+    "bitwise": false,
+    "curly": true,
+    "eqeqeq": false,
+    "eqnull": true,
+    "immed": true,
+    "latedef": false,
+    "noarg": true,
+    "strict": false,
+    "undef": true,
+    "asi": true,
+    "funcscope": false,
+    "shadow": true,
+    "expr": true,
+    "-W041": true,
+    "-W018": true,
+    "globals": {
+        "CryptoJS": true,
+        "escape": true,
+        "unescape": true,
+        "Int8Array": true,
+        "Int16Array": true,
+        "Int32Array": true,
+        "Uint8Array": true,
+        "Uint16Array": true,
+        "Uint32Array": true,
+        "Uint8ClampedArray": true,
+        "ArrayBuffer": true,
+        "Float32Array": true,
+        "Float64Array": true
+    }
+}
