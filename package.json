@@ -55,6 +55,7 @@
     "gatsby-plugin-postcss": "^5.0.0",
     "grunt": "^1.4.1",
     "grunt-contrib-jshint": "^3.1.1",
+    "gulp": "^4.0.2",
     "jest": "^27.4.5",
     "karma": "^6.3.9",
     "karma-chrome-launcher": "^3.1.0",
