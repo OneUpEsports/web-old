@@ -1,7 +1,13 @@
+/* eslint-disable prettier/prettier */
+
+/* eslint-disable prettier/prettier */
 import React from "react";
 import SocialLinks from "../components/subscribe-comps/socialLinks";
 import OrBanner from "../components/subscribe-comps/orBanner";
 import InputField from "../components/subscribe-comps/inputField";
+
+import { graphql } from "gatsby";
+
 const Login = () => {
     // Styles
     const submitStyle =
@@ -33,7 +39,7 @@ const Login = () => {
 
                     <h4 className={linkStyle}>
                         <a className="cursor-pointer" href="/register">
-                            Don't have an account yet?
+                            Dont have an account yet?
                         </a>
                     </h4>
                     <h4 className={linkStyle}>
@@ -50,4 +56,28 @@ const Login = () => {
         </>
     );
 };
+
+// Make a graphql query to get the data from the page
+export const query = graphql`
+    query loginPageQuery {
+        allGeneral {
+            nodes {
+                section
+                id
+                menu {
+                    ...Menu
+                }
+                footer {
+                    ...Footer
+                }
+            }
+        }
+        page(title: { eq: "dashboardPage" }, pageType: { eq: innerpage }) {
+            content {
+                ...PageContentAll
+            }
+        }
+    }
+`;
+
 export default Login;

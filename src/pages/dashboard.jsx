@@ -1,8 +1,9 @@
 /* eslint-disable prettier/prettier */
 import React from "react";
 import { Helmet } from "react-helmet";
+import { graphql } from "gatsby";
 
-const Login = () => {
+const Dashboard = () => {
     const titleStyle = "text-center  mb-2";
     const containerStyle =
         " max-w-xl  text-white m-auto my-auto text-center justify-items-center  justify-center items-center";
@@ -41,4 +42,4 @@ export const query = graphql`
     }
 `;
 
-export default Login;
+export default Dashboard;
