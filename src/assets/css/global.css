@@ -2,6 +2,7 @@
 @import "./swiper.css";
 @import "./social.css";
 @import "./select-game.css";
+@import "./profile.css";
 /* html {
     font-size: 62.5%;
 } */
@@ -12,6 +13,7 @@
 @layer base {
     body {
         @apply font-exo;
+        
     }
     .wrapper {
         @apply text-white;

@@ -14,7 +14,6 @@ const Index = () => {
             setCards(duplicate);
             let deleteCard = selectedCards?.filter((e) => e.id !== game.id);
             setSellectedCards(deleteCard);
-            console.log("data", deleteCard);
         } else {
             let duplicate = [...cards];
             duplicate[index].active = 1;
