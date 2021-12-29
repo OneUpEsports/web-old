@@ -6,13 +6,14 @@ import Austria from "../../../../static/icons/austria.png";
 import Youtube from "../../../../static/icons/youtube.png";
 import Instagram from "../../../../static/icons/instagram.png";
 import Twitter from "../../../../static/icons/twitter.png";
-import Hangout from "../../../../static/icons/hangout.png";
+import Twitch from "../../../../static/icons/twitch.png";
 import Request from "../../../../static/icons/req.png";
 import Friends from "../../../../static/icons/friends.png";
 import Inbox from "../../../../static/icons/inbox.png";
 import Team1 from "../../../../static/icons/team1.png";
 import Team2 from "../../../../static/icons/team2.png";
 import Team3 from "../../../../static/icons/team3.png";
+import { Link } from "gatsby";
 const Banner = () => {
     return (
         <div>
@@ -77,35 +78,43 @@ const Banner = () => {
                                     <div className="flex items-center pt-5 pb-6 lg:py-1">
                                         {/* youtube */}
                                         <div className="mx-1.5">
-                                            <img
-                                                src={Youtube}
-                                                alt=""
-                                                className="w-6"
-                                            />
+                                            <Link to="https://www.youtube.com/channel/UCUA1kR6sFcWCpqVMMiKbPtw">
+                                                <img
+                                                    src={Youtube}
+                                                    alt=""
+                                                    className="w-6 cursor-pointer"
+                                                />
+                                            </Link>
                                         </div>
                                         {/* instagram */}
                                         <div className="mx-1.5">
-                                            <img
-                                                src={Instagram}
-                                                alt=""
-                                                className="w-5"
-                                            />
+                                            <Link to="https://www.instagram.com/oneupgamingeu/">
+                                                <img
+                                                    src={Instagram}
+                                                    alt=""
+                                                    className="w-5 cursor-pointer"
+                                                />
+                                            </Link>
                                         </div>
-                                        {/* hangouts */}
-                                        <div className="mx-1.5">
-                                            <img
-                                                src={Hangout}
-                                                alt=""
-                                                className="w-5"
-                                            />
+                                        {/* twitch */}
+                                        <div className="mx-1.5 cursor-pointer">
+                                            <Link to="https://www.twitch.tv/">
+                                                <img
+                                                    src={Twitch}
+                                                    alt=""
+                                                    className="w-5"
+                                                />
+                                            </Link>
                                         </div>
                                         {/* twitter */}
-                                        <div className="">
-                                            <img
-                                                src={Twitter}
-                                                alt=""
-                                                className="w-6"
-                                            />
+                                        <div>
+                                            <Link to="https://twitter.com/oneupgamingeu">
+                                                <img
+                                                    src={Twitter}
+                                                    alt=""
+                                                    className="w-6 cursor-pointer"
+                                                />
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -143,25 +152,31 @@ const Banner = () => {
                             {/* images_div */}
                             <div className="flex lg:px-9 py-4 lg:py-0">
                                 <div className="lg:px-8 mx-3">
-                                    <img
-                                        src={Team1}
-                                        alt=""
-                                        className="h-9 lg:h-12"
-                                    />
+                                    <Link to="/games">
+                                        <img
+                                            src={Team1}
+                                            alt=""
+                                            className="h-9 lg:h-12 cursor-pointer"
+                                        />
+                                    </Link>
                                 </div>
                                 <div className="lg:px-8 mx-3">
-                                    <img
-                                        src={Team2}
-                                        alt=""
-                                        className="h-9 lg:h-12"
-                                    />
+                                    <Link to="/games">
+                                        <img
+                                            src={Team2}
+                                            alt=""
+                                            className="h-9 lg:h-12 cursor-pointer"
+                                        />
+                                    </Link>
                                 </div>
                                 <div className="lg:px-8 mx-3">
-                                    <img
-                                        src={Team3}
-                                        alt=""
-                                        className="h-9 lg:h-12"
-                                    />
+                                    <Link to="/games">
+                                        <img
+                                            src={Team3}
+                                            alt=""
+                                            className="h-9 lg:h-12 cursor-pointer"
+                                        />
+                                    </Link>
                                 </div>
                             </div>
                         </div>

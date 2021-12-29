@@ -7,6 +7,7 @@ import Img2 from "../../../../static/icons/img2.png";
 import Img1 from "../../../../static/icons/img1.png";
 import Img6 from "../../../../static/icons/img6.png";
 import Img7 from "../../../../static/icons/img7.png";
+import { Link } from "gatsby";
 const Biography = () => {
     return (
         <div>
@@ -86,32 +87,40 @@ const Biography = () => {
                                 {/* images_div */}
                                 <div className="flex flex-col lg:flex-row  items-center lg:items-left  p-3.5">
                                     <div className="  px-0 lg:px-2.5 py-2.5 lg:py-0">
-                                        <img
-                                            src={Img2}
-                                            alt=""
-                                            className="h-14"
-                                        />
+                                        <Link to="/games">
+                                            <img
+                                                src={Img2}
+                                                alt=""
+                                                className="h-14 cursor-pointer"
+                                            />
+                                        </Link>
                                     </div>
                                     <div className="  px-0 lg:px-2.5 py-2.5 lg:py-0">
-                                        <img
-                                            src={Img1}
-                                            alt=""
-                                            className="h-14"
-                                        />
+                                        <Link to="/games">
+                                            <img
+                                                src={Img1}
+                                                alt=""
+                                                className="h-14 cursor-pointer"
+                                            />
+                                        </Link>
                                     </div>
                                     <div className="  px-0 lg:px-2.5 py-2.5 lg:py-0">
-                                        <img
-                                            src={Img6}
-                                            alt=""
-                                            className="h-14"
-                                        />
+                                        <Link to="/games">
+                                            <img
+                                                src={Img6}
+                                                alt=""
+                                                className="h-14 cursor-pointer"
+                                            />
+                                        </Link>
                                     </div>
                                     <div className="  px-0 lg:px-2.5 py-2.5 lg:py-0">
-                                        <img
-                                            src={Img7}
-                                            alt=""
-                                            className="h-14"
-                                        />
+                                        <Link to="/games">
+                                            <img
+                                                src={Img7}
+                                                alt=""
+                                                className="h-14 cursor-pointer"
+                                            />
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -135,14 +144,18 @@ const Biography = () => {
                                         <h5 className="text-base text-white font-normal  gray_color">
                                             Best Finish
                                         </h5>
-                                        <p className=" text-md  gray_color">1</p>
+                                        <p className=" text-md  gray_color">
+                                            1
+                                        </p>
                                     </div>
                                     {/* Worst_finish_div */}
                                     <div className="px-0 lg:px-12 py-2 lg:py-0 text-center">
                                         <h5 className="text-base text-white font-normal  gray_color ">
                                             Worst Finish
                                         </h5>
-                                        <p className=" text-md  gray_color ">Top 16</p>
+                                        <p className=" text-md  gray_color ">
+                                            Top 16
+                                        </p>
                                     </div>
                                 </div>
                             </div>
