@@ -40,6 +40,11 @@
                     "id": "contact_info-22",
                     "title": "Phone",
                     "text": "Currently not available"
+                },
+                {  
+                     "id": "contact_info-23",
+                    "title": "Social Media",
+                    "text": "https://socials.oneupgaming.eu/"
                 }
             ]
         },
