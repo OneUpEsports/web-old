@@ -46,43 +46,43 @@
         },
         {
             "id": "menu-4",
-            "text": "Blog",
-            "link": "/blog-grid-without-sidebar",
+            "text": "NEWS",
+            "link": "/news",
             "submenu": [
                 {
                     "id": "menu-41",
-                    "text": "Blog Without Sidebar Page",
-                    "link": "/blog-without-sidebar"
+                    "text": "",
+                    "link": "/"
                 },
                 {
                     "id": "menu-42",
-                    "text": "Blog Left Sidebar Page",
-                    "link": "/blog-left-sidebar"
+                    "text": "",
+                    "link": "/"
                 },
                 {
                     "id": "menu-43",
-                    "text": "Blog Right Sidebar Page",
-                    "link": "/blog-right-sidebar"
+                    "text": "",
+                    "link": "/"
                 },
                 {
                     "id": "menu-44",
-                    "text": "Blog Grid Left Sidebar Page",
-                    "link": "/blog-grid-left-sidebar"
+                    "text": "",
+                    "link": "/"
                 },
                 {
                     "id": "menu-45",
-                    "text": "Blog Grid Without Sidebar",
-                    "link": "/blog-grid-without-sidebar"
+                    "text": "",
+                    "link": "/"
                 },
                 {
                     "id": "menu-46",
-                    "text": "Blog Grid Left Sidebar",
-                    "link": "/blog-grid-left-sidebar"
+                    "text": "",
+                    "link": "/"
                 },
                 {
                     "id": "menu-47",
-                    "text": "Blog Grid Right Sidebar",
-                    "link": "/blog-grid-right-sidebar"
+                    "text": "",
+                    "link": "/"
                 }
             ]
         },
