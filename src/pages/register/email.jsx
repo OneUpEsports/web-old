@@ -28,7 +28,7 @@ const SignUp = () => {
                         <InputField value={"Username"} type={"text"} />
                         <InputField value={"Password"} type={"password"} />
                         <span className={passwordNoteStyle}>
-                            for security reasons, passwords must contain between
+                            For security reasons, passwords must contain between
                             6 and 50 characters
                         </span>
                         <InputField
@@ -66,7 +66,7 @@ const SignUp = () => {
                                 </a>{" "}
                                 and i acknowledge having read the{" "}
                                 <a className={checkboxLabelLinksStyle}>
-                                    Privacy and cookies policy.
+                                    Privacy and cookies policy .
                                 </a>
                             </label>
                         </div>
