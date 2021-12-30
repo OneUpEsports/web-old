@@ -48,8 +48,7 @@ const SignUp = () => {
                                 id="age"
                             />
                             <label className={labelStyle} htmlFor="age">
-                                I am over 12 years old and if i am below 16 my
-                                parents authorize me to accesss this website
+                                I confirm that I am 18 years or older.
                             </label>
                         </div>
 
@@ -67,7 +66,7 @@ const SignUp = () => {
                                 </a>{" "}
                                 and i acknowledge having read the{" "}
                                 <a className={checkboxLabelLinksStyle}>
-                                    Privacy and cookies policy
+                                    Privacy and cookies policy.
                                 </a>
                             </label>
                         </div>

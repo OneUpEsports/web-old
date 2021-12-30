@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 import Trophy1 from "../../../../static/icons/trophy1.png";
 import Trophy2 from "../../../../static/icons/trophy2.png";
@@ -7,6 +8,7 @@ import Img2 from "../../../../static/icons/img2.png";
 import Img1 from "../../../../static/icons/img1.png";
 import Img6 from "../../../../static/icons/img6.png";
 import Img7 from "../../../../static/icons/img7.png";
+
 import { Link } from "gatsby";
 const Biography = () => {
     return (

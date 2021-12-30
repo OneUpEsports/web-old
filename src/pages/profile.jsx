@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 import Banner from "../components/profile/banner";
 import Biography from "../components/profile/biography";
