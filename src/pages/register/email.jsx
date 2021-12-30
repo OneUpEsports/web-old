@@ -48,7 +48,7 @@ const SignUp = () => {
                                 id="age"
                             />
                             <label className={labelStyle} htmlFor="age">
-                                I confirm that I am 18 years or older.
+                                I confirm that I am 16 years or older.
                             </label>
                         </div>
 
