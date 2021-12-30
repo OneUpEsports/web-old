@@ -28,7 +28,7 @@ module.exports = {
                 green: "#fff",
                 gray: {
                     100: "#f7fafc",
-                    // ...
+                    200:"#707070",
                     900: "#1a202c",
                 },
                 turquoise: "#1DE3EB",
@@ -161,6 +161,7 @@ module.exports = {
                     md: "768px",
                     lg: "992px",
                     xl: "1200px",
+                    ss: "400px",
                 },
             },
             letterSpacing: {
