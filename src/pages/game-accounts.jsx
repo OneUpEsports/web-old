@@ -2,7 +2,7 @@ import React from "react";
 
 const GameAccounts = () => {
     return(
-        <div className="absolute  bottom-0  h-screen bg-secondary-100 md:px-12 py-12 overflow-y-scroll overflow-x-scroll">
+        <div className="absolute  bottom-0 right-0 h-full w-full bg-secondary-100 md:px-12 py-12 overflow-x-hidden overflow-y-scroll">
             <h2 className="text-left text-white w-full pl-6 md:pl-2">Game Accounts</h2>
             <hr className="text-gray-900"/>
             <br/><br/>
