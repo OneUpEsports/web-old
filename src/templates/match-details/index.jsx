@@ -283,15 +283,6 @@ const MatchDetails = ({ data, location, pageContext }) => {
                                         />
                                     </div>
                                 </div>
-                                <div className="mt-14 text-white">
-                                    <div className="mb-4">
-                                        <h3 className="font-bold">Comments</h3>
-                                    </div>
-                                    <DiscussionEmbed
-                                        shortname={disqusShorttname}
-                                        config={disquscConfig}
-                                    />
-                                </div>
                             </div>
                         </div>
                     </div>

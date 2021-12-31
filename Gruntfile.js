@@ -1,6 +1,4 @@
 /* eslint-disable prettier/prettier */
-const grunt = require("grunt");
-
 module.exports = function (grunt) {
     // Project configuration.
     grunt.initConfig({

@@ -15,6 +15,7 @@ const Dashboard = () => {
                 <div className={containerStyle}>
                     <h3 className={titleStyle}>Dashboard</h3>
                 </div>
+                <h4 className={containerStyle}>Code goes here</h4>
             </div>
         </>
     );

@@ -19,13 +19,13 @@ const Subscribe = () => {
         <div className=" absolute bottom-0 right-0  bg-black m-0 h-full  w-full items-center  m-0 p-0 py-24 overflow-x-hidden overflow-y-scroll">
             <div className={containerStyle}>
                 <h2 className={mainTitleStyle}>
-                    Be a part of the next Gaming Adventure
+                    Be a part of the next Gaming Adventure.
                 </h2>
                 <br />
                 <br />
                 <div className={socialLinksBoxStyle}>
                     <h3 className={socialLinksTitleStyle}>
-                        Get an Account with
+                        Create an Account with
                     </h3>
                     <SocialLinks />
                 </div>
@@ -45,7 +45,7 @@ const Subscribe = () => {
                             className="text-white cursor-pointer"
                             onClick={() => navigate("/login")}
                         >
-                            Log in
+                            Login instead
                         </a>
                     </h4>
                 </div>

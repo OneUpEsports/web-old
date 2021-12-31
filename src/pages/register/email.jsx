@@ -1,7 +1,8 @@
 /* eslint-disable prettier/prettier */
 import React from "react";
-import { navigate } from "gatsby";
+import { navigate, graphql } from "gatsby";
 import InputField from "../../components/subscribe-comps/inputField";
+
 const SignUp = () => {
     // Styles
     const containerStyle =
@@ -28,8 +29,8 @@ const SignUp = () => {
                         <InputField value={"Username"} type={"text"} />
                         <InputField value={"Password"} type={"password"} />
                         <span className={passwordNoteStyle}>
-                            For security reasons, passwords must contain between
-                            6 and 50 characters
+                            For security reasons, passwords must contain atleast
+                            6 characters.
                         </span>
                         <InputField
                             value={"Confirm Password"}
@@ -64,9 +65,9 @@ const SignUp = () => {
                                 <a className={checkboxLabelLinksStyle}>
                                     Terms of Use
                                 </a>{" "}
-                                and i acknowledge having read the{" "}
+                                and I acknowledge having read the{" "}
                                 <a className={checkboxLabelLinksStyle}>
-                                    Privacy and cookies policy .
+                                    Privacy and cookies policy.
                                 </a>
                             </label>
                         </div>

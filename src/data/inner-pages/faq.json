@@ -34,7 +34,7 @@
                             "content": "Can I play more then one Tournament per Day?"
                         }
                     ],
-                    "description":"Yes you can play more then one Tournament per Day on our Website but its not allowed to play 2Tournaments at the same time because the delay to other Tournaments."
+                    "description": "Yes you can play more then one Tournament per Day on our Website but its not allowed to play 2Tournaments at the same time because the delay to other Tournaments."
                 },
                 {
                     "id": "FAQ-04",
@@ -71,10 +71,10 @@
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "Is it possible to pause the OneUpGaming tournament?"
+                            "content": "Is it possible to pause a OneUpGaming Tournament?"
                         }
                     ],
-                    "description": " desktop publishing software like including versions."
+                    "description": "It is only possible to pause a tournament if both teams agree and if it is late at night."
                 }
             ]
         }

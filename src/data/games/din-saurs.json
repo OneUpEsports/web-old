@@ -1,11 +1,11 @@
 {
     "id": "game-02",
-    "title": "DIN SAURS - HUNTER SNIPER SHOOTER",
+    "title": "Title",
     "gameThum": {
         "src": "../../data/images/game/popular-game-thumb2.webp",
         "alt": "Anonymous"
     },
-    "categories": ["Drawing", "Collage"],
+    "categories": ["Rogue Company", "Overwatch"],
     "date": "2021-01-02 13:01:00",
     "updated": "2021-01-02",
     "size": "98MB",
@@ -13,7 +13,7 @@
     "currentVersion": "03.00.28.00.00",
     "inAppProducts": "$0.85 - $985.00",
     "is_featured": true,
-    "quoteText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the 1500 printer took galley of type scrambled it to make a type specimen book.",
+    "quoteText": "test Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the 1500 printer took galley of type scrambled it to make a type specimen book.",
     "images": [
         {
             "src": "../../data/images/game/game-details-thumb.webp",
