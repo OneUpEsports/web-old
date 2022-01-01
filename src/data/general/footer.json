@@ -12,7 +12,7 @@
                     "link": "https://www.instagram.com/oneupgamingeu/",
                     "title": ""
                 },
-               
+
                 {
                     "id": 3,
                     "icon": "icofont-youtube-play",
@@ -23,6 +23,12 @@
                     "id": 4,
                     "icon": "icofont-twitter",
                     "link": "https://www.twitter.com/oneupgamingeu",
+                    "title": ""
+                },
+                {
+                    "id": 5,
+                    "icon": "icofont-energy-air",
+                    "link": "https://socials.oneupgaming.eu",
                     "title": ""
                 }
             ]
@@ -41,10 +47,10 @@
                     "title": "Phone",
                     "text": "Currently not available"
                 },
-                {  
-                     "id": "contact_info-23",
-                    "title": "Social Media",
-                    "text": "https://socials.oneupgaming.eu/"
+                {
+                    "id": "contact_info-23",
+                    "title": "Support",
+                    "text": "support@oneupgaming.eu"
                 }
             ]
         },

@@ -1,6 +1,6 @@
 {
     "id": "match-03",
-    "title": "SKRIT TOURNAMENT 2021",
+    "title": "Tournament Live 2022",
     "date": "2021-01-03 05:01:00",
     "teams": ["Panda", "Ninja"],
     "registeredTeams": "06",
@@ -14,7 +14,7 @@
         "headings": [
             {
                 "level": "h3",
-                "content": "SKRIT Watch Live"
+                "content": "OneUpGaming Live"
             }
         ],
         "images": [
@@ -23,7 +23,7 @@
                 "alt": "SKRIT LIVE STREAMING"
             }
         ],
-        "link": "https://www.youtube.com/watch?v=u8RjmidYOL0"
+        "link": "https://www.twitch.tv/oneupgamingeu"
     },
     "images": [
         {
