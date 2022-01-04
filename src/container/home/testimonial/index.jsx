@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image";
 const TestimonialArea = ({ data }) => {
     return (
         <section className="testimonial-section bg-secondary-90 pt-16 pb-24  md:pt-28 md:pb-28 relative">
-            <span className=" absolute w-2/6 h-2 right-0 top-24 xs:block sm:hidden md:block md:top-48 bg-primary"></span>
+            <span className=" "></span>
             <div className="container px-4">
                 <div className="section-title mb-15">
                     {data?.section_title && (
