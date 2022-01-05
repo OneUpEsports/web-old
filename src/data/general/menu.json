@@ -4,8 +4,8 @@
     "menu": [
         {
             "id": "menu-1",
-            "text": "Home",
-            "link": "/"
+            "text": "Dashboard",
+            "link": "/dashboard"
         },
         {
             "id": "menu-2",
@@ -14,8 +14,8 @@
         },
         {
             "id": "menu-3",
-            "text": "Pages",
-            "link": "/faq",
+            "text": "Shop",
+            "link": "/shop",
             "submenu": [
                 {
                     "id": "menu-31",
