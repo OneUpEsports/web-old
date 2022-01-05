@@ -9,7 +9,7 @@ const Socials = () => {
     const containerStyle =
         " max-w-xl  text-black m-auto my-auto text-center justify-items-center  justify-center items-center";
     const links =
-        "text-white text-center mt-5 p-5 border-2 block ml-auto mr-auto";
+        "text-white text-center mt-5 p-5 border-2 block ml-auto mr-auto hover:bg-white";
     const body = "text-white bg-white text-white text-sm";
     const profilepicture = "text-white text-center p-8";
     const profilename = "text-white text-center p-8";
