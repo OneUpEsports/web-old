@@ -2,7 +2,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const path = require("path");
 // const url = typeof window !== undefined ? window.location.origin : "";
 module.exports = {
-    //enabled: false,
+    // enabled: false,
     purge: ["./src/**/*.{js,jsx,ts,tsx}"],
     darkMode: false, // or 'media' or 'class'
     theme: {
@@ -30,6 +30,9 @@ module.exports = {
                     100: "#f7fafc",
                     200:"#707070",
                     900: "#1a202c",
+                },
+                orange:{
+                    200: "#dd571d",
                 },
                 turquoise: "#1DE3EB",
                 punch: "#DF4C21",
@@ -246,5 +249,6 @@ module.exports = {
             customPseudoClasses: ["foo"],
             customPseudoElements: ["bar"],
         }),
+        require('tailwind-scrollbar-hide'),
     ],
 };
