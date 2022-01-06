@@ -2,7 +2,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
-import { logo } from "./oneupgame.png";
+import logo from "./oneupgame.png";
 
 const Socials = () => {
     const titleStyle = "text-white text-center  mb-2";
@@ -11,7 +11,7 @@ const Socials = () => {
     const links =
         "text-white text-center mt-5 p-5 border-2 block ml-auto mr-auto hover:bg-white";
     const body = "text-white bg-white text-white text-sm";
-    const profilepicture = "text-white text-center p-8";
+    const profilepicture = "text-white text-center p-8 mx-auto";
     const profilename = "text-white text-center p-8";
     const bottomtext = "text-white text-center mt-10 text-xl font-bold";
     const hover = "text-white bg-white";
@@ -29,13 +29,13 @@ const Socials = () => {
                     {/* Profile name*/}
                     <div className={profilename}></div>
                     {/* Links*/}
-                    <a
-                        href="https://oneupgaming.eu/shop"
-                        className={links}
-                    >
+                    <a href="https://oneupgaming.eu/shop" className={links}>
                         OneUpGaming Shop
                     </a>
-                    <a href="https://www.tiktok.com/@oneupgamingeu?" className={links}>
+                    <a
+                        href="https://www.tiktok.com/@oneupgamingeu?"
+                        className={links}
+                    >
                         TikTok
                     </a>
                     <a
