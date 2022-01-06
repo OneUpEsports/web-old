@@ -10,6 +10,7 @@ import SwiperCore, {
 import "swiper/css/navigation"
 import ToursInfo from "../../components/dashb-comps/ToursInfo";
 import ToursImage from "../../components/dashb-comps/ToursImage";
+import BottomBar from "../../components/dashb-comps/BottomBar";
   SwiperCore.use([Navigation]);
 const Home=()=>{
     return(
@@ -21,14 +22,14 @@ const Home=()=>{
                                       <h4>Upcoming Tournaments</h4>
                                         <div>
                                             {/* swiper-button-white */}
-                                            <Swiper navigation={true} className="mySwiper m-8  ">
+                                            <Swiper navigation={true} loop={true} className="mySwiper m-8  ">
                                                 <SwiperSlide><ToursImage image="/img/dashboard/banner.png"info1="5vs5 Wednesday" info2="Bomb Championship"/></SwiperSlide>
                                                 <SwiperSlide><ToursImage image="/img/dashboard/banner.png"info1="5vs5 Wednesday" info2="Bomb Championship"/></SwiperSlide>
                                                 <SwiperSlide><ToursImage image="/img/dashboard/banner.png"info1="5vs5 Wednesday" info2="Bomb Championship"/></SwiperSlide>
                                             </Swiper>
                                         <div className="overflow-y-scroll overflow-x-scroll overflow-y-scroll scrollbar-hide">
                                         <div className="flex  items-center justify-center mb-2 lg:w-full w-[calc(100vh-60px)] ">
-                                                <div className="grid grid-cols-11 grid-flow-col-dense   ">
+                                                <div className="grid grid-cols-11 grid-flow-col-dense  w-full ">
                                                     <div className=" col-span-2"><h6>Date</h6></div>
                                                     <div className="flex items-center justify-left pl-6  col-span-2"> <h6>Type</h6></div>
                                                     <div className="flex  items-center justify-center"><h6>Plattform</h6></div>
@@ -60,11 +61,11 @@ const Home=()=>{
                                 <h4 className=" w-fit m-auto">Tournaments History</h4>
                                 
                                                     <div className="w-full h-full">
-                                                    <div className="grid grid-cols-6 grid-flow-col-dense mt-2   overflow-y-scroll overflow-x-scroll scrollbar-hide">
+                                                    <div className="grid grid-cols-5 grid-flow-col-dense mt-2   overflow-y-scroll overflow-x-scroll scrollbar-hide">
                                             
 
                                             <div className=" col-span-1"><h6>Date</h6></div>
-                                            <div className="flex items-center justify-center  col-span-3">
+                                            <div className="flex items-center justify-left pl-6  col-span-2">
                                                 
                                                 <h6>Name</h6>
                                             </div>
@@ -73,16 +74,22 @@ const Home=()=>{
                                             <div className="flex  items-center justify-center"><h6>Wins</h6></div>
                                         </div>
                                         <hr className="mb-2"/>
-                                    <div className="h-5/6 overflow-y-scroll scrollbar-hide">
-                                    <History date="21.4.2021" name="Tournament" place="Top 8" winnings="0"/>
+                                    <div className="h-5/6 w-fit lg:w-full overflow-y-scroll overflow-x-scroll scrollbar-hide">
+                                    <History date="21.4.2021" name="Tour1" place="Top 8" winnings="0"/>
                                     <History date="21.4.2021" name="Hello" place="Top 2" winnings="2"/>
-                                    <History date="21.3.2022" name="Dark one" place="Top 3" winnings="4"/>
+                                    <History date="21.3.2022" name="Dark one eleven" place="Top 3" winnings="4"/>
                                     
                                     </div>
+                                 
                                 </div>
-                                    
+                                
                                 </div>
+                               
                     </div>
+                    <div className="md:hidden block">
+                                         
+                                         <BottomBar/>
+                                    </div>
             </div>
         </MainLayout>
 

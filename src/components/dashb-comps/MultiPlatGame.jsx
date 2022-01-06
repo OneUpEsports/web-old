@@ -9,7 +9,7 @@ const MultiPlatGame = ({image,name}) => {
             <button className="mx-2 bg-gray-900 rounded-md w-10 h-10 flex flex-col items-center justify-center text-center"><img src="/img/dashboard/Pc.png" alt=""/></button>
             </div>
             
-            <img className="absolute min-w-full miin-h-full opacity-60 rounded-2xl" src={image} alt=""/>
+            <img className="absolute min-w-full min-h-full opacity-60 rounded-2xl" src={image} alt=""/>
             <h5 className="absolute min-w-full text-center bottom-0 bg-gray-900 rounded-b-2xl">{name}</h5>
         </div>
 
