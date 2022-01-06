@@ -44,6 +44,7 @@
         "react-visibility-sensor": "^5.1.1",
         "swiper": "^7.4.1",
         "tailwind-pseudo-elements": "^0.4.0",
+        "tailwind-scrollbar-hide": "^1.1.7",
         "yarn": "^1.22.17"
       },
       "devDependencies": {
@@ -59,9 +60,10 @@
         "gatsby-plugin-postcss": "^5.4.0",
         "grunt-contrib-jshint": "^3.1.1",
         "jest": "^27.4.5",
-        "postcss": "^8.3.11",
+        "postcss": "^8.4.5",
         "prettier": "^2.3.2",
-        "tailwindcss": "^3.0.8",
+        "tailwind-scrollbar": "^1.3.1",
+        "tailwindcss": "^3.0.10",
         "tailwindcss-pseudo-elements": "^2.0.0"
       }
     },
@@ -21704,19 +21706,21 @@
       }
     },
     "node_modules/postcss-js": {
-      "version": "3.0.3",
-      "resolved": "https://registry.npmjs.org/postcss-js/-/postcss-js-3.0.3.tgz",
-      "integrity": "sha512-gWnoWQXKFw65Hk/mi2+WTQTHdPD5UJdDXZmX073EY/B3BWnYjO4F4t0VneTCnCGQ5E5GsCdMkzPaTXwl3r5dJw==",
+      "version": "4.0.0",
+      "resolved": "https://registry.npmjs.org/postcss-js/-/postcss-js-4.0.0.tgz",
+      "integrity": "sha512-77QESFBwgX4irogGVPgQ5s07vLvFqWr228qZY+w6lW599cRlK/HmnlivnnVUxkjHnCu4J16PDMHcH+e+2HbvTQ==",
       "dependencies": {
-        "camelcase-css": "^2.0.1",
-        "postcss": "^8.1.6"
+        "camelcase-css": "^2.0.1"
       },
       "engines": {
-        "node": ">=10.0"
+        "node": "^12 || ^14 || >= 16"
       },
       "funding": {
         "type": "opencollective",
         "url": "https://opencollective.com/postcss/"
+      },
+      "peerDependencies": {
+        "postcss": "^8.3.3"
       }
     },
     "node_modules/postcss-load-config": {
@@ -25638,10 +25642,24 @@
         "tailwindcss": "^2.0.0"
       }
     },
+    "node_modules/tailwind-scrollbar": {
+      "version": "1.3.1",
+      "resolved": "https://registry.npmjs.org/tailwind-scrollbar/-/tailwind-scrollbar-1.3.1.tgz",
+      "integrity": "sha512-FeYuLxLtCRMO4PmjPJCzm5wQouFro2BInZXKPxqg54DR/55NAHoS8uNYWMiRG5l6qsLkWBfVEM34gq2XAQUwVg==",
+      "dev": true,
+      "dependencies": {
+        "tailwindcss": ">1.9.6"
+      }
+    },
+    "node_modules/tailwind-scrollbar-hide": {
+      "version": "1.1.7",
+      "resolved": "https://registry.npmjs.org/tailwind-scrollbar-hide/-/tailwind-scrollbar-hide-1.1.7.tgz",
+      "integrity": "sha512-X324n9OtpTmOMqEgDUEA/RgLrNfBF/jwJdctaPZDzB3mppxJk7TLIDmOreEDm1Bq4R9LSPu4Epf8VSdovNU+iA=="
+    },
     "node_modules/tailwindcss": {
-      "version": "3.0.8",
-      "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.0.8.tgz",
-      "integrity": "sha512-Yww1eRYO1AxITJmW/KduZPxNvYdHuedeKwPju9Oakp7MdiixRi5xkpLhirsc81QCxHL0eoce6qKmxXwYGt4Cjw==",
+      "version": "3.0.11",
+      "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.0.11.tgz",
+      "integrity": "sha512-JyMsQ2kPqpOvG8ow535XpauXj3wz3nQqcy2tVlXj4FQ0eNlsdzvlAqpRA3q5rPLboWirNG6r2DqKczwjW2uc8Q==",
       "dependencies": {
         "arg": "^5.0.1",
         "chalk": "^4.1.2",
@@ -25656,14 +25674,13 @@
         "is-glob": "^4.0.3",
         "normalize-path": "^3.0.0",
         "object-hash": "^2.2.0",
-        "postcss-js": "^3.0.3",
+        "postcss-js": "^4.0.0",
         "postcss-load-config": "^3.1.0",
         "postcss-nested": "5.0.6",
         "postcss-selector-parser": "^6.0.7",
         "postcss-value-parser": "^4.2.0",
         "quick-lru": "^5.1.1",
-        "resolve": "^1.20.0",
-        "tmp": "^0.2.1"
+        "resolve": "^1.20.0"
       },
       "bin": {
         "tailwind": "lib/cli.js",
@@ -44547,12 +44564,11 @@
       "requires": {}
     },
     "postcss-js": {
-      "version": "3.0.3",
-      "resolved": "https://registry.npmjs.org/postcss-js/-/postcss-js-3.0.3.tgz",
-      "integrity": "sha512-gWnoWQXKFw65Hk/mi2+WTQTHdPD5UJdDXZmX073EY/B3BWnYjO4F4t0VneTCnCGQ5E5GsCdMkzPaTXwl3r5dJw==",
+      "version": "4.0.0",
+      "resolved": "https://registry.npmjs.org/postcss-js/-/postcss-js-4.0.0.tgz",
+      "integrity": "sha512-77QESFBwgX4irogGVPgQ5s07vLvFqWr228qZY+w6lW599cRlK/HmnlivnnVUxkjHnCu4J16PDMHcH+e+2HbvTQ==",
       "requires": {
-        "camelcase-css": "^2.0.1",
-        "postcss": "^8.1.6"
+        "camelcase-css": "^2.0.1"
       }
     },
     "postcss-load-config": {
@@ -47470,10 +47486,24 @@
       "integrity": "sha512-EWvwNXQZTC/P2cNzQ3YCqBF6aRA9dTwmXBmqemIAoTeXBWeouP2UC3v0Qk3kmIwRLFruIaqNJumwRNmu0TYnVA==",
       "requires": {}
     },
+    "tailwind-scrollbar": {
+      "version": "1.3.1",
+      "resolved": "https://registry.npmjs.org/tailwind-scrollbar/-/tailwind-scrollbar-1.3.1.tgz",
+      "integrity": "sha512-FeYuLxLtCRMO4PmjPJCzm5wQouFro2BInZXKPxqg54DR/55NAHoS8uNYWMiRG5l6qsLkWBfVEM34gq2XAQUwVg==",
+      "dev": true,
+      "requires": {
+        "tailwindcss": ">1.9.6"
+      }
+    },
+    "tailwind-scrollbar-hide": {
+      "version": "1.1.7",
+      "resolved": "https://registry.npmjs.org/tailwind-scrollbar-hide/-/tailwind-scrollbar-hide-1.1.7.tgz",
+      "integrity": "sha512-X324n9OtpTmOMqEgDUEA/RgLrNfBF/jwJdctaPZDzB3mppxJk7TLIDmOreEDm1Bq4R9LSPu4Epf8VSdovNU+iA=="
+    },
     "tailwindcss": {
-      "version": "3.0.8",
-      "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.0.8.tgz",
-      "integrity": "sha512-Yww1eRYO1AxITJmW/KduZPxNvYdHuedeKwPju9Oakp7MdiixRi5xkpLhirsc81QCxHL0eoce6qKmxXwYGt4Cjw==",
+      "version": "3.0.11",
+      "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.0.11.tgz",
+      "integrity": "sha512-JyMsQ2kPqpOvG8ow535XpauXj3wz3nQqcy2tVlXj4FQ0eNlsdzvlAqpRA3q5rPLboWirNG6r2DqKczwjW2uc8Q==",
       "requires": {
         "arg": "^5.0.1",
         "chalk": "^4.1.2",
@@ -47488,14 +47518,13 @@
         "is-glob": "^4.0.3",
         "normalize-path": "^3.0.0",
         "object-hash": "^2.2.0",
-        "postcss-js": "^3.0.3",
+        "postcss-js": "^4.0.0",
         "postcss-load-config": "^3.1.0",
         "postcss-nested": "5.0.6",
         "postcss-selector-parser": "^6.0.7",
         "postcss-value-parser": "^4.2.0",
         "quick-lru": "^5.1.1",
-        "resolve": "^1.20.0",
-        "tmp": "^0.2.1"
+        "resolve": "^1.20.0"
       },
       "dependencies": {
         "ansi-styles": {
