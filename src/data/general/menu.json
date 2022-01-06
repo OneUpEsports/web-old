@@ -9,8 +9,8 @@
         },
         {
             "id": "menu-2",
-            "text": "Match",
-            "link": "/match"
+            "text": "Games",
+            "link": "/dashboard/games"
         },
         {
             "id": "menu-3",
