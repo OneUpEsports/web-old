@@ -21,22 +21,22 @@ const Socials = () => {
             <Helmet title="OneUpGaming • Socials" defer={false} />
             <div className="text-white absolute bottom-0 right-0 bg-black m-0 h-full w-full  items-center mb-0 pb-0 py-24  overflow-x-hidden overflow-y-scroll">
                 <div className={containerStyle}>
-                    <h3 className={titleStyle}>Socials</h3>
+                    <h3 className={titleStyle}>OneUpGaming Socials</h3>
                 </div>
                 <div className={containerStyle}>
                     <title>OneUpGaming</title>
                     <img src={logo} className={profilepicture} />
                     {/* Profile name*/}
-                    <div className={profilename}>@OneUpGaming</div>
+                    <div className={profilename}></div>
                     {/* Links*/}
                     <a
-                        href="https://www.tiktok.com/@oneupgamingeu?"
+                        href="https://oneupgaming.eu/shop"
                         className={links}
                     >
-                        TikTok
+                        OneUpGaming Shop
                     </a>
-                    <a href="https://oneupgaming.eu/shop" className={links}>
-                        Shop
+                    <a href="https://www.tiktok.com/@oneupgamingeu?" className={links}>
+                        TikTok
                     </a>
                     <a
                         href="https://discord.com/invite/WH8ANZ73Vs"
