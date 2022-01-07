@@ -2,6 +2,7 @@
 /* main_bg_color */
 .main_bg_color {
     background-color: #181b28;
+    min-height: 100vh;
 }
 .background_color_div .heading_hr_line hr {
     border-top: 2px solid #4f5055;

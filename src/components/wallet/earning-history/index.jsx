@@ -40,7 +40,7 @@ const Earning = () => {
   return (
     <div>
       {/* background_color_div */}
-      <div className="background_color_div flex justify-center h-min">
+      <div className="background_color_div flex justify-center ">
         {/* main_container */}
         <div className="w-3/4">
           {/* downside_content_div */}

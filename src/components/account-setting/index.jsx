@@ -75,7 +75,7 @@ const ProfileSetting = () => {
                     Country Name
                   </label>
                   <select className="select_input w-full pt-2 lg:pt-4">
-                    <option>Country</option>
+                    <option>Choose a country</option>
                   </select>
                 </div>
                 {/* City_name */}
