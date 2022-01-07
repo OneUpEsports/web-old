@@ -96,13 +96,13 @@ const Payout = () => {
                                             Date
                                         </li>
                                         <li className=" common_li text-base font-medium text-center ">
-                                            Ammount
+                                            Amount
                                         </li>
                                         <li className=" common_li text-base font-medium text-center ">
                                             WithdrawType
                                         </li>
                                         <li className=" common_li text-base font-medium text-center  ">
-                                            Reciver
+                                            Recipient
                                         </li>
                                         <li className=" common_li text-base font-medium text-center ">
                                             Status

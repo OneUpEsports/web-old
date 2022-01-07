@@ -13,7 +13,7 @@ const ProfileSetting = () => {
             {/* profile_setting_heading */}
             <div className="profile_setting_heading pt-12">
               <h2 className=" text-md lg:text-6xl text-white font-normal px-0 lg:px-6 w-full lg:w-4/5">
-                Profile Settings
+                Account Settings
               </h2>
             </div>
             {/* hr_line */}
