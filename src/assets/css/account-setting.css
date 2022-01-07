@@ -1,0 +1,272 @@
+/* profile_setting_css */
+.background_color_container {
+    background-color: #181b28;
+  }
+  
+  .background_color_container .hr_line {
+    padding: 25px 0px 0px 0px;
+  }
+  .background_color_container .hr_line .hr_tag {
+    border-top: 2px solid #4f5055;
+  }
+  .background_color_container .profile_settings_form .heading h3 {
+    color: #c3c4c5;
+    font-size: 24px;
+  }
+  .background_color_container .profile_settings_form .input_div .common_color {
+    color: #5a5b5f;
+  }
+  /* custom_checkbox_styling */
+  .background_color_container
+    .profile_settings_form
+    .input_div
+    .checkbox_container {
+    display: flex;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #5a5b5f;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .background_color_container
+    .profile_settings_form
+    .input_div
+    .checkbox_container
+    input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .background_color_container
+    .profile_settings_form
+    .input_div
+    .checkbox_container
+    .checkmark {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #181b28;
+    border: 2px solid #4b4b51;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .background_color_container
+    .profile_settings_form
+    .input_div
+    .checkbox_container:hover
+    input
+    ~ .checkmark {
+    background-color: #4b4b51;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .background_color_container
+    .profile_settings_form
+    .chechk_box_text
+    input:checked
+    ~ .checkmark {
+    background-color: #181b28;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .background_color_container
+    .profile_settings_form
+    .input_div
+    .checkbox_container
+    input:checked
+    ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .background_color_container
+    .profile_settings_form
+    .input_div
+    .checkbox_container
+    .checkmark:after {
+    left: 3px;
+    top: 0px;
+    width: 5px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  .background_color_container .profile_settings_form .input_div .common_input {
+    background-color: #181b28;
+    border-bottom: 2px solid #7f797e;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+  }
+  
+  .background_color_container
+    .profile_settings_form
+    .input_div
+    .common_input::placeholder {
+    color: #5a5b5f;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .background_color_container
+    .profile_settings_form
+    .country_input
+    .select_input {
+    background-color: #181b28;
+    border-bottom: 2px solid #7f797e;
+    color: #5a5b5f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+  }
+  .background_color_container
+    .profile_settings_form
+    .country_input
+    .select_input
+    option {
+    color: #5a5b5f;
+    font-weight: 400;
+    font-size: 14px;
+    outline: none;
+  }
+  .background_color_container
+    .profile_settings_form
+    .Social_Media_input
+    .top_images_div
+    .image_input_div
+    .input_div
+    input {
+    background-color: #181b28;
+    border: 2px solid #4b4b51;
+    outline: none;
+    color: white;
+  }
+  .background_color_container .profile_settings_form .heading_button h3 {
+    color: #5a5b5f;
+  }
+  .background_color_container .profile_settings_form .heading_button button {
+    border: 2px solid #4b4b51;
+    background-color: #181b28;
+    color: #5a5b5f;
+  }
+  .background_color_container
+    .profile_settings_form
+    .heading_button
+    button:hover {
+    background-color: #5a5b5f;
+    color: white;
+  }
+  
+  /* custom_checkbox_styling */
+  .background_color_container .profile_settings_form .chechk_box_text {
+    display: flex;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #5a5b5f;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .background_color_container .profile_settings_form .chechk_box_text input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .background_color_container .profile_settings_form .chechk_box_text .checkmark {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #181b28;
+    border: 2px solid #4b4b51;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .background_color_container
+    .profile_settings_form
+    .chechk_box_text:hover
+    input
+    ~ .checkmark {
+    background-color: #4b4b51;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .background_color_container
+    .profile_settings_form
+    .chechk_box_text
+    input:checked
+    ~ .checkmark {
+    background-color: #181b28;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .background_color_container
+    .profile_settings_form
+    .chechk_box_text
+    input:checked
+    ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .background_color_container
+    .profile_settings_form
+    .chechk_box_text
+    .checkmark:after {
+    left: 3px;
+    top: 0px;
+    width: 5px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  .background_color_container .profile_settings_form .button_div button {
+    border: 2px solid #4b4b51;
+    background-color: #181b28;
+    color: #5a5b5f;
+  }
+  .background_color_container .profile_settings_form .button_div button:hover {
+    background-color: #5a5b5f;
+    color: white;
+  }
+  

@@ -1,0 +1,138 @@
+/* payout_css_starts_here */
+/* main_bg_color */
+.main_bg_color {
+    background-color: #181b28;
+}
+.background_color_div .heading_hr_line hr {
+    border-top: 2px solid #4f5055;
+}
+.background_color_div .upside_content_div .common_bg_color {
+    background-color: #2b2e34;
+}
+.background_color_div .upside_content_div .common_bg_color .button_div button {
+    background-image: linear-gradient(#3e3586, #1b324f);
+    border: 1px solid #484a4f;
+}
+.background_color_div
+    .upside_content_div
+    .common_bg_color
+    .lists_main_div
+    .common_li {
+    color: #999b9d;
+    width: 18%;
+}
+.background_color_div
+    .upside_content_div
+    .common_bg_color
+    .lists_main_div
+    .inProgress_text {
+    color: #7a843b;
+    width: 18%;
+}
+
+@media (max-width: 1024px) and (min-width: 320px) {
+    .background_color_div
+    .upside_content_div
+    .common_bg_color .lists_main_div{
+        overflow-x: scroll;
+    } 
+    .background_color_div
+        .upside_content_div
+        .common_bg_color
+        .lists_main_div
+        .list_head {
+        min-width: 700px;
+    }
+    .background_color_div
+        .upside_content_div
+        .common_bg_color
+        .lists_main_div
+        .list_body {
+        min-width: 700px;
+    }
+}
+/* earning_css_starts_here */
+.background_color_div .downside_content_div .main_content_div {
+    background-color: #2b2e34;
+}
+.background_color_div
+    .downside_content_div
+    .main_content_div
+    .table_content
+    .list_border {
+    border: 1px solid #43464d;
+}
+.background_color_div
+    .downside_content_div
+    .main_content_div
+    .table_content
+    .ul_headings {
+    color: #999b9d;
+}
+.w_10p {
+    width: 10%;
+}
+.w_12p {
+    width: 12%;
+}
+.w_18p {
+    width: 18%;
+}
+.background_color_div
+    .downside_content_div
+    .main_content_div
+    .table_content
+    .list_border {
+    color: #fff;
+}
+.background_color_div
+    .downside_content_div
+    .main_content_div
+    .table_content
+    .list_border
+    .date_body
+    .rule
+    span {
+    color: #c85a33;
+}
+
+.background_color_div
+    .downside_content_div
+    .main_content_div
+    .table_content
+    .list_border
+    .earned_body {
+    width: 30%;
+}
+.background_color_div
+    .downside_content_div
+    .main_content_div
+    .table_content
+    .list_border
+    .earned
+    span {
+    color: #26af24;
+}
+.background_color_div
+    .downside_content_div
+    .main_content_div
+    .table_content
+    .list_border
+    .date_body
+    .border_right {
+    width: 1px;
+    background: #606265;
+    height: 100%;
+}
+
+@media (max-width: 1024px) and (min-width: 320px) {
+    .table_content {
+        overflow-x: scroll;
+    }
+    .ul_headings .main_ul_headings {
+        min-width: 700px;
+    }
+    .list_border {
+        min-width: 780px;
+    }
+}
