@@ -22,22 +22,6 @@ const MainMenu = ({ allmenuData }) => {
                         >
                             {menu.text}
                         </Link>
-                        {!!submenu && (
-                            <ul className="submenu-nav absolute left-0 z-50 bg-white rounded-lg mt-14 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-4 transition-all duration-500 min-w-200 p-4 border border-gray-100 w-64">
-                                {submenu.map((submenu, i) => {
-                                    return (
-                                        <li key={`submenu${i}`}>
-                                            <Link
-                                                to={submenu.link}
-                                                className="menu-sub-item text-sm font-medium text-black block py-1 hover:text-primary"
-                                            >
-                                                {submenu.text}
-                                            </Link>
-                                        </li>
-                                    );
-                                })}
-                            </ul>
-                        )}
                     </li>
                 );
             })}
