@@ -135,7 +135,7 @@
     .select_input {
     background-color: #181b28;
     border-bottom: 2px solid #7f797e;
-    color: #5a5b5f;
+    color: #ffff;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -146,10 +146,11 @@
     .country_input
     .select_input
     option {
-    color: #5a5b5f;
+    color: #ffff;
     font-weight: 400;
     font-size: 14px;
     outline: none;
+    
   }
   .background_color_container
     .profile_settings_form
