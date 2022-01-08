@@ -54,14 +54,14 @@ const Footer = ({ data }) => {
                             <div className="footer-copyright-right">
                                 <div className="flex">
                                     <a
-                                        href="https://oneupgaming.eu/terms-condition"
+                                        href="/tos"
                                         className="text-white hover:text-primary"
                                     >
                                         Terms &amp; Condition{" "}
                                     </a>
                                     <span className="mx-3"> | </span>
                                     <a
-                                        href="https://oneupgaming.eu/privacy-policy"
+                                        href="/privacypolicy"
                                         className="text-white hover:text-primary"
                                     >
                                         Privacy Policy{" "}
