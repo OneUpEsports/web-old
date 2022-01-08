@@ -10,7 +10,7 @@ const Teams=()=>{
             <h3 className="flex mb-4">My Teams <img className="ml-2" src="/img/dashboard/Icon ionic-ios-people.png" alt=""/></h3>
             <div className=" h-full  md:w-11/12 w-full lg:m-auto lg:grid md:grid-cols-2 md:grid-rows-2 lg:gap-x-12 gap-y-6 grid-flow-row-dense grid-cols-1 grid-rows-3">
                 
-                    <div className="flex flex-col items-center bg-gray-900 justify-center h-11/12  rounded-2xl border-2 border-gray-200 pt-6  overflow-y-scroll scrollbar-hide">
+                    <div className="flex flex-col items-center  w-full bg-gray-900 justify-center h-11/12  rounded-2xl border-2 border-gray-200 pt-6  overflow-y-scroll scrollbar-hide">
                        <Team image={"/img/dashboard/NoPath.png"} name={"1Team"}/>
                        <Team image={"/img/dashboard/NoPath.png"} name={"1Team"}/>
                        <Team image={"/img/dashboard/NoPath.png"} name={"1Team"}/>
