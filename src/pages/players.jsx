@@ -45,7 +45,7 @@ PlayersPage.propTypes = {
 };
 
 export const query = graphql`
-    query playersPagePageQuery {
+    query playersPageQuery {
         allGeneral {
             nodes {
                 section
