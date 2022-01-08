@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 
-const Terms = () => {
+const Tos = () => {
     const titleStyle = "text-center  mb-2";
     const containerStyle =
         " max-w-xl  text-white m-auto my-auto text-center justify-items-center  justify-center items-center";
@@ -42,4 +42,4 @@ export const query = graphql`
     }
 `;
 
-export default Terms;
+export default Tos;
