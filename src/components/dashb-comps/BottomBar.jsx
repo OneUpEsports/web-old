@@ -15,9 +15,7 @@ const BottomBar = () => {
            
             <div className=" hidden lg:block pr-6 text-sm">
                 <span>
-                    @OneUpGaming 2022 .  <span><Link to="#">Terms of Use</Link></span> .  <span><Link to="#">Terms of Sales</Link></span> . <span>
-                        <Link to="#">Personal Data protection and cookies policy</Link></span> .  <span>
-                            <Link to="#">Legals</Link></span> .  <span><Link to="#">About OneUpGaming</Link></span>
+                
                 </span>
             </div>
       
