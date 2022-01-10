@@ -15,7 +15,7 @@ import BottomBar from "../../components/dashb-comps/BottomBar";
 const Home=()=>{
     return(
         <MainLayout>
-            <div className="lg:w-full w-11/12 h-full lg:p-12 py-12 pr-12 pl-2  lg:m-0 mr-2">
+            <div className="lg:w-full w-11/12 h-full lg:p-12 py-12 pr-12 pl-2  lg:m-0 mr-2 flex  intems-center justify-center">
             
                     <div className=" h-full  w-11/12  lg:grid lg:grid-cols-3 lg:grid-rows-3  Lg:gap-x-16 lg:gap-y-6 lg:grid-flow-row-dense lg:grid-flow-col-dense ">
                                 <div className=" relative bg-gray-900  lg:col-span-2  lg:row-span-3 lg:right-4   lg:w-full lg:h-full  rounded-2xl border-2 border-gray-200 p-4">
