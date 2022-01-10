@@ -32,11 +32,14 @@ const Teams=()=>{
                   </div>
                 <br/>
                 <br/>
-                <div className="md:hidden block">
-                   <BottomBar/>
+                
                 </div>
-                </div>
+              
             </div>
+            <div className="lg:hidden block">
+                      <br/><br/>
+                          <BottomBar/>
+                      </div>
         </MainLayout>
 
     )
