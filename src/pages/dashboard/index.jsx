@@ -58,7 +58,7 @@ const Home=()=>{
                                 </div>
 
                                 <div className=" relative bg-gray-900  text-gray-100 lg:col-span-1 lg:row-span-2 lg:w-full lg:h-full  rounded-2xl border-2 border-gray-200  p-4 ">
-                                <h4 className=" w-fit m-auto">Win to Winnings</h4>
+                                <h4 className=" w-fit m-auto">Tournament History</h4>
                                 
                                                     <div className="w-full h-full">
                                                     <div className="grid grid-cols-5 grid-flow-col-dense mt-2   overflow-y-scroll overflow-x-scroll scrollbar-hide">
@@ -71,7 +71,7 @@ const Home=()=>{
                                             </div>
                                             <div className="flex  items-center justify-center"><h6>Place</h6></div>
                                             
-                                            <div className="flex  items-center justify-center"><h6>Wins</h6></div>
+                                            <div className="flex  items-center justify-center"><h6>Earnings</h6></div>
                                         </div>
                                         <hr className="mb-2"/>
                                     <div className="h-5/6 w-fit lg:w-full overflow-y-scroll overflow-x-scroll scrollbar-hide">
