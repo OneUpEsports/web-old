@@ -33,7 +33,7 @@ const Home=()=>{
                                                     <div className=" col-span-2"><h6>Date</h6></div>
                                                     <div className="flex items-center justify-left pl-6  col-span-2"> <h6>Type</h6></div>
                                                     <div className="flex  items-center justify-center"><h6>Plattform</h6></div>
-                                                    <div className="flex  items-center justify-center col-span-3"><h6>Rule </h6></div>
+                                                    <div className="flex  items-center justify-center col-span-3"><h6>Name </h6></div>
                                                     <div className="flex  items-center justify-center"><h6>Slots </h6></div>
                                                     <div className="flex  items-center justify-center"><h6>Price </h6></div>
                                                     <div className="flex  items-center justify-center "><h6>Status </h6></div>
