@@ -22,12 +22,13 @@ const Trophies=()=>{
                       <MultiPlatGame image="/img/dashboard/NoPath - Kopie (18).png" name="ROCKET LEAGUE"/>
                       <PcGame image="/img/dashboard/NoPath - Kopie (20).png" name="VALORANT"/>
                       <PcGame image="/img/dashboard/NoPath - Kopie (21).png" name="CSGO"/>
-                      <div className="md:hidden block">
+                      
+                    
+                </div>
+                <div className="lg:hidden block">
                       <br/><br/>
                           <BottomBar/>
                       </div>
-                    
-                </div>
             </div>
         </MainLayout>
 
