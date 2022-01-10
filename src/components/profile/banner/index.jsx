@@ -2,7 +2,7 @@ import React from "react";
 import BannerBg from "../../../../static/img/banner-bg.png";
 import Stefan from "../../../../static/icons/stefan.png";
 import Tick from "../../../../static/icons/tick.png";
-import Austria from "../../../../static/icons/austria.png";
+// import Austria from "../../../../static/icons/austria.png";
 import Youtube from "../../../../static/icons/youtube.png";
 import Instagram from "../../../../static/icons/instagram.png";
 import Twitter from "../../../../static/icons/twitter.png";
@@ -14,7 +14,19 @@ import Team1 from "../../../../static/icons/team1.png";
 import Team2 from "../../../../static/icons/team2.png";
 import Team3 from "../../../../static/icons/team3.png";
 import { Link } from "gatsby";
+import countryFlagEmoji from "country-flag-emoji";
 const Banner = () => {
+    const getSelectedCountry = () => {
+        let getCountry = localStorage.getItem("country");
+        if (getCountry) {
+          let countryFlag = JSON.parse(getCountry);
+          return (
+            countryFlag?.name +
+            "  " +
+            countryFlagEmoji.get(countryFlag?.isoCode)?.emoji
+          );
+        }
+      };
     return (
         <div>
             {/* banner_image_container */}
@@ -63,12 +75,12 @@ const Banner = () => {
                                     <div className="flex flex-col items-center lg:items-start lg:flex-row py-1">
                                         <h5 className="text-white text-center lg:text-left">
                                             joined 21.May 2021, from tyrol ,
-                                            Austria
+                                             {getSelectedCountry()}
                                         </h5>
                                         {/* flag_image */}
                                         <div className="flex items-center">
                                             <img
-                                                src={Austria}
+                                                // src={Austria} 
                                                 alt=""
                                                 className="px-1 h-5"
                                             />

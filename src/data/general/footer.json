@@ -24,6 +24,15 @@
                     "icon": "icofont-twitter",
                     "link": "https://www.twitter.com/oneupgamingeu",
                     "title": ""
+<<<<<<< HEAD
+=======
+                },
+                {
+                    "id": 5,
+                    "icon": "icofont-energy-air",
+                    "link": "https://oneupgaming.eu/socials",
+                    "title": ""
+>>>>>>> 3d085e60c8dc8ab5d379bdc8b26d5765ff873fbe
                 }
             ]
         },

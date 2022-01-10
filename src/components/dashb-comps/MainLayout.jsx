@@ -10,7 +10,7 @@ const MainLayout = ({children}) => {
             <div className="lg:h-full h-fit">
             {children}
             </div>
-            <div className="hidden lg:block">
+            <div className="hidden lg:block ml-24">
               <BottomBar/>
            </div>
         </div>
