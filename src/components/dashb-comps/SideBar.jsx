@@ -18,7 +18,8 @@ const SideBar = ({children}) => {
                 <li className="mt-2 w-fit m-auto"><Link to="/dashboard"><img className="h-14 w-14"  src="/img/dashboard/valorant.png" alt=""/></Link></li>
                 <li className="mt-2 w-fit m-auto"><Link to="/dashboard"><img className="h-14 w-14"  src="/img/dashboard/r6.png" alt=""/></Link></li>
             </ul>
-            <ul className="list-none absolute bottom-4">
+             <ul className="list-none absolute bottom-4 flex flex-col items-center justify-center">
+                 <hr className="w-24 mb-4"/>
                 <li className="mb-4"><Link to="/shop"><img className="h-6 w-6" src="/img/dashboard/Icon awesome-shopping-bag.png" alt=""/></Link></li>
                 <li><Link to="/faq"><AiOutlineQuestionCircle className="text-md"/></Link></li>
             </ul>
