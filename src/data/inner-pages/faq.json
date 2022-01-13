@@ -74,7 +74,7 @@
                             "content": "Is it possible to pause a OneUpGaming Tournament?"
                         }
                     ],
-                    "description": "It is only possible to pause a tournament if both teams agree and if it is late at night."
+                    "description": "It is only possible to pause a tournament if both teams agree and if it is late at night. To pause, an admin must be called at the button on the game sheet."
                 }
             ]
         }
