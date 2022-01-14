@@ -3,10 +3,11 @@ import MainLayout from "../../components/dashb-comps/MainLayout"
 import Team from "../../components/dashb-comps/Team"
 import {FaSearch} from "react-icons/fa"
 import BottomBar from "../../components/dashb-comps/BottomBar"
+import { navigate } from "gatsby"
 const Teams=()=>{
     return(
         <MainLayout>
-            <div className="lg:w-full h-full  lg:px-12   p-2  ">
+            <div className="lg:w-full h-full  lg:px-12   p-4  ">
             <h3 className="flex mb-4">My Teams <img className="ml-2" src="/img/dashboard/Icon ionic-ios-people.png" alt=""/></h3>
             <div className=" h-full  md:w-11/12 w-full lg:m-auto lg:grid md:grid-cols-2 md:grid-rows-2 lg:gap-x-12 gap-y-6 grid-flow-row-dense grid-cols-1 grid-rows-3">
                 
@@ -18,7 +19,7 @@ const Teams=()=>{
                     </div>
 
                     <div className="flex flex-col items-center bg-gray-900 justify-center lg:h-full lg:p-auto p-6 rounded-2xl border-2 border-gray-200">
-                        <button><img src="/img/dashboard/Icon awesome-plus.png" alt=""/></button>
+                        <button onClick={()=> navigate('/dashboard/createTeam')}><img src="/img/dashboard/Icon awesome-plus.png" alt=""/></button>
                         <br/>
                         <h3>Create Team</h3>
                     </div>
