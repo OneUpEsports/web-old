@@ -31,12 +31,12 @@
 }
 .container-select-game .active_box {
     border: 3px solid #fff;
-    border-radius: 25px;
+    border-radius: 19px;
     transition: 0.3s;
 }
 .container-select-game .inActive_box {
     border: 3px solid transparent;
-    border-radius: 25px;
+    border-radius: 19px;
     transition: 0.3s;
 }
 /* button_color */
