@@ -17,7 +17,7 @@ const CrossPlatForm=()=>{
                 </div>
             </div>
             <div className=" relative z-30 lg:w-5/6 m-auto bg-[#1c1a1b] h-fit mt-0 pt-0 w-full overflow-x-scroll scrollbar-hide">
-                         <div className="grid grid-cols-6 grid-flow-col-dense lg:w-full  w-[calc(540px)] m-auto">
+                         <div className="grid grid-cols-6 grid-flow-col-dense lg:w-full  w-[calc(800px)] m-auto">
                              <div className="flex intems-center justify-center bg-[#b2f617] col-span-2 ">
                                  <h3 calssName="w-fit m-auto">TODAY</h3>
                              </div>
@@ -26,7 +26,7 @@ const CrossPlatForm=()=>{
                              </div>
 
                          </div>
-                        <div className="grid grid-cols-6 grid-flow-col-dense lg:w-full  w-[calc(540px)] m-auto text-white  bg-[#2d2928]  ">
+                        <div className="grid grid-cols-6 grid-flow-col-dense lg:w-full  w-[calc(800px)] m-auto text-white  bg-[#2d2928]  ">
                                 <div className="  justify-left"><h3 className="w-fit m-auto">Time</h3></div>
                                 <div className="flex items-center justify-left pl-6 ">
                                     <h3 className="w-fit m-auto">Format</h3>
@@ -41,7 +41,7 @@ const CrossPlatForm=()=>{
                 <Tournament date="6:00 PM" format="Bracket" rule="Apex Legends Top damage" price="3"  up="12" down="32" leftNb="9" rightNb="7"/>
                 <Tournament date="9:00 PM" format="Bracket" rule="Apex Legends Top damage" price="3"  up="6" down="32" leftNb="1" rightNb="1"/>
                 
-                      <div className="grid grid-cols-6 grid-flow-col-dense lg:w-full  w-[calc(540px)] m-auto">
+                      <div className="grid grid-cols-6 grid-flow-col-dense lg:w-full  w-[calc(800px)] m-auto">
                              <div className="flex intems-center justify-center bg-[#b2f617] col-span-2 ">
                                  <h3 calssName="w-fit m-auto">TOMORROW</h3>
                              </div>
@@ -50,7 +50,7 @@ const CrossPlatForm=()=>{
                              </div>
 
                          </div>
-                        <div className="grid grid-cols-6 grid-flow-col-dense lg:w-full  w-[calc(540px)] m-auto text-white  bg-[#2d2928]  ">
+                        <div className="grid grid-cols-6 grid-flow-col-dense lg:w-full  w-[calc(800px)] m-auto text-white  bg-[#2d2928]  ">
                                 <div className="  justify-left"><h3 className="w-fit m-auto">Time</h3></div>
                                 <div className="flex items-center justify-left pl-6 ">
                                     <h3 className="w-fit m-auto">Format</h3>
