@@ -57,7 +57,7 @@ const Footer = ({ data }) => {
                                         href="/tos"
                                         className="text-white hover:text-primary"
                                     >
-                                        Terms &amp; Condition{" "}
+                                        Terms of Service{" "}
                                     </a>
                                     <span className="mx-3"> | </span>
                                     <a

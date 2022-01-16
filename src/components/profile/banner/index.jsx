@@ -19,14 +19,14 @@ const Banner = () => {
     const getSelectedCountry = () => {
         let getCountry = localStorage.getItem("country");
         if (getCountry) {
-          let countryFlag = JSON.parse(getCountry);
-          return (
-            countryFlag?.name +
-            "  " +
-            countryFlagEmoji.get(countryFlag?.isoCode)?.emoji
-          );
+            let countryFlag = JSON.parse(getCountry);
+            return (
+                countryFlag?.name +
+                "  " +
+                countryFlagEmoji.get(countryFlag?.isoCode)?.emoji
+            );
         }
-      };
+    };
     return (
         <div>
             {/* banner_image_container */}
@@ -74,13 +74,13 @@ const Banner = () => {
                                     {/*details */}
                                     <div className="flex flex-col items-center lg:items-start lg:flex-row py-1">
                                         <h5 className="text-white text-center lg:text-left">
-                                            joined 21.May 2021, from tyrol ,
-                                             {getSelectedCountry()}
+                                            joined 21.May 2021, Tyrol.
+                                            {getSelectedCountry()}
                                         </h5>
                                         {/* flag_image */}
                                         <div className="flex items-center">
                                             <img
-                                                // src={Austria} 
+                                                // src={Austria}
                                                 alt=""
                                                 className="px-1 h-5"
                                             />

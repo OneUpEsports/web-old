@@ -25,6 +25,10 @@
 .container-select-game .height_img9 {
     height: 85px;
 }
+
+.container-select-game .height_img10 {
+    height: 85px;
+}
 .container-select-game .active_box {
     border: 3px solid #fff;
     border-radius: 25px;
@@ -36,6 +40,6 @@
     transition: 0.3s;
 }
 /* button_color */
-.button_color{
+.button_color {
     background-color: #18193e;
 }

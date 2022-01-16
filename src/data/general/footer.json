@@ -28,7 +28,7 @@
                 {
                     "id": 5,
                     "icon": "icofont-energy-air",
-                    "link": "https://oneupgaming.eu/socials",
+                    "link": "/socials",
                     "title": ""
                 }
             ]
@@ -51,67 +51,6 @@
                     "id": "contact_info-23",
                     "title": "Support",
                     "text": "support@oneupgaming.eu"
-                }
-            ]
-        },
-        {
-            "id": "footer-3",
-            "title": "Information",
-            "images": [
-                {
-                    "src": "../../data/images/team-logo/upcoming-game-thumb1.webp",
-                    "alt": "GAME TOURNAMENTS"
-                },
-                {
-                    "src": "../../data/images/team-logo/upcoming-game-thumb2.webp",
-                    "alt": "LIVE STREAMING"
-                },
-                {
-                    "src": "../../data/images/team-logo/upcoming-game-thumb3.webp",
-                    "alt": "GAME TOURNAMENTS"
-                },
-                {
-                    "src": "../../data/images/team-logo/upcoming-game-thumb4.webp",
-                    "alt": "LIVE STREAMING"
-                },
-                {
-                    "src": "../../data/images/team-logo/upcoming-game-thumb5.webp",
-                    "alt": "GAME TOURNAMENTS"
-                },
-                {
-                    "src": "../../data/images/team-logo/upcoming-game-thumb6.webp",
-                    "alt": "LIVE STREAMING"
-                }
-            ]
-        },
-        {
-            "id": "footer-4",
-            "title": "",
-            "list": [
-                {
-                    "id": "footer-follow-01",
-                    "text": "",
-                    "link": ""
-                },
-                {
-                    "id": "footer-follow-02",
-                    "text": "",
-                    "link": ""
-                },
-                {
-                    "id": "footer-follow-03",
-                    "text": "",
-                    "link": ""
-                },
-                {
-                    "id": "footer-follow-04",
-                    "text": "",
-                    "link": ""
-                },
-                {
-                    "id": "footer-follow-05",
-                    "text": "",
-                    "link": ""
                 }
             ]
         }
