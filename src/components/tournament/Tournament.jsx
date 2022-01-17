@@ -5,7 +5,7 @@ var cc,dd;
 const Tournament=({date,format,rule,price,up,down,leftNb,rightNb,startin})=>{
     if (startin){
         cc=" flex flex-col items-center justify-left hidden"
-        dd="flex flex-col items-center justify-left text-[#b2f617]"
+        dd="flex flex-col items-center justify-left text-[#b154f0]"
     }else{
         cc=" flex flex-col items-center justify-left"
         dd=" flex flex-col items-center justify-left hidden"
@@ -23,7 +23,7 @@ const Tournament=({date,format,rule,price,up,down,leftNb,rightNb,startin})=>{
                 <img className="w-10 h-10" src="/img/tournament/bracket.png" alt=""/>
                 <h4 className="w-fit m-auto">{format}</h4>
             </div>
-            <div className="flex  items-center justify-center"><h4 className=" flex flex-col items-center justify-center w-fit m-auto font-bold"><span className="md:block hidden">{rule}</span> <span className=" mt-3 flex  items-center justify-center"><span className="  rounded-2xl text-black bg-[#b2f617] px-3 py-1 font-bold lg:mr-4">{leftNb}</span>V<span className=" lg:ml-4 rounded-2xl text-black bg-[#b2f617] px-3 py-1 font-bold">{rightNb}</span></span> </h4></div>
+            <div className="flex  items-center justify-center"><h4 className=" flex flex-col items-center justify-center w-fit m-auto font-bold"><span className="md:block hidden">{rule}</span> <span className=" mt-3 flex  items-center justify-center"><span className="  rounded-2xl text-black bg-[#b154f0] px-3 py-1 font-bold lg:mr-4">{leftNb}</span>V<span className=" lg:ml-4 rounded-2xl text-black bg-[#b154f0] px-3 py-1 font-bold">{rightNb}</span></span> </h4></div>
             <div className="flex  items-center justify-center"><h4 className="w-fit m-auto font-bold text-md">{price}<span className="text-sm">c</span> </h4></div>
             <div className="flex  items-center justify-center"><h4 className="w-fit m-auto"><span className=" font-bold text-md">{up}</span> /{down} </h4></div>
             

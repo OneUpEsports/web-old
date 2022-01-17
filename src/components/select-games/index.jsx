@@ -77,7 +77,7 @@ const Index = () => {
                             {/* button_div */}
                             {selectedCards?.length >= 3 && (
                                 <div className="flex justify-center p-8">
-                                    <Link to="/contact-us">
+                                    <Link to="/dashboard">
                                         <button className="button_color text-white  px-6 py-4 rounded">
                                             START NOW{" "}
                                         </button>
