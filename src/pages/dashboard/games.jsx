@@ -11,7 +11,7 @@ const Trophies=()=>{
                 <h4 className="lg:pl-14">Select a game and a specific Plattform to see available Tournaments</h4>
                 
                 <div className=" h-full  w-11/12 m-auto grid lg:grid-cols-4 lg:grid-rows-3  md:grid-cols-2 md:grid-rows-7 grid-cols-1 grid-rows-11 lg:gap-x-12  gap-y-6 ">
-                      <MultiPlatGame image="/img/dashboard/NoPath - Kopie (3).png" name="APEX LEGENDS"/>
+                      <MultiPlatGame image="/img/dashboard/NoPath - Kopie (3).png" name="APEX LEGENDS" pclink="/tournaments/crossplay/apex-legends" pslink="/tournaments/crossplay/apex-legends" xboxlink="/tournaments/crossplay/apex-legends"/>
                       <MobileGame image="/img/dashboard/27783djg.png" name="CLASH OF CLANS"/>
                       <MobileGame image="/img/dashboard/NoPath - Kopie (5).png" name="CALL OF DUTY MOBILE"/>
                       <MultiPlatGame image="/img/dashboard/lsu1ddvx.png" name="CALL OF DUTY WARZONE"/>
