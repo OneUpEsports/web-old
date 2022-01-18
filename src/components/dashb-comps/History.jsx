@@ -9,7 +9,7 @@ const History = ({date,name,place,winnings}) => {
 
             <div className=" col-span-1"><h6>{date}</h6></div>
             <div className="flex items-center justify-left pl-6  col-span-2">
-                <img className="h-4 w-6" src="/img/dashboard/Icon material-computer.png" alt=""/>
+                <img className="h-4 w-6" src="/img/dashboard/icon game-bracket.png" alt=""/>
                 <h6>{name}</h6>
             </div>
             <div className="flex  items-center justify-center"><h6>{place}</h6></div>
