@@ -10,7 +10,7 @@ const CrossPlatForm=()=>{
         <div className="absolute  bottom-0 right-0 h-full w-full bg-secondary-100  overflow-x-hidden overflow-y-scroll">
              <button onClick={()=> navigate("/dashboard")} className="text-white absolute md:top-6 top-4 left-6 z-50 bg-secondary-100 px-3 py-3  ">Back to Dashboard</button>
             <div className="relative ">
-                <img className="opacity-50 lg:h-[calc(100vh-550px)] md:h-[calc(100vh-250px)] h-96 w-screen" src="/img/tournament/tournament_banner.png" alt=""/>
+                <img className="opacity-50 lg:h-[calc(42vh)]  md:h-[calc(40vh)] h-96 w-screen" src="/img/tournament/tournament_banner.png" alt=""/>
                 <div className=" z-50 flex flex-col items-center justify-center  ">
                     <div className="absolute xl:top-12 lg:top-10   top-12 xl:h-auto h-1/3">
                     <img  calssName="xl:h-auto xl:w-auto  " src="/img/tournament/apex_logo.png" alt=""/>
@@ -86,8 +86,8 @@ const CrossPlatForm=()=>{
                          </div>
 
             </div>
-            <div className="md:hidden">
-            <div className="flex flex-col lg:flex-row  items-center justify-between text-white  bg-[#1c1a1b]">
+            <div className="">
+            <div className="flex lg:flex-row flex-col lg:flex-row  items-center justify-between text-white  bg-[#1c1a1b] lg:px-4">
             <div className="flex mt-6">
                 <Link to="https://bit.ly/ougdiscord"  className="px-2 mb-4"><BsDiscord/></Link>
                 <Link to="https://bit.ly/ougtwitter"  className="px-2 mb-4"><BsTwitter /></Link>
@@ -96,9 +96,9 @@ const CrossPlatForm=()=>{
                 <Link to="https://bit.ly/ougtwitch"  className="px-2 mb-4"><BsTwitch /></Link>
             </div>
            
-            <div className="  md:hidden block  text-sm">
+            <div className="   block  text-sm">
                 <span>
-                    
+                    &copy; Nicecactus 2022  .  Terms of use  .  Terms of sale  .  Personal data protection and cookies policy  .  Legals  .  About Nicecactus
                  
                 </span>
             </div>
