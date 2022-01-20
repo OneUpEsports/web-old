@@ -21,7 +21,7 @@ const FAQPage = ({ data, location, pageContext }) => {
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}
-                title="FAQ Us"
+                title="FAQ"
             />
             <FAQSection data={content["FAQ-section"]} />
         </Layout>
