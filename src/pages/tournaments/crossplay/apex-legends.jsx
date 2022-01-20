@@ -98,7 +98,7 @@ const CrossPlatForm=()=>{
            
             <div className="   block  text-sm">
                 <span>
-                    &copy; Nicecactus 2022  .  Terms of use  .  Terms of sale  .  Personal data protection and cookies policy  .  Legals  .  About Nicecactus
+                    
                  
                 </span>
             </div>
