@@ -1,0 +1,560 @@
+/* tabs_common_color_section */
+.tournament_tabs_common_color_section {
+    background-color: #292d30;
+}
+/* HEADER_CSS_STARTS_HERE */
+
+/* header_div_for_lg_starts_here */
+.header_main_div {
+    background-color: #323639;
+}
+.header_main_div .beta_tag span {
+    content: "BETA";
+    font-size: 7px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    transform: rotate(-6deg);
+    background-color: #e81e25;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0 5px;
+}
+.tournamens_heading_flag_arrow_div .heading_div h4 {
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+.tournamens_heading_flag_arrow_div .heading_div h4:hover {
+    background-color: hsla(0, 0%, 100%, 0.15);
+    padding: 5px 0px;
+    margin: 0px 10px;
+    border-radius: 4px;
+}
+
+.country_flag_down_arrow_div .position_div_drop_down_div {
+    margin: 47px 145px 0px 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 110px;
+}
+.country_flag_down_arrow_div:hover .position_div_drop_down_div {
+    display: block;
+}
+.country_flag_down_arrow_div .position_div_drop_down_div .ul_main_div .same_li {
+    border-bottom: 1px solid black;
+}
+
+.country_flag_down_arrow_div
+    .position_div_drop_down_div
+    .ul_main_div
+    .same_li:hover {
+    background-color: #b2f617;
+    color: white;
+    border-radius: 3px;
+}
+.country_flag_down_arrow_div
+    .position_div_drop_down_div
+    .ul_main_div
+    .change_li:hover {
+    background-color: #b2f617;
+    color: white;
+    border-radius: 3px;
+}
+.country_flag_down_arrow_div .position_div_drop_down_div .ul_main_div .same_li {
+    color: #b2f617;
+}
+.country_flag_down_arrow_div
+    .position_div_drop_down_div
+    .ul_main_div
+    .change_li {
+    color: #b2f617;
+}
+/* header_div_for_lg_ends_here */
+
+/* header_div_for_Responsive_starts_here */
+@media (max-width: 1023px) and (min-width: 320px) {
+    .header_responsive_main_div {
+        background-color: #323639;
+    }
+    .header_responsive_main_div .beta_tag_div span {
+        content: "BETA";
+        font-size: 7px;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+        transform: rotate(-6deg);
+        background-color: #e81e25;
+        border-radius: 3px;
+        display: inline-block;
+        padding: 0 5px;
+    }
+}
+/* header_div_for_Responsive_ends_here */
+/* HEADER_CSS_ENDS_HERE */
+
+/* SIDE_NAV_CSS_STARTS_HERE */
+@media (max-width: 1023px) and (min-width: 320px) {
+    .menu_open_main_div {
+        background-color: #323639;
+        -moz-transition: opacity 0.5s ease 0.3s;
+        -webkit-transition: opacity 0.5s ease 0.3s;
+        -o-transition: opacity 0.5s ease 0.3s;
+        transition: opacity 0.5s ease 0.3s;
+    }
+    .menu_open_main_div .menu_open_flags .menu_ul li:hover {
+        border-bottom: 2px solid #b2f617;
+    }
+}
+/* SIDE_NAV_CSS_ENDS_HERE */
+
+/* BANNER_CSS_STARTS_HERE */
+.banner_main_div .banner_image_div {
+    background-image: url("../../../static/icons/bannerjpg.jpg");
+    height: 240px;
+    background-size: cover;
+    background-position: 50%;
+}
+@media (max-width: 1023px) and (min-width: 320px) {
+    .banner_main_div .banner_image_div {
+        height: 130px;
+    }
+}
+/* BANNER_CSS_ENDS_HERE */
+
+/* BANNER_PLATFORMS_CSS_STARTS_HERE */
+.banner_platforms_main_div {
+    background-color: #121212;
+    width: 100%;
+    padding: 28px 0px;
+}
+.banner_platforms_main_div .platforms_images_title_main_div {
+    margin: -70px 0px 0px 0px;
+}
+.banner_platforms_main_div
+    .platforms_images_title_main_div
+    .main_game_image_div
+    .tooltips_div {
+    background-color: #1a1a1a;
+}
+.banner_platforms_main_div
+    .platforms_images_title_main_div
+    .main_game_image_div
+    .tooltips_div
+    img {
+    height: 80px;
+}
+.banner_platforms_main_div
+    .platforms_images_title_main_div
+    .header_info_main_div
+    .platforms_info_main_div
+    .main_playstation_card {
+    background-color: #003e91;
+}
+.banner_platforms_main_div
+    .platforms_images_title_main_div
+    .header_info_main_div
+    .platforms_info_main_div
+    .main_switch_card {
+    background-color: #e60012;
+}
+.banner_platforms_main_div
+    .platforms_images_title_main_div
+    .header_info_main_div
+    .platforms_info_main_div
+    .main_xbox_one_card {
+    background-color: #107c10;
+}
+.banner_platforms_main_div
+    .platforms_images_title_main_div
+    .header_info_main_div
+    .platforms_info_main_div
+    .main_mobile_card {
+    background-color: #551a8b;
+}
+
+@media (max-width: 1023px) and (min-width: 320px) {
+    .banner_platforms_main_div {
+        padding: 24px 0px;
+    }
+    .banner_platforms_main_div .platforms_images_title_main_div {
+        margin: -60px 0px 0px 0px;
+    }
+}
+/* BANNER_PLATFORMS_CSS_ENDS_HERE */
+
+/* TOURNAMENT_INFO_CSS_STARTS_HERE */
+.main_info_div {
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #000;
+}
+
+.main_info_div
+    .info_content_main_div
+    .info_left_side_div
+    .info_left_free_tournament {
+    background-color: #1d1d1d;
+}
+.main_info_div .info_content_main_div .info_left_side_div .info_left_title h3 {
+    font-size: 20px;
+}
+
+.main_info_div
+    .info_content_main_div
+    .info_middle_div
+    .middle_image_div
+    .back_ground_color {
+    background-color: #343434;
+    border-radius: 50px;
+}
+.main_info_div
+    .info_content_main_div
+    .info_middle_div
+    .middle_cash_prize_details
+    .cash_prize_title
+    span {
+    color: #b2f617;
+}
+.main_info_div
+    .info_content_main_div
+    .info_middle_div
+    .middle_cash_prize_details
+    .cash_prize_info
+    p {
+    color: #666;
+}
+.main_info_div
+    .info_content_main_div
+    .info_right_div
+    .up_side_main_div
+    .right_up_side_main_div
+    .left_side_div_up
+    .image_details_div
+    .players_image_div
+    img {
+    height: 13px;
+}
+
+.main_info_div
+    .info_content_main_div
+    .info_right_div
+    .up_side_main_div
+    .right_up_side_main_div
+    .left_side_div_up
+    .image_details_div
+    .players_text {
+    color: #b2f617;
+}
+
+.main_info_div
+    .info_content_main_div
+    .info_right_div
+    .up_side_main_div
+    .right_side_div_up
+    .X_mark_image_div
+    img {
+    height: 14px;
+}
+.main_info_div
+    .info_content_main_div
+    .info_right_div
+    .up_side_main_div
+    .right_side_div_up
+    .info_image_div
+    img {
+    height: 17px;
+}
+.main_info_div
+    .info_content_main_div
+    .info_right_div
+    .up_side_main_div
+    .right_side_div_up
+    .title_div
+    h3 {
+    color: #ff3f45;
+}
+.main_info_div
+    .info_content_main_div
+    .info_right_div
+    .right_side_down_div
+    .button_div
+    button {
+    background-color: #b2f617;
+}
+/* TOURNAMENT_INFO_CSS_ENDS_HERE */
+
+/* TABS_CSS_STARTS_HERE */
+.Tabs_bg_color_main_div {
+    background-color: #1a1a1a;
+}
+/* onhover_tabs_class */
+.tabs_content_div .main_lists_div .main_ul:hover {
+    color: #b2f617;
+}
+.tabs_content_div .main_lists_div .main_ul:after {
+    content: "";
+    height: 3px;
+    border-bottom: 4px solid #b2f617;
+    transition: all 0.2s ease;
+    transform: scaleX(0);
+    display: block;
+    padding: 8px 0px;
+}
+.tabs_content_div .main_lists_div .main_ul:hover:after {
+    transform: scaleX(1);
+}
+/* active_tabs_class */
+.tabs_content_div .main_lists_div .active_ul {
+    color: #b2f617;
+}
+.tabs_content_div .main_lists_div .active_ul:after {
+    content: "";
+    height: 3px;
+    border-bottom: 4px solid #b2f617;
+    transition: all 0.2s ease;
+    transform: scaleX(0);
+    display: block;
+    padding: 8px 0px;
+}
+.tabs_content_div .main_lists_div .active_ul:after {
+    transform: scaleX(1);
+}
+/* TABS_CSS_ENDS_HERE */
+
+/* FOOTER_CSS_STARTS_HERE */
+.footer_up {
+    background-color: #868c88;
+}
+.footer_up .main_ul {
+    color: #323639;
+}
+.down_footer {
+    background-color: #323639;
+}
+/* FOOTER_CSS_ENDS_HERE */
+
+/* MATCH_TAB_CSS_STARTS_HERE */
+.matches_main_div .title_div p {
+    color: #818797 !important;
+}
+.matches_main_div .button_div button {
+    background-color: #b2f617;
+}
+/* MATCH_TAB_CSS_ENDS_HERE */
+
+/* RULES_CSS_STARTS_HERE */
+
+.reward_main_div {
+    background-color: #1a1a1a;
+}
+.reward_main_div .reward_list_main_div .prize_main_div:nth-child(1) {
+    border-right: 1px solid #292b2d;
+}
+.reward_main_div .reward_list_main_div .prize_main_div .price_heading p {
+    color: #b2f617;
+    font-size: 20px;
+}
+.reward_main_div .reward_list_main_div .places_div .place_title_div p {
+    font-size: 24px;
+}
+.reward_main_div .reward_list_main_div .places_div .yellow_dot_div {
+    background-color: #ffd800;
+}
+.reward_main_div .reward_list_main_div .reward_sponser_div p {
+    color: #808080;
+}
+.reward_main_div .reward_list_main_div .places_div .gray_dot_div {
+    background-color: #999;
+}
+.reward_main_div .reward_list_main_div .places_div .orange_dot_div {
+    background-color: #bc6000;
+}
+
+@media (max-width: 1023px) and (min-width: 320px) {
+    .reward_main_div .reward_list_main_div .prize_main_div:nth-child(1) {
+        border-bottom: 1px solid #292b2d;
+        border-right: 0px;
+    }
+    .reward_main_div .reward_list_main_div .prize_main_div:nth-child(2) {
+        border-bottom: 1px solid #292b2d;
+        border-right: 0px;
+    }
+}
+
+/* rules_div_start_here */
+.rules_main_div .General_rules {
+    background-color: #1a1a1a;
+}
+
+.rules_main_div .green_gray_bar_div .green_bar_div {
+    background-color: #b2f617;
+    box-shadow: 0 -2px 4px #b2f617;
+}
+.rules_main_div .green_gray_bar_div .gray_bar_div {
+    background-color: #43474a;
+    height: 3px;
+}
+.rules_main_div .dropdown_div {
+    background-color: #1a1a1a;
+}
+.rules_main_div .dropdown_div .text_div .last_p span {
+    color: #b2f617;
+}
+.rules_main_div .dropdown_div .text_div .support_contact_p span {
+    color: #b2f617;
+}
+.rules_main_div .dropdown_div .text_div .Game_preparation span {
+    color: #ff0000;
+}
+.rules_main_div .dropdown_div .text_div .Game_preparation_second_p span {
+    color: #ff0000;
+}
+.rules_main_div .dropdown_div .text_div .GRAND_FINAL_second_P span {
+    color: #ff0000;
+}
+.rules_main_div
+    .General_rules
+    .title_arrow_main_div
+    .title_arrow_div
+    .down_arrow_div
+    img {
+    transition: all 0.6s ease;
+    transform: rotate(-180deg);
+}
+.participants_main_div .card_div  {
+    background-color: #1a1a1a;
+}
+.rules_main_div
+    .General_rules
+    .title_arrow_main_div
+    .title_arrow_div
+    .arrow_div
+    img {
+    transition: all 0.2s ease;
+    transform: rotate(1deg);
+}
+
+.green_border {
+    border-left: 10px solid #b2f617;
+}
+
+.gray_border {
+    border-left: 10px solid #323639;
+}
+/* RULES_CSS_ENDS_HERE */
+/* Brackets */
+.brackets_main_container .seed_title {
+    background-color: #1a1a1a !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+.brackets_main_container .player_winner {
+    border: 1px solid #b2f617;
+    border-width: 1px;
+    border-radius: 1px;
+}
+.brackets_main_container .sc-jRQBWg {
+    background-color: #323639;
+}
+/* ROUNDS_CSS_STARTS_HERE */
+.rounds_main_bg_color_div {
+    background-color: #1a1a1a;
+}
+.rounds_main_bg_color_div
+    .rounds_content_main_div
+    .winner_brackets_heading_div
+    p {
+    margin: 8px 0px;
+}
+.rounds_main_bg_color_div
+    .rounds_content_main_div
+    .winner_brackets_heading_div {
+    border-bottom: 2px solid rgba(50, 54, 57, 0.15);
+    border-color: hsla(0, 0%, 100%, 0.25);
+}
+.rounds_main_bg_color_div
+    .rounds_content_main_div
+    .winner_brackets_heading_div
+    .border_bottom_div {
+    background-color: #b2f617;
+    box-shadow: 0 -2px 4px #b2f617;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+}
+.rounds_main_bg_color_div .rounds_content_main_div .rounds_container_main_div {
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+}
+.rounds_main_bg_color_div
+    .rounds_content_main_div
+    .rounds_container_main_div
+    .rounds_status_main_div {
+    border-bottom: 1px solid #323639;
+}
+.rounds_main_bg_color_div
+    .rounds_content_main_div
+    .rounds_container_main_div
+    .rounds_status_main_div
+    .border_right {
+    height: 25px;
+    width: 1px;
+    background-color: #323639;
+}
+.rounds_main_bg_color_div
+    .rounds_content_main_div
+    .rounds_container_main_div
+    .rounds_status_main_div
+    .best_of_heading
+    p {
+    color: #b2f617;
+}
+.rounds_main_bg_color_div
+    .rounds_content_main_div
+    .rounds_container_main_div
+    .rounds_battles_main_div {
+    background-color: #131313;
+    border-bottom: 1px solid #323639;
+}
+.rounds_main_bg_color_div
+    .rounds_content_main_div
+    .rounds_container_main_div
+    .rounds_details_main_div
+    .rounds_title_box_main_div
+    .round_box {
+    border: 1px solid #323639;
+}
+.rounds_main_bg_color_div
+    .rounds_content_main_div
+    .rounds_container_main_div
+    .rounds_details_main_div
+    .rounds_title_box_main_div
+    .round_box
+    .boxe_content_div
+    .stock_heading
+    p {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* ROUNDS_CSS_STARTS_HERE */
+
+/* PARTICIPANTS_CSS_STARTS_HERE */
+.participants_main_div .card_div .drop_down_div {
+    border-top: 1px solid #44494d;
+}
+.participants_main_div
+    .card_div
+    .image_title_arrow_main_div
+    .title_arrow_div
+    .arrow_div
+    img {
+    transform: rotate(-180deg);
+    transition: all 0.6s ease;
+}
+
+.participants_main_div
+    .card_div
+    .image_title_arrow_main_div
+    .title_arrow_div
+    .arrow_div_close
+    img {
+    transform: rotate(1deg);
+    transition: all 0.6s ease;
+}
+/* PARTICIPANTS_CSS_ENDS_HERE */
