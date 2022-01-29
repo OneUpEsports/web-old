@@ -13,13 +13,13 @@ const TournamnetInfo = () => {
           {/* main_width_div */}
           <div className="w-full lg:w-4/5">
             {/* info_content_main_div */}
-            <div className="info_content_main_div flex flex-col lg:flex-row py-6 lg:py-0 lg:pt-9 lg:pb-5 px-2.5 lg:px-0">
+            <div className="info_content_main_div flex flex-col lg:flex-row py-6 lg:py-0 lg:pt-6 lg:pb-5 px-2.5 lg:px-0">
               {/* info_left_side_div */}
               <div className="info_left_side_div">
                 {/* info_left_title */}
                 <div className="info_left_title">
                   <h3 className=" font-bold text-white ">
-                    Kung Cup 2v2
+                    R6 BOMBE 5V5 BY G2
                   </h3>
                 </div>
                 {/* info_left_discipline */}
@@ -53,13 +53,13 @@ const TournamnetInfo = () => {
                   <div className=" cash_prize_title">
                     <h4 className="text-white text-base font-bold">
                       {" "}
-                      <span>40 €</span> cash prize
+                      <span>200 €</span> cash prize
                     </h4>
                   </div>
                   {/* cash_prize_info */}
                   <div className="cash_prize_info">
                     <p className="text-xs font-medium">
-                      Total amount of cash prize distributed between the first 3
+                      Total amount of cash prize distributed between the first 2
                       places
                     </p>
                   </div>
@@ -79,8 +79,8 @@ const TournamnetInfo = () => {
                         <div className="players_image_div pr-1.5">
                           <img src={Players} alt="" />
                         </div>
-                        <p className="text-xs font-normal text-white">
-                          <strong className="font-medium">9</strong>/32
+                        <p className="players_text text-xs font-normal">
+                          <strong className="font-medium">64</strong>/64
                         </p>
                       </div>
                     </div>

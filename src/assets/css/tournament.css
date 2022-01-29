@@ -1,3 +1,7 @@
+/* tabs_common_color_section */
+.tournament_tabs_common_color_section {
+    background-color: #292d30;
+}
 /* HEADER_CSS_STARTS_HERE */
 
 /* header_div_for_lg_starts_here */
@@ -190,7 +194,7 @@
     background-color: #1d1d1d;
 }
 .main_info_div .info_content_main_div .info_left_side_div .info_left_title h3 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .main_info_div
@@ -228,6 +232,18 @@
     img {
     height: 13px;
 }
+
+.main_info_div
+    .info_content_main_div
+    .info_right_div
+    .up_side_main_div
+    .right_up_side_main_div
+    .left_side_div_up
+    .image_details_div
+    .players_text {
+    color: #b2f617;
+}
+
 .main_info_div
     .info_content_main_div
     .info_right_div
@@ -332,9 +348,6 @@
 .reward_main_div .reward_list_main_div .prize_main_div:nth-child(1) {
     border-right: 1px solid #292b2d;
 }
-.reward_main_div .reward_list_main_div .prize_main_div:nth-child(2) {
-    border-right: 1px solid #292b2d;
-}
 .reward_main_div .reward_list_main_div .prize_main_div .price_heading p {
     color: #b2f617;
     font-size: 20px;
@@ -370,9 +383,14 @@
 .rules_main_div .General_rules {
     background-color: #1a1a1a;
 }
-.rules_main_div .green_bar_div {
+
+.rules_main_div .green_gray_bar_div .green_bar_div {
     background-color: #b2f617;
     box-shadow: 0 -2px 4px #b2f617;
+}
+.rules_main_div .green_gray_bar_div .gray_bar_div {
+    background-color: #43474a;
+    height: 3px;
 }
 .rules_main_div .dropdown_div {
     background-color: #1a1a1a;
@@ -401,6 +419,9 @@
     transition: all 0.6s ease;
     transform: rotate(-180deg);
 }
+.participants_main_div .card_div  {
+    background-color: #1a1a1a;
+}
 .rules_main_div
     .General_rules
     .title_arrow_main_div
@@ -420,16 +441,18 @@
 }
 /* RULES_CSS_ENDS_HERE */
 /* Brackets */
-.brackets_main_container .jTzNkf {
-    background: #323639 !important;
-    
+.brackets_main_container .seed_title {
+    background-color: #1a1a1a !important;
+    font-size: 14px;
+    font-weight: 600;
 }
-.brackets_main_container .jTzNkf .dDVnxg{
-    border: 1px solid #72798c;
-    padding: 8px;
-    font-size: 13px;
-    font-weight: 700;
-    border-color: #b2f617;
+.brackets_main_container .player_winner {
+    border: 1px solid #b2f617;
+    border-width: 1px;
+    border-radius: 1px;
+}
+.brackets_main_container .sc-jRQBWg {
+    background-color: #323639;
 }
 /* ROUNDS_CSS_STARTS_HERE */
 .rounds_main_bg_color_div {

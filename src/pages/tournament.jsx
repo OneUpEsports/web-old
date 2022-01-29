@@ -38,7 +38,7 @@ const Tournament = () => {
             <BannerPlatforms />
             <TournamnetInfo />
             <Tabs activeTab={activetab} setActiveTab={setActiveTab} />
-            {activeTabHandler(activetab)}
+            <div className="tournament_tabs_common_color_section">{activeTabHandler(activetab)}</div>
             <Footer />
         </div>
     );

@@ -4843,6 +4843,15 @@
         "fill-range": "^7.0.1"
       }
     },
+    "brackets-table-npm": {
+      "version": "0.0.4",
+      "resolved": "https://registry.npmjs.org/brackets-table-npm/-/brackets-table-npm-0.0.4.tgz",
+      "integrity": "sha512-m4AXsLGuy8FQB/cfN+HNyIFwaEqs3wpYL0MEJGHjJGBROozYGGCr67g9JpiXoYNqSuvX5sz9Nvz7XS25dc2J9w==",
+      "requires": {
+        "react-swipeable-views": "^0.13.9",
+        "styled-components": "^5.1.1"
+      }
+    },
     "browser-process-hrtime": {
       "version": "1.0.0",
       "resolved": "https://registry.npmjs.org/browser-process-hrtime/-/browser-process-hrtime-1.0.0.tgz",
@@ -17232,15 +17241,6 @@
       "version": "4.0.0",
       "resolved": "https://registry.npmjs.org/react-accessible-accordion/-/react-accessible-accordion-4.0.0.tgz",
       "integrity": "sha512-MovuWj2Uweo57LSgTIPpB83IYq8BNdZJ44j4NmDKYxaHC/H0JjYiqt8OfNMt+YK+XN8qRON13ERQnLfM73vmqw=="
-    },
-    "react-brackets": {
-      "version": "0.4.6",
-      "resolved": "https://registry.npmjs.org/react-brackets/-/react-brackets-0.4.6.tgz",
-      "integrity": "sha512-brblO7YI0W3wGg4SprMru210j41A+14/z7JAOJzyTrbb9fLGzUv+2j7dh8l3uLm8M8QmCZIOVUx9oEjCS2wABg==",
-      "requires": {
-        "react-swipeable-views": "^0.13.9",
-        "styled-components": "^5.1.1"
-      }
     },
     "react-countup": {
       "version": "6.1.0",

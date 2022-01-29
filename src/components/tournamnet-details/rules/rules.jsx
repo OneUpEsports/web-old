@@ -52,11 +52,11 @@ const Rules = () => {
                         <div className="reward_list_main_div flex flex-col lg:flex-row justfify-center py-9 ">
                             {/* first_prize_main_div */}
                             {prizedetails?.map((single) => (
-                                <div className="prize_main_div text-center flex flex-col items-center w-full lg:w-4/12 py-4 lg:py-0">
+                                <div className="prize_main_div text-center flex flex-col items-center w-full lg:w-6/12 py-4 lg:py-0">
                                     {/* price_heading */}
                                     <div className="price_heading pb-4">
                                         <p className="font-bold ">
-                                            {single.prize}
+                                            {single.prize}<span className="text-white">{single.title}</span> 
                                         </p>
                                     </div>
                                     {/* places_div */}
@@ -94,8 +94,15 @@ const Rules = () => {
                     </div>
                     {/* rules_main_div */}
                     <div className="rules_main_div my-12 lg:my-0  pb-0 lg:pb-14 pt-0 lg:pt-8">
-                        {/* green_bar_div */}
-                        <div className="green_bar_div my-4 w-16 h-0.5"></div>
+                        {/* rules_details_div */}
+                        <div>
+                            <p className="text-base font-bold">DETAILED RULES</p>
+                        </div>
+                        {/* green_gray_bar_div */}
+                        <div className="green_gray_bar_div pb-4 flex items-center">  
+                        <div className="green_bar_div w-16 h-0.5"></div>
+                        <div className="gray_bar_div w-full"></div>
+                        </div>
                         {/* General_rules */}
                         <div
                             className="General_rules bg-black rounded w-full"
