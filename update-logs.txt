@@ -1,4 +1,0 @@
-
-Version: 1.0.1 —-—-DATE: 09-December-2021
-
-1: Players Details page Added     

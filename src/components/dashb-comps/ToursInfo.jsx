@@ -9,7 +9,7 @@ const ToursInfo = ({date,type,plattform,num,rule,slots,price,status}) => {
 
             <div className=" col-span-2 justify-left"><h6>{date}</h6></div>
             <div className="flex items-center justify-left pl-6  col-span-2">
-                <img className="h-4 w-6" src="/img/dashboard/Icon material-computer.png" alt=""/>
+                <img className="h-4 w-6" src="/img/dashboard/Icon game-bracket.png" alt=""/>
                 <h6>{type}</h6>
             </div>
             <div className="flex  items-center justify-center"><h6><img className="w-6 h-6 "src={plattform} alt=""/></h6></div>
