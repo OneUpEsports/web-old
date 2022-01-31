@@ -1,6 +1,10 @@
+.main_container_of_tournament{
+    min-height: 100vh;
+    background: #181b28;
+}
 /* tabs_common_color_section */
 .tournament_tabs_common_color_section {
-background-color: #181b28;
+    background-color: #181b28;
 }
 /* HEADER_CSS_STARTS_HERE */
 

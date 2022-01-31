@@ -9,7 +9,7 @@ import Matches from "../components/tournamnet-details/matches/matches";
 import Rules from "../components/tournamnet-details/rules/rules";
 import Rounds from "../components/tournamnet-details/rounds/rounds";
 import Participants from "../components/tournamnet-details/participants/participants";
-import Brackets from "../components/tournamnet-details/brackets/brackets"
+import Brackets from "../components/tournamnet-details/brackets/brackets";
 const Tournament = () => {
     const [activetab, setActiveTab] = useState("matches");
     const activeTabHandler = (value) => {
@@ -31,13 +31,15 @@ const Tournament = () => {
     };
 
     return (
-        <div>
+        <div className="main_container_of_tournament">
             <Header />
             <Banner />
             <BannerPlatforms />
             <TournamnetInfo />
             <Tabs activeTab={activetab} setActiveTab={setActiveTab} />
-            <div className="tournament_tabs_common_color_section">{activeTabHandler(activetab)}</div>
+            <div className="tournament_tabs_common_color_section">
+                {activeTabHandler(activetab)}
+            </div>
         </div>
     );
 };
