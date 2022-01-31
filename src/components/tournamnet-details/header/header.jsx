@@ -1,16 +1,19 @@
 import React, { useState } from "react";
-import Twit from "../../../../static/icons/twit.png";
-import Inst from "../../../../static/icons/inst.png";
+import { Link } from "gatsby";
 import Uk from "../../../../static/icons/uk.png";
 import Down from "../../../../static/icons/down.png";
 import French from "../../../../static/icons/french.png";
 import Saudi from "../../../../static/icons/saudi.png";
 import Hamburger from "../../../../static/icons/hamburger.png";
 import Cross from "../../../../static/icons/cross.png";
+import Discord from "../../../../static/icons/discord.png";
+import Sidenav1 from "../../../../static/icons/sidenav1.png";
+import Youtube from "../../../../static/icons/youtube.png";
+import Hangout from "../../../../images/out.png";
+import Snap from "../../../../images/gram.png";
 import SideNav from "../sideNav/sidenav";
 const Header = () => {
     const [navdata, setNavData] = useState(false);
-    console.log("navdata", navdata);
     return (
         <div>
             {/* header_main_div_for_lg */}
@@ -21,32 +24,51 @@ const Header = () => {
                     <div className="w-4/5">
                         {/* header_content_main_div */}
                         <div className="header_content_main_div flex justify-between items-center w-full">
-                            {/* beta_tag */}
-                            <div className="beta_tag ">
-                                <span>BETA</span>
-                            </div>
                             {/* tag_twitter_instagram_div */}
                             <div className="tag_twitter_instagram_div">
                                 {/* twitter_instagram_icons_div */}
                                 <div className="twitter_instagram_icons_div flex items-center">
                                     {/* twitter_icon */}
                                     <img
-                                        src={Twit}
+                                        src={Discord}
                                         alt=""
-                                        className="h-4 pr-2.5"
+                                        className="h-6 pr-2.5"
+                                    />
+                                    <img
+                                        src={Sidenav1}
+                                        alt=""
+                                        className="h-6 pr-2.5"
                                     />
                                     {/* instagram_icon */}
-                                    <img src={Inst} alt="" className="h-3" />
+                                    <img
+                                        src={Snap}
+                                        alt=""
+                                        className="h-6 pr-2.5"
+                                    />
+                                    <img
+                                        src={Youtube}
+                                        alt=""
+                                        className="h-6 pr-2.5"
+                                    />
+                                    <img
+                                        src={Hangout}
+                                        alt=""
+                                        className="h-6 pr-2.5"
+                                    />
                                 </div>
                             </div>
                             {/* tournamens_heading_flag_arrow_div */}
                             <div className=" tournamens_heading_flag_arrow_div flex items-center justify-end w-1/2">
                                 {/* heading_div */}
                                 <div className="heading_div  w-3/12">
-                                    <h4 className="text-sm
-                                     font-semibold text-white upparcase cursor-pointer  text-center">
-                                        TOURNAMENTS
-                                    </h4>
+                                    <Link to="/games">
+                                        <h4
+                                            className="text-sm
+                                     font-semibold text-white upparcase cursor-pointer  text-center"
+                                        >
+                                            TOURNAMENTS
+                                        </h4>
+                                    </Link>
                                 </div>
                                 {/* country_flag_down_arrow_div */}
                                 <div className="country_flag_down_arrow_div flex items-center cursor-pointer lg:block ">
@@ -146,7 +168,7 @@ const Header = () => {
                 <div className="header_responsive_main_div h-12 block lg:hidden z-30 fixed top-0 right-0 left-0 shadow-md shadow-black py-1.5">
                     <div className="flex items-center py-1 px-5">
                         {/* hamburger_div */}
-                        <div className="hamburger_div absolute w-full  ">
+                        <div className="hamburger_div w-full  ">
                             {!navdata ? (
                                 <img
                                     src={Hamburger}
@@ -160,16 +182,12 @@ const Header = () => {
                                 <img
                                     src={Cross}
                                     alt=""
-                                    className="h-5"
+                                    className="h-5 mt-1"
                                     onClick={() => {
                                         setNavData(false);
                                     }}
                                 />
                             )}
-                        </div>
-                        {/* beta_tag_div */}
-                        <div className="beta_tag_div w-full flex justify-center h-full items-center py-2">
-                            <span>BETA</span>
                         </div>
                     </div>
                 </div>
