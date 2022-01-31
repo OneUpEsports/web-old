@@ -5,7 +5,6 @@ import Header from "../components/tournamnet-details/header/header";
 import BannerPlatforms from "../components/tournamnet-details/banner-platforms/banner-platforms";
 import TournamnetInfo from "../components/tournamnet-details/tournament-info/tournament-info";
 import Tabs from "../components/tournamnet-details/tabs/tabs";
-import Footer from "../components/tournamnet-details/footer/footer";
 import Matches from "../components/tournamnet-details/matches/matches";
 import Rules from "../components/tournamnet-details/rules/rules";
 import Rounds from "../components/tournamnet-details/rounds/rounds";
@@ -39,7 +38,6 @@ const Tournament = () => {
             <TournamnetInfo />
             <Tabs activeTab={activetab} setActiveTab={setActiveTab} />
             <div className="tournament_tabs_common_color_section">{activeTabHandler(activetab)}</div>
-            <Footer />
         </div>
     );
 };
