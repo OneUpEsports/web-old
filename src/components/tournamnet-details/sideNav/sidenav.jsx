@@ -2,11 +2,11 @@ import React from "react";
 import Uk from "../../../../static/icons/uk.png";
 import French from "../../../../static/icons/french.png";
 import Saudi from "../../../../static/icons/saudi.png";
-import Sidenav1 from "../../../../static/icons/sidenav1.png";
 import Discord from "../../../../static/icons/discord.png";
+import Sidenav1 from "../../../../static/icons/twitter1.png";
 import Youtube from "../../../../static/icons/youtube.png";
-import Hangout from "../../../../images/out.png";
-import Snap from "../../../../images/gram.png";
+import Hangout from "../../../../static/icons/twitch2.png";
+import Snap from "../../../../static/icons/instagram2.png";
 const SideNav = (props) => {
     let { navdata } = props;
     return (
@@ -88,12 +88,12 @@ const SideNav = (props) => {
                 <div className="absolute bottom-0  right-0  left-0 mb-12">
                     {/* images_div */}
                     <div className="flex items-end justify-center ">
-                        <img src={Discord} alt="" className="h-6 pr-2.5" />
-                        <img src={Sidenav1} alt="" className="h-6 pr-2.5" />
+                        <img src={Discord} alt="" className="h-5 pr-2.5" />
+                        <img src={Sidenav1} alt="" className="h-5 pr-2.5" />
                         {/* instagram_icon */}
-                        <img src={Snap} alt="" className="h-6 pr-2.5" />
-                        <img src={Youtube} alt="" className="h-6 pr-2.5" />
-                        <img src={Hangout} alt="" className="h-6 pr-2.5" />
+                        <img src={Snap} alt="" className="h-5 pr-2.5" />
+                        <img src={Youtube} alt="" className="h-5 pr-2.5" />
+                        <img src={Hangout} alt="" className="h-5 pr-2.5" />
                     </div>
                 </div>
             </div>

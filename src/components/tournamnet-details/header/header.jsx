@@ -7,10 +7,10 @@ import Saudi from "../../../../static/icons/saudi.png";
 import Hamburger from "../../../../static/icons/hamburger.png";
 import Cross from "../../../../static/icons/cross.png";
 import Discord from "../../../../static/icons/discord.png";
-import Sidenav1 from "../../../../static/icons/sidenav1.png";
+import Sidenav1 from "../../../../static/icons/twitter1.png";
 import Youtube from "../../../../static/icons/youtube.png";
-import Hangout from "../../../../images/out.png";
-import Snap from "../../../../images/gram.png";
+import Hangout from "../../../../static/icons/twitch2.png";
+import Snap from "../../../../static/icons/instagram2.png";
 import SideNav from "../sideNav/sidenav";
 const Header = () => {
     const [navdata, setNavData] = useState(false);
@@ -32,28 +32,28 @@ const Header = () => {
                                     <img
                                         src={Discord}
                                         alt=""
-                                        className="h-6 pr-2.5"
+                                        className="h-5 pr-3"
                                     />
                                     <img
                                         src={Sidenav1}
                                         alt=""
-                                        className="h-6 pr-2.5"
+                                        className="h-5 pr-3"
                                     />
                                     {/* instagram_icon */}
                                     <img
                                         src={Snap}
                                         alt=""
-                                        className="h-6 pr-2.5"
+                                        className="h-5 pr-3"
                                     />
                                     <img
                                         src={Youtube}
                                         alt=""
-                                        className="h-6 pr-2.5"
+                                        className="h-5 pr-3"
                                     />
                                     <img
                                         src={Hangout}
                                         alt=""
-                                        className="h-6 pr-2.5"
+                                        className="h-5 pr-3"
                                     />
                                 </div>
                             </div>
