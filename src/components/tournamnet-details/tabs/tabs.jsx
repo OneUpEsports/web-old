@@ -20,7 +20,7 @@ const Tabs = (props) => {
                                             activeTab === "matches"
                                                 ? "active_ul"
                                                 : "  main_ul"
-                                        }  lg:w-36 inline-block text-white text-sm font-medium m-0 uppercase text-center cursor-pointer py-4 lg:py-0 px-4 lg:px-01`}
+                                        }  lg:w-36 inline-block text-white text-sm font-medium m-0 uppercase text-center cursor-pointer py-4 lg:py-0 px-4 lg:px-0`}
                                         onClick={() => {
                                             setActiveTab("matches");
                                         }}

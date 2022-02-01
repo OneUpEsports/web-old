@@ -5,7 +5,7 @@ import Saudi from "../../../../static/icons/saudi.png";
 import Discord from "../../../../static/icons/discord.png";
 import Sidenav1 from "../../../../static/icons/twitter1.png";
 import Youtube from "../../../../static/icons/youtube.png";
-import Hangout from "../../../../static/icons/twitch2.png";
+import twitch from "../../../../static/icons/twitch2.png";
 import Snap from "../../../../static/icons/instagram2.png";
 import { Link } from "gatsby";
 const SideNav = (props) => {
@@ -31,60 +31,6 @@ const SideNav = (props) => {
                         </li>
                     </ul>
                 </div>
-                {/* menu_open_flags */}
-                <div className="menu_open_flags ">
-                    {/* menu_ul */}
-                    <ul className="menu_ul flex justify-center flex-wrap">
-                        <li className="flex items-center py-3 px-3">
-                            <img src={French} alt="" className="h-6 pr-2.5" />
-                            <span className="text-sm font-semibold text-white">
-                                FR
-                            </span>
-                        </li>
-                        <li className="flex items-center py-3 px-3">
-                            <img src={Uk} alt="" className="h-6 pr-2.5" />
-                            <span className="text-sm font-semibold text-white">
-                                EN
-                            </span>
-                        </li>
-                        <li className="flex items-center py-3 px-3">
-                            <img src={Uk} alt="" className="h-6 pr-2.5" />
-                            <span className="text-sm font-semibold text-white">
-                                ES
-                            </span>
-                        </li>
-                        <li className="flex items-center py-3 px-3">
-                            <img src={Saudi} alt="" className="h-6 pr-2.5" />
-                            <span className="text-sm font-semibold text-white">
-                                AR
-                            </span>
-                        </li>
-                        <li className="flex items-center py-3 px-3">
-                            <img src={Uk} alt="" className="h-6 pr-2.5" />
-                            <span className="text-sm font-semibold text-white">
-                                De
-                            </span>
-                        </li>
-                        <li className="flex items-center py-3 px-3">
-                            <img src={Uk} alt="" className="h-6 pr-2.5" />
-                            <span className="text-sm font-semibold text-white">
-                                PT
-                            </span>
-                        </li>
-                        <li className="flex items-center py-3 px-3">
-                            <img src={Uk} alt="" className="h-6 pr-2.5" />
-                            <span className="text-sm font-semibold text-white">
-                                IT
-                            </span>
-                        </li>
-                        <li className="flex items-center py-3 px-3">
-                            <img src={Uk} alt="" className="h-6 pr-2.5" />
-                            <span className="text-sm font-semibold text-white">
-                                JA
-                            </span>
-                        </li>
-                    </ul>
-                </div>
                 {/* social_media_icon */}
                 <div className="absolute bottom-0  right-0  left-0 mb-12">
                     {/* images_div */}
@@ -103,7 +49,7 @@ const SideNav = (props) => {
                             <img src={Youtube} alt="" className="h-5 pr-2.5" />
                         </Link>
                         <Link to="https://bit.ly/ougtwitch">
-                            <img src={Hangout} alt="" className="h-5 pr-2.5" />
+                            <img src={twitch} alt="" className="h-5 pr-2.5" />
                         </Link>
                     </div>
                 </div>
