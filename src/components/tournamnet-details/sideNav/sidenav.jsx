@@ -7,6 +7,7 @@ import Sidenav1 from "../../../../static/icons/twitter1.png";
 import Youtube from "../../../../static/icons/youtube.png";
 import Hangout from "../../../../static/icons/twitch2.png";
 import Snap from "../../../../static/icons/instagram2.png";
+import { Link } from "gatsby";
 const SideNav = (props) => {
     let { navdata } = props;
     return (
@@ -88,12 +89,22 @@ const SideNav = (props) => {
                 <div className="absolute bottom-0  right-0  left-0 mb-12">
                     {/* images_div */}
                     <div className="flex items-end justify-center ">
-                        <img src={Discord} alt="" className="h-5 pr-2.5" />
-                        <img src={Sidenav1} alt="" className="h-5 pr-2.5" />
+                        <Link to="https://bit.ly/ougdiscord">
+                            <img src={Discord} alt="" className="h-5 pr-2.5" />
+                        </Link>
+                        <Link to="https://bit.ly/ougtwitter">
+                            <img src={Sidenav1} alt="" className="h-5 pr-2.5" />
+                        </Link>
                         {/* instagram_icon */}
-                        <img src={Snap} alt="" className="h-5 pr-2.5" />
-                        <img src={Youtube} alt="" className="h-5 pr-2.5" />
-                        <img src={Hangout} alt="" className="h-5 pr-2.5" />
+                        <Link to="https://bit.ly/ouginstagram">
+                            <img src={Snap} alt="" className="h-5 pr-2.5" />
+                        </Link>
+                        <Link to="https://bit.ly/ougyoutube">
+                            <img src={Youtube} alt="" className="h-5 pr-2.5" />
+                        </Link>
+                        <Link to="https://bit.ly/ougtwitch">
+                            <img src={Hangout} alt="" className="h-5 pr-2.5" />
+                        </Link>
                     </div>
                 </div>
             </div>

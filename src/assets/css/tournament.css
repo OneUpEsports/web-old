@@ -1,4 +1,4 @@
-.main_container_of_tournament{
+.main_container_of_tournament {
     min-height: 100vh;
     background: #181b28;
 }
@@ -24,14 +24,12 @@
     display: inline-block;
     padding: 0 5px;
 }
-.tournamens_heading_flag_arrow_div .heading_div h4 {
-    padding: 5px 10px;
-    margin: 0px 10px;
+.tag_twitter_instagram_div .heading_div h4 {
+    padding: 5px 14px;
 }
-.tournamens_heading_flag_arrow_div .heading_div h4:hover {
+.tag_twitter_instagram_div .heading_div h4:hover {
     background-color: hsla(0, 0%, 100%, 0.15);
-    padding: 5px 0px;
-    margin: 0px 10px;
+    padding: 5px 14px;
     border-radius: 4px;
 }
 
@@ -423,7 +421,7 @@
     transition: all 0.6s ease;
     transform: rotate(-180deg);
 }
-.participants_main_div .card_div  {
+.participants_main_div .card_div {
     background-color: #1a1a1a;
 }
 .rules_main_div
