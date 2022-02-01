@@ -22,13 +22,17 @@ const SideNav = (props) => {
             >
                 {/* menu_open_navigations */}
                 <div className="py-24">
-                    <ul className="px-10">
-                        <li className="py-3 text-base font-semibold text-white uppercase">
+                    <ul className="px-10 ">
+                       <Link to="/">
+                        <li className="py-3 cursor-pointer text-base font-semibold text-white uppercase">
                             HOME
                         </li>
-                        <li className="py-3 text-base font-semibold text-white uppercase">
+                        </Link>
+                        <Link to="/games">
+                        <li className="py-3 text-base cursor-pointer font-semibold text-white uppercase">
                             TOURNAMENTS
                         </li>
+                        </Link>
                     </ul>
                 </div>
                 {/* social_media_icon */}
