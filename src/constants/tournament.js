@@ -6,7 +6,7 @@ export const PrizeList = [
       title:"+ 5Jerseys G2",
       place: "1ST PLACE",
       sponser: "Reward sponsored by",
-      Placeholdertext: "Nicecactus",
+      Placeholdertext: "OneUpGaming",
       circleColor: "yellow_dot_div",
     },
     {
@@ -15,7 +15,7 @@ export const PrizeList = [
       title:"",
       place: "2nd PLACE",
       sponser: "Reward sponsored by",
-      Placeholdertext: "Nicecactus",
+      Placeholdertext: "OneUpGaming",
       circleColor: "gray_dot_div",
     },
   ];
