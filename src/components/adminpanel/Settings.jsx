@@ -38,18 +38,21 @@ const Settings = ({children}) => {
                                 </select>
                                <input   className ={inputStyle} type="text" placeholder="Date and time"/>
                                <input className ={inputStyle} type="text" name="" id="" placeholder="Region"/>
-                         
-
-                       </div>
-                       <div className="lg:w-1/2 lg:ml-4 w-full  items-center justify-center text-md">
-                       <select  className={inputStyle} name = "dropdown" name="Select a status" defaultValue="Select Status">
+                               <select  className={inputStyle} name = "dropdown" name="Select a status" defaultValue="Select Status">
                                    <option selected="selected">Select Status</option>
                                     <option value = "status1">Status1</option>
                                     <option value = "status2">Status2</option>
                                     <option value = "status3">Status2</option>
                                 </select>
+                         
 
-                                <input className ={inputStyle}  type="text" placeholder="Price money (euro)"/>
+                       </div>
+                       <div className="lg:w-1/2 lg:ml-4 w-full  items-center justify-center text-md">
+                      
+
+                                <input className ={inputStyle}  type="text" placeholder="1st Place Price"/>
+                                <input className ={inputStyle}  type="text" placeholder="2nd Place Price"/>
+                                <input className ={inputStyle}  type="text" placeholder="3rd Place Price"/>
 
                                 {/* Mode */}
                                 <div className=" ">
