@@ -12,7 +12,7 @@ const Home=()=>{
                        <div className=" col-span-4 pl-4"><h4 >Form</h4></div>
                        <div className="col-span-3"><h4 className="w-fit ml-4">Game</h4></div>
                        <div className=" col-span-1"><h4 className="w-fit m-auto">Joined</h4></div>
-                       <div className=" col-span-1"><h4 className="w-fit m-auto">Id</h4></div>
+                       <div className=" col-span-1"><h4 className="w-fit m-auto">MatchID</h4></div>
                        <div className=" col-span-1"><h4 className="w-fit m-auto">Type</h4></div>
                        <div className=" col-span-3"><h4 className="w-fit m-auto">Status</h4></div>
                        <div className=" col-span-1"><h4 className="w-fit m-auto">Edit</h4></div>
