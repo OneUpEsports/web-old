@@ -27,7 +27,7 @@ const Settings = ({children}) => {
                                     <option value = "csgo">CSGO</option>
                                 </select>
                                <input className ={inputStyle} type="text" placeholder="Tournament Name"/>
-                               <input className ={inputStyle} type="number" placeholder="Min Players >3"/>
+                               <input className ={inputStyle} type="number" placeholder="Min Players >4"/>
                                <input className ={inputStyle} type="number" placeholder="Max Players"/>
                                <input className ={inputStyle} type="text" placeholder="Date and time"/>
                                <input className ={inputStyle} type="text" name="" id="" placeholder="Region"/>
@@ -42,7 +42,7 @@ const Settings = ({children}) => {
                                     <option value = "status3">Status2</option>
                                 </select>
 
-                                <input className ={inputStyle}  type="text" placeholder="Price money (eur)"/>
+                                <input className ={inputStyle}  type="text" placeholder="Price money (euro)"/>
 
                                 {/* Mode */}
                                 <div className="text-black ">
@@ -55,8 +55,8 @@ const Settings = ({children}) => {
                                 {/* Type */}
                                 <div>
                                 <h3 className="font-bold">Tournament Type</h3>
-                                <input className="mr-2 h-5 w-5 " type="radio" id="bracet" name="tournament_type" value="bracet"/>
-                                <label className="mr-4" for="bracet">Bracet</label>
+                                <input className="mr-2 h-5 w-5 " type="radio" id="bracket" name="tournament_type" value="bracket"/>
+                                <label className="mr-4" for="bracet">Bracket</label>
                                 <input className="mr-2 h-5 w-5 " type="radio" id="vs" name="tournament_type" value="vs"/>
                                 <label for="vs">1vs1,2vs2,3vs3</label>
                                 </div>
@@ -78,7 +78,7 @@ const Settings = ({children}) => {
                                 <input className="mr-2 h-5 w-5 " type="checkbox" id="ps4/5" name="ps4/5" value="PS4/5"/>
                                 <label className="mr-4" for="ps4/5">ps4/5</label>
                                 <input className="mr-2 h-5 w-5" type="checkbox" id="xb/xbx" name="xb/xbx" value="XB/XBX"/>
-                                <label className="mr-4" for="xb/xbx">XB/XBX</label><br/>
+                                <label className="mr-4" for="xb/xbx">xbox/xbox-series</label><br/>
                                 <input className="mr-2 h-5 w-5 " type="checkbox" id="mobile" name="mobile" value="Mobile"/>
                                 <label className="mr-4" for="mobile">Mobile</label>
                                 <input className="mr-2 h-5 w-5 " type="checkbox" id="pc" name="pc" value="Pc"/>

@@ -18,13 +18,13 @@ const Home=()=>{
                        <div className=" col-span-1"><h4 className="w-fit m-auto">Edit</h4></div>
                    </div>
                    <div className="w-full">
-                      <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="32" id="#123456" type="Bracket" status="Starts in 182min" />
-                     <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="32" id="#123456" type="Bracket" status="Starts in 182min" />
-                      <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="32" id="#123456" type="Bracket" status="Starts in 182min" />
-                      <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="32" id="#123456" type="Bracket" status="Starts in 182min" />
-                      <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="32" id="#123456" type="Bracket" status="Starts in 182min" />
-                      <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="32" id="#123456" type="Bracket" status="Starts in 182min" />
-                      <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="32" id="#123456" type="Bracket" status="Starts in 182min" />
+                      <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="06" total="32" id="#123456" type="Bracket" status="Starts in 182min" />
+                     <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="06" total="32" id="#123456" type="Bracket" status="Starts in 182min" />
+                      <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="06" total="32" id="#123456" type="Bracket" status="Starts in 182min" />
+                      <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="06" total="32" id="#123456" type="Bracket" status="Starts in 182min" />
+                      <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="06" total="32" id="#123456" type="Bracket" status="Starts in 182min" />
+                      <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="06" total="32" id="#123456" type="Bracket" status="Starts in 182min" />
+                      <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="06" total="32" id="#123456" type="Bracket" status="Starts in 182min" />
                   
                    </div>
                </div>
