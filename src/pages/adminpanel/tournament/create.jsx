@@ -28,7 +28,18 @@ const Home=()=>{
                                 </select>
                                <input className ={inputStyle} type="text" placeholder="Tournament Name"/>
                                <input className ={inputStyle} type="number" placeholder="Min Players >4"/>
-                               <input className ={inputStyle} type="number" placeholder="Max Players"/>
+                               <select  className={inputStyle} name = "dropdown" name="Max-Players" defaultValue="Max Players">
+                                <option selected="selected">Max Players</option>
+                                    <option value = "4">4</option>
+                                    <option value = "8">8</option>
+                                    <option value = "16">16</option>
+                                    <option value = "32">32</option>
+                                    <option value = "64">64</option>
+                                    <option value = "128">128</option>
+                                    <option value = "256">256</option>
+                                    <option value = "512">512</option>
+                                    <option value = "1024">1024</option>
+                                </select>
                                <input className ={inputStyle} type="text" name="" id="" placeholder="Date and time"/>
                                <input className ={inputStyle} type="text" name="region" id="region" placeholder="Region"/>
                          
@@ -57,8 +68,16 @@ const Home=()=>{
                                 <h3 className="font-bold">Tournament Type</h3>
                                 <input className="mr-2 h-5 w-5 " type="radio" id="bracket" name="tournament_type" value="bracket"/>
                                 <label className="mr-4" for="bracet">Bracket</label>
-                                <input className="mr-2 h-5 w-5 " type="radio" id="vs" name="tournament_type" value="vs"/>
-                                <label for="vs">1vs1,2vs2,3vs3</label>
+                                <input className="mr-2 h-5 w-5 " type="radio" id="1vs1" name="tournament_type" value="1vs1"/>
+                                <label className="mr-4" for="1vs1">1vs1</label>
+                                <input className="mr-2 h-5 w-5 " type="radio" id="2vs2" name="tournament_type" value="2vs2"/>
+                                <label className="mr-4" for="2vs2">2vs2</label>
+                                <input className="mr-2 h-5 w-5 " type="radio" id="3vs3" name="tournament_type" value="3vs3"/>
+                                <label className="mr-4" for="3vs3">3vs3</label><br/>
+                                <input className="mr-2 h-5 w-5 " type="radio" id="4vs4" name="tournament_type" value="4vs4"/>
+                                <label className="mr-4" for="4vs4">4vs4</label>
+                                <input className="mr-2 h-5 w-5 " type="radio" id="5vs5" name="tournament_type" value="5vs5"/>
+                                <label className="mr-4" for="5vs5">5vs5</label>
                                 </div>
                                 {/* Period */}
                                 <div>
