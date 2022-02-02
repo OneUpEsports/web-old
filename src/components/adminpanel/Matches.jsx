@@ -7,7 +7,7 @@ import {BiSearchAlt2} from "react-icons/bi"
 import Match from "./Match"
 const Matches = ({children}) => {    
     return (
-        <div className="mr-4 top-0 w-full flex flex-col items-center justify-center py-4  pr-8">
+        <div className="lg:mr-4 top-0 w-full flex flex-col items-center justify-center py-4  lg:pr-8">
         <div className="border-b-4 w-full relative">
             <BiSearchAlt2 className="absolute top-1 left-3"/>
             <input type="text" placeholder="Enter a match id" className="outline-none pl-10"/>

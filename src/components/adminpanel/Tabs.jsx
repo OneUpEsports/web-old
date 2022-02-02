@@ -68,7 +68,7 @@ const Tabs = ({ color }) => {
               </a>
             </li>
           </ul>
-          <div className="relative flex flex-col min-w-0 break-words  w-full mb-6  ">
+          <div className="relative flex flex-col min-w-0 break-words  lg:w-full w-fit mb-6 overflow-x-scroll  scrollbar-hide ">
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block m-auto" : "hidden"} id="link1">
