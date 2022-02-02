@@ -56,7 +56,10 @@ const Rules = () => {
                                     {/* price_heading */}
                                     <div className="price_heading pb-4">
                                         <p className="font-bold ">
-                                            {single.prize}<span className="text-white">{single.title}</span> 
+                                            {single.prize}
+                                            <span className="text-white">
+                                                {single.title}
+                                            </span>
                                         </p>
                                     </div>
                                     {/* places_div */}
@@ -80,10 +83,6 @@ const Rules = () => {
                                     </div>
                                     {/* image_text_div */}
                                     <div className="flex items-center pt-1.5">
-                                        {/* image_div */}
-                                        <div>
-                                            <img src={Path} alt="" />
-                                        </div>
                                         <p className="text-sm text-white font-bold pl-2">
                                             {single.Placeholdertext}
                                         </p>
@@ -96,12 +95,14 @@ const Rules = () => {
                     <div className="rules_main_div my-12 lg:my-0  pb-0 lg:pb-14 pt-0 lg:pt-8">
                         {/* rules_details_div */}
                         <div>
-                            <p className="text-base font-bold">DETAILED RULES</p>
+                            <p className="text-base font-bold">
+                                DETAILED RULES
+                            </p>
                         </div>
                         {/* green_gray_bar_div */}
-                        <div className="green_gray_bar_div pb-4 flex items-center">  
-                        <div className="green_bar_div w-16 h-0.5"></div>
-                        <div className="gray_bar_div w-full"></div>
+                        <div className="green_gray_bar_div pb-4 flex items-center">
+                            <div className="green_bar_div w-16 h-0.5"></div>
+                            <div className="gray_bar_div w-full"></div>
                         </div>
                         {/* General_rules */}
                         <div

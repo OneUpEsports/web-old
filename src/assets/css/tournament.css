@@ -24,14 +24,12 @@
     display: inline-block;
     padding: 0 5px;
 }
-.tournamens_heading_flag_arrow_div .heading_div h4 {
-    padding: 5px 10px;
-    margin: 0px 10px;
+.tag_twitter_instagram_div .heading_div h4{
+padding: 5px 14px;
 }
-.tournamens_heading_flag_arrow_div .heading_div h4:hover {
+.tag_twitter_instagram_div .heading_div h4:hover {
     background-color: hsla(0, 0%, 100%, 0.15);
-    padding: 5px 0px;
-    margin: 0px 10px;
+    padding: 5px 14px;
     border-radius: 4px;
 }
 
@@ -245,7 +243,7 @@
     .left_side_div_up
     .image_details_div
     .players_text {
-    color: #b2f617;
+    color: #b154f0;
 }
 
 .main_info_div
@@ -281,7 +279,7 @@
     .right_side_down_div
     .button_div
     button {
-    background-color: #b2f617;
+    background-color: #b154f0;
 }
 /* TOURNAMENT_INFO_CSS_ENDS_HERE */
 
@@ -291,12 +289,12 @@
 }
 /* onhover_tabs_class */
 .tabs_content_div .main_lists_div .main_ul:hover {
-    color: #b2f617;
+    color: #b154f0;
 }
 .tabs_content_div .main_lists_div .main_ul:after {
     content: "";
     height: 3px;
-    border-bottom: 4px solid #b2f617;
+    border-bottom: 4px solid #b154f0;
     transition: all 0.2s ease;
     transform: scaleX(0);
     display: block;
@@ -307,12 +305,12 @@
 }
 /* active_tabs_class */
 .tabs_content_div .main_lists_div .active_ul {
-    color: #b2f617;
+    color: #b154f0;
 }
 .tabs_content_div .main_lists_div .active_ul:after {
     content: "";
     height: 3px;
-    border-bottom: 4px solid #b2f617;
+    border-bottom: 4px solid #b154f0;
     transition: all 0.2s ease;
     transform: scaleX(0);
     display: block;
@@ -340,7 +338,7 @@
     color: #818797 !important;
 }
 .matches_main_div .button_div button {
-    background-color: #b2f617;
+    background-color: #b154f0;
 }
 /* MATCH_TAB_CSS_ENDS_HERE */
 
@@ -353,7 +351,7 @@
     border-right: 1px solid #292b2d;
 }
 .reward_main_div .reward_list_main_div .prize_main_div .price_heading p {
-    color: #b2f617;
+    color: #b154f0;
     font-size: 20px;
 }
 .reward_main_div .reward_list_main_div .places_div .place_title_div p {
@@ -389,8 +387,8 @@
 }
 
 .rules_main_div .green_gray_bar_div .green_bar_div {
-    background-color: #b2f617;
-    box-shadow: 0 -2px 4px #b2f617;
+    background-color: #b154f0;
+    box-shadow: 0 -2px 4px #b154f0;
 }
 .rules_main_div .green_gray_bar_div .gray_bar_div {
     background-color: #43474a;
@@ -400,10 +398,10 @@
     background-color: #1a1a1a;
 }
 .rules_main_div .dropdown_div .text_div .last_p span {
-    color: #b2f617;
+    color: #b154f0;
 }
 .rules_main_div .dropdown_div .text_div .support_contact_p span {
-    color: #b2f617;
+    color: #b154f0;
 }
 .rules_main_div .dropdown_div .text_div .Game_preparation span {
     color: #ff0000;
@@ -437,7 +435,7 @@
 }
 
 .green_border {
-    border-left: 10px solid #b2f617;
+    border-left: 10px solid #b154f0;
 }
 
 .gray_border {
@@ -451,7 +449,7 @@
     font-weight: 600;
 }
 .brackets_main_container .player_winner {
-    border: 1px solid #b2f617;
+    border: 1px solid #b154f0;
     border-width: 1px;
     border-radius: 1px;
 }
@@ -508,7 +506,7 @@
     .rounds_status_main_div
     .best_of_heading
     p {
-    color: #b2f617;
+    color: #b154f0;
 }
 .rounds_main_bg_color_div
     .rounds_content_main_div
