@@ -12,6 +12,7 @@ import LatestBlogArea from "../container/home/latest-blog";
 import { graphql } from "gatsby";
 import { normalizedData } from "@utils/functions";
 import FunfactArea from "../container/home/funfact";
+import { Helmet } from "react-helmet";
 
 const IndexPage = ({ data }) => {
     const globalContent = normalizedData(data?.allGeneral?.nodes || []);
@@ -23,6 +24,7 @@ const IndexPage = ({ data }) => {
                 ...globalContent["footer"],
             }}
         >
+            <Helmet title="OneUpGaming" defer={false} />
             <SEO title="Home" pathname="/" />
             <HeroArea data={content["hero-section"]} />
             <WelcomeFeaturesArea data={content["welcome-section"]} />

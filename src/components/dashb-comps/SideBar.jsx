@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
+import { Helmet } from "react-helmet";
+
 const SideBar = ({ children }) => {
     var imgStyle = "";
 
@@ -16,6 +18,7 @@ const SideBar = ({ children }) => {
                         />
                     </Link>
                 </li>
+                <Helmet title="OneUpGaming" defer={false} />
                 <hr className="w-24 mb-4" />
                 <li className="mb-4 w-fit m-auto">
                     <Link to="/dashboard/games">
