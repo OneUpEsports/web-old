@@ -4,44 +4,44 @@ import MainLayout from "../../../components/adminpanel/MainLayout"
 
 const Home=()=>{
     const inputStyle=`lg:text-md text-sm block shadow appearance-none border border-[#707070] 
-    rounded lg:w-2/3 w-full py-2 lg:px-3 text-gray-700 mb-3 leading-tight
-     focus:outline-none focus:shadow-outline h-14`
+    rounded lg:w-2/3 w-full py-2 lg:px-3  mb-3 leading-tight
+     focus:outline-none focus:shadow-outline h-12 bg-[#707070] text-white`  
     return(
         <MainLayout>
                 <div className="flex items-center mb-8"><h2>Tournaments &gt; Create</h2></div>
                <div className=" flex flex-col items-center w-full" >
-                   <form className="flex lg:flex-row flex-col lg:w-4/5 lg:mr-4 w-full items-center justify-center ">
+               <form className="flex lg:flex-row flex-col w-full m-auto items-center justify-center ">
                        <div className="lg:w-1/2 w-full flex flex-col items-center justify-center">
                                 <select  className={inputStyle} name = "dropdown" name="Select a game" defaultValue="Select a game">
-                                <option selected="selected">Select a game</option>
-                                    <option value = "Clash-of-Clans">Clash of Clans</option>
-                                    <option value = "apex-legends">Apex Legends</option>
-                                    <option value = "call-of-duty-mobile">Call of duty mobile</option>
-                                    <option value = "call-of-duty-warzone">Call of duty warzone</option>
-                                    <option value = "fifa-22">Fifa 22</option>
-                                    <option value = "fortnite">Fortnite</option>
-                                    <option value = "league-of-legends">League of legends</option>
-                                    <option value = "rainbow-six-siege">Rainbow six siege</option>
-                                    <option value = "rocket_league">Rocket League</option>
-                                    <option value = "valorant">Valorant</option>
-                                    <option value = "csgo">CSGO</option>
+                                    <option className="text-white"  selected="selected">Select a game</option>
+                                    <option  className="text-white" value = "Clash-of-Clans">Clash of Clans</option>
+                                    <option className="text-white"  value = "apex-legends">Apex Legends</option>
+                                    <option className="text-white"  value = "call-of-duty-mobile">Call of duty mobile</option>
+                                    <option className="text-white"  value = "call-of-duty-warzone">Call of duty warzone</option>
+                                    <option className="text-white"  value = "fifa-22">Fifa 22</option>
+                                    <option className="text-white"  value = "fortnite">Fortnite</option>
+                                    <option className="text-white"  value = "league-of-legends">League of legends</option>
+                                    <option className="text-white"  value = "rainbow-six-siege">Rainbow six siege</option>
+                                    <option className="text-white"  value = "rocket_league">Rocket League</option>
+                                    <option className="text-white"  value = "valorant">Valorant</option>
+                                    <option className="text-white"  value = "csgo">CSGO</option>
                                 </select>
                                <input className ={inputStyle} type="text" placeholder="Tournament Name"/>
                                <input className ={inputStyle} type="number" placeholder="Min Players >4"/>
                                <select  className={inputStyle} name = "dropdown" name="Max-Players" defaultValue="Max Players">
                                 <option selected="selected">Max Players</option>
-                                    <option value = "4">4</option>
-                                    <option value = "8">8</option>
-                                    <option value = "16">16</option>
-                                    <option value = "32">32</option>
-                                    <option value = "64">64</option>
-                                    <option value = "128">128</option>
-                                    <option value = "256">256</option>
-                                    <option value = "512">512</option>
-                                    <option value = "1024">1024</option>
+                                    <option  className="text-white"  value = "4">4</option>
+                                    <option className="text-white"  value = "8">8</option>
+                                    <option className="text-white"  value = "16">16</option>
+                                    <option className="text-white"  value = "32">32</option>
+                                    <option className="text-white"  value = "64">64</option>
+                                    <option  className="text-white" value = "128">128</option>
+                                    <option  className="text-white" value = "256">256</option>
+                                    <option className="text-white"  value = "512">512</option>
+                                    <option  className="text-white" value = "1024">1024</option>
                                 </select>
-                               <input className ={inputStyle} type="text" name="" id="" placeholder="Date and time"/>
-                               <input className ={inputStyle} type="text" name="region" id="region" placeholder="Region"/>
+                               <input   className ={inputStyle} type="text" placeholder="Date and time"/>
+                               <input className ={inputStyle} type="text" name="" id="" placeholder="Region"/>
                          
 
                        </div>
@@ -56,7 +56,7 @@ const Home=()=>{
                                 <input className ={inputStyle}  type="text" placeholder="Price money (euro)"/>
 
                                 {/* Mode */}
-                                <div className="text-black ">
+                                <div className=" ">
                                 <h3 className="font-bold">Mode</h3>
                                 <input className="mr-2 h-5 w-5 text-[#000]"  type="radio" id="individual" name="mode" value="individual"/>
                                 <label className="mr-4 " for="individual">Individual</label>

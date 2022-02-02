@@ -19,7 +19,7 @@ const Home=()=>{
                    </div>
                    <div className="w-full">
                       <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="06" total="32" id="#123456" type="Bracket" status="Starts in 182min" />
-                     <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="06" total="32" id="#123456" type="Bracket" status="Starts in 182min" />
+                      <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="06" total="32" id="#123456" type="Bracket" status="Starts in 182min" />
                       <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="06" total="32" id="#123456" type="Bracket" status="Starts in 182min" />
                       <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="06" total="32" id="#123456" type="Bracket" status="Starts in 182min" />
                       <Tournament image="/img/dashboard/NoPath.png" form="Test Tournament" game="Counter Strike:CO" joined="06" total="32" id="#123456" type="Bracket" status="Starts in 182min" />

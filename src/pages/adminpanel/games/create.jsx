@@ -13,9 +13,9 @@ const Home=()=>{
     const [emptyBanner,setEmptyBanner]=React.useState(true);
     const [emptyNavbar,setEmptyNavbar]=React.useState(true);
     const [emptyAccount,setEmptyAccount]=React.useState(true);
-    const inputStyle=`text-md block shadow appearance-none border border-[#707070] 
-    rounded w-full px-3 text-gray-700 mb-1 leading-tight
-     focus:outline-none focus:shadow-outline h-12`
+    const inputStyle=`lg:text-md text-sm block shadow appearance-none border border-white
+    rounded lg:w-2/3 w-full py-2 lg:px-3  mb-3 leading-tight
+     focus:outline-none focus:shadow-outline h-12 bg-[#707070] text-white`   
     
      const onChangeBanner = (imageL) => {
         setBannerImage(imageL);
@@ -32,11 +32,11 @@ const Home=()=>{
     return(
 
         <MainLayout>
-                    <div className="flex items-center mb-8"><h2>Games &gt; Create</h2></div>
+         <div className="flex items-center mb-8"><h2>Games &gt; Create</h2></div>
                
              
-               <div className="w-full h-62 bg-[#f8fafb] flex flex-col items-center justify-center px-4 py-2">
-                   <div className="w-full flex">
+               <div className="w-full h-62  bg-[#707070] flex flex-col items-center justify-center px-4 py-2 ">
+                   <div className="w-full flex ">
                        <div>
 
                        <input className ={inputStyle} type="text" placeholder="Game Name"/>
@@ -57,21 +57,21 @@ const Home=()=>{
                                 <label for="pc">Pc</label>
                                 </div>
                        </div>
-                       <div className="flex mx-6  items-center">
-                           <ImageUploading value={bannerImage}  onChange={onChangeBanner} maxNumber={1} dataURLKey="data_url"  className="flex items-center justify-center">
+                       <div className="flex mx-6  items-center  ">
+                           <ImageUploading value={bannerImage}  onChange={onChangeBanner} maxNumber={1} dataURLKey="data_url"  className="flex items-center justify-center   ">
                                     {({
                                     imageList,onImageUpload,onImageRemoveAll, onImageUpdate, onImageRemove,isDragging,dragProps,
                                     }) => (
-                                        <div className="upload__image-wrapper rounded border-2 ">
+                                        <div className="upload__image-wrapper rounded border-2  bg-[#707070]">
                                             <button 
                                             style={isDragging ? { opacity: 0.5 } : undefined, {background:'white'}}
                                             onClick={onImageUpload}
                                             {...dragProps}
                                             
                                             >
-                                            <div className="w-52 h-36 flex flex-col items-center justify-center" style={emptyBanner? {display: 'block',opacity:0.7,background:'white'}:{display:'none'}}>
+                                            <div className="w-52 h-36 flex flex-col items-center justify-center text-[#707070]" style={emptyBanner? {display: 'block',opacity:0.7,background:'white'}:{display:'none'}}>
                                                 <h4>DashBoard Banner</h4>
-                                                <MdCloudUpload className="text-2xl w-fit m-auto"/>
+                                                <MdCloudUpload className="text-2xl w-fit m-auto "/>
                                                 <h6>max 500kb</h6>
                                             </div>
                                             </button>
@@ -103,7 +103,7 @@ const Home=()=>{
                                             {...dragProps}
                                             
                                             >
-                                            <div className="w-24 h-24 flex  items-center justify-center" style={emptyAccount? {display: 'block',opacity:0.7,background:'white'}:{display:'none'}}>
+                                            <div className="w-24 h-24 flex  items-center justify-center  text-[#707070]" style={emptyAccount? {display: 'block',opacity:0.7,background:'white'}:{display:'none'}}>
                                                 <MdCloudUpload className="text-2xl w-fit m-auto"/>
                                                 
                                                 
@@ -139,7 +139,7 @@ const Home=()=>{
                                          
                                             
                                             >
-                                            <div className="w-24 h-24 flex flex-col items-center justify-center" style={emptyNavbar? {display: 'block',opacity:0.7,background:'white'}:{display:'none'}}>
+                                            <div className="w-24 h-24 flex flex-col items-center justify-center  text-[#707070]" style={emptyNavbar? {display: 'block',opacity:0.7,background:'white'}:{display:'none'}}>
                                                 
                                                 <MdCloudUpload className="text-2xl w-fit m-auto"/>
                                                 
@@ -170,9 +170,9 @@ const Home=()=>{
                    </div>
                </div>
 
-               <div className="w-full mt-8">
+               <div className="w-full mt-8 ">
                <h3 className="font-bold">Game List</h3>
-               <div className="w-full bg-[#f8fafb]">
+               <div className="w-full  bg-[#707070] pl-2 py-2">
                <Game name="Fifa 22" ps="ps4/5" pc="pc" mobile="mobile" xbx="XBX" image="/img/dashboard/NoPath - Kopie (7).png"/>
                <Game name="Fifa 22" ps="ps4/5" pc="pc" mobile="mobile" xbx="XBX" image="/img/dashboard/NoPath - Kopie (7).png"/>
                <Game name="Fifa 22" ps="ps4/5" pc="pc" mobile="mobile" xbx="XBX" image="/img/dashboard/NoPath - Kopie (7).png"/>

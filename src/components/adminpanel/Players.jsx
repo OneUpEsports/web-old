@@ -10,7 +10,7 @@ const Players = ({children}) => {
         <div className="lg:mr-4 top-0 w-full flex flex-col items-center justify-center py-4  lg:pr-8 overflow-x-scroll  scrollbar-hide">
             <div className="border-b-4 w-full relative">
                 <BiSearchAlt2 className="absolute top-1 left-3"/>
-                <input type="text" placeholder="Enter a player id" className="outline-none pl-10"/>
+                <input type="text" placeholder="Enter a player id" className="outline-none pl-10 bg-[#707070] text-white w-full"/>
             </div>
             <div className="lg:w-full   overflow-x-scroll  scrollbar-hide">
                 <Player image="/img/dashboard/NoPath.png" name="player234" email="email@oneupmail.com" clan="Max Mastermann" id="4343535" ban="Ban" warn="Warn"/>

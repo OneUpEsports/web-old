@@ -5,7 +5,7 @@ import {AiFillSetting} from "react-icons/ai"
 const Game = ({image,name,ps,xbx,mobile,pc,edit}) => {
     return(
  
-        <div className="flex items-center grid grid-cols-9 grid-flow-col-dense lg:w-full w-[calc(1000px)] bg-[#f8fafb]  h-fit my-3 overflow-x-scroll  scrollbar-hide ">
+        <div className="flex items-center grid grid-cols-9 grid-flow-col-dense lg:w-full w-[calc(1000px)] bg-[#707070]  h-fit my-3 overflow-x-scroll  scrollbar-hide ">
                        <div className=" col-span-2"><h4 className=" "><img className="h-28 w-34" src={image} alt=""/></h4></div>
                        <div className=" col-span-2"><h4 className="   m-auto  font-bold ">{name}</h4></div>
                        <div className=" col-span-1"><h4 className=" font-bold">{ps}</h4></div>

@@ -4,12 +4,12 @@ import { Helmet } from "react-helmet";
 
 const MainLayout = ({ children }) => {
     return (
-        <div className="absolute  bottom-0 right-0 h-full w-screen bg-white overflow-x-hidden overflow-y-scroll ">
+        <div className="absolute  bottom-0 right-0 h-full w-screen bg-white overflow-x-hidden overflow-y-scroll bg-[#181b28] text-white ">
             <div className="flex   w-full h-full">
                 <SideBar />
 
                 <Helmet title="OneUpGaming • Admin" defer={false} />
-                <div className="flex flex-col  w-4/5 h-full py-16 lg:pl-6 lg:ml-64 ml-28">
+                <div className="flex flex-col  w-4/5 h-full py-16 lg:pl-6 lg:ml-64 ml-28 ">
                     <div className="lg:h-full h-fit lg:ml-16">{children}</div>
                 </div>
             </div>
