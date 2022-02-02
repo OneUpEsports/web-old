@@ -66,6 +66,13 @@ const Footer = ({ data }) => {
                                     >
                                         Privacy Policy{" "}
                                     </a>
+                                    <span className="mx-3"> | </span>
+                                    <a
+                                        href="/socials"
+                                        className="text-white hover:text-primary"
+                                    >
+                                        Socials{" "}
+                                    </a>
                                 </div>
                             </div>
                         </div>
