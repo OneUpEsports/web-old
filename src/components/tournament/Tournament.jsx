@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react"
 import {FiClock} from "react-icons/fi"
 
@@ -27,11 +28,11 @@ const Tournament=({date,format,rule,price,up,down,leftNb,rightNb,startin})=>{
             <div className="flex  items-center justify-center"><h4 className="w-fit m-auto font-bold text-md">{price}<span className="text-sm">€</span> </h4></div>
             <div className="flex  items-center justify-center"><h4 className="w-fit m-auto"><span className=" font-bold text-md">{up}</span> /{down} </h4></div>
             
-            <div className="flex  items-center justify-center hidden md:block "><button className="text-sm bg-[#292d30] px-3 py-3 font-bold">See tournament</button></div>
+            <div className="flex  items-center justify-center hidden md:block "><Link to="#"><button className="text-sm bg-[#292d30] px-3 py-3 font-bold">See tournament</button></Link></div>
         </div>
         <div className="flex intems-center justify-center md:hidden md:mb-0 mb-6 mt-2 text-white">
-            <button className="text-sm bg-[#383d47] px-3 py-3 font-bold rounded-2xl mr-2">Free Tournament</button>
-            <button className="text-sm bg-[#292d30] px-3 py-3 font-bold ml-2" >See Tournament</button>
+            <Link to="#"><button className="text-sm bg-[#383d47] px-3 py-3 font-bold rounded-2xl mr-2">Free Tournament</button></Link>
+            <Link to="#"><button className="text-sm bg-[#292d30] px-3 py-3 font-bold ml-2" >See Tournament</button></Link>
         </div>
         </div>
     )

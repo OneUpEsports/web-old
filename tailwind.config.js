@@ -3,7 +3,7 @@ const path = require("path");
 // const url = typeof window !== undefined ? window.location.origin : "";
 module.exports = {
     // enabled: false,
-    purge: ["./src/**/*.{js,jsx,ts,tsx}"],
+    purge: ["./src/**/*.{js,jsx,ts,tsx}","./src/**/*/*.{js,jsx,ts,tsx}"],
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
