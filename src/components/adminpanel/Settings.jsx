@@ -1,9 +1,5 @@
 import React from "react"
-import {Link} from "gatsby"
-import {AiOutlineQuestionCircle,AiFillTrophy} from "react-icons/ai"
-import {HiOutlineLogout} from "react-icons/hi"
-import {RiGamepadLine} from "react-icons/ri"
-import {BiNews} from "react-icons/bi"
+
 const Settings = ({children}) => { 
     const inputStyle=`lg:text-md text-sm block shadow appearance-none border border-[#707070] 
     rounded lg:w-2/3 w-full py-2 lg:px-3 text-gray-700 mb-3 leading-tight
