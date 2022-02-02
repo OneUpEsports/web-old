@@ -13,9 +13,9 @@ const Home=()=>{
                 <div className="w-full mt-8">
                 <h3 className="font-bold">Game List</h3>
                <div className="w-full  bg-[#707070] pl-2 py-2">
-               <Game name="Fifa 22" ps="ps4/5" pc="pc" mobile="mobile" xbx="XBX" image="/img/dashboard/NoPath - Kopie (7).png"/>
-               <Game name="Fifa 22" ps="ps4/5" pc="pc" mobile="mobile" xbx="XBX" image="/img/dashboard/NoPath - Kopie (7).png"/>
-               <Game name="Fifa 22" ps="ps4/5" pc="pc" mobile="mobile" xbx="XBX" image="/img/dashboard/NoPath - Kopie (7).png"/>
+               <Game name="Fifa 22" ps="Ps4/5" pc="Pc" mobile="Mobile" xbx="Xbox/Xbox-Series" image="/img/dashboard/NoPath - Kopie (7).png"/>
+               <Game name="Fifa 22" ps="Ps4/5" pc="Pc" mobile="Mobile" xbx="XBox/Xbox-Series" image="/img/dashboard/NoPath - Kopie (7).png"/>
+               <Game name="Fifa 22" ps="Ps4/5" pc="Pc" mobile="Mobile" xbx="Xbox/Xbox-Series" image="/img/dashboard/NoPath - Kopie (7).png"/>
                </div>
                 </div>
                    
