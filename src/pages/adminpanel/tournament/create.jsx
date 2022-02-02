@@ -3,15 +3,15 @@ import React from "react"
 import MainLayout from "../../../components/adminpanel/MainLayout"
 
 const Home=()=>{
-    const inputStyle=`text-md block shadow appearance-none border border-[#707070] 
-    rounded w-2/3 py-2 px-3 text-gray-700 mb-3 leading-tight
+    const inputStyle=`lg:text-md text-sm block shadow appearance-none border border-[#707070] 
+    rounded lg:w-2/3 w-full py-2 lg:px-3 text-gray-700 mb-3 leading-tight
      focus:outline-none focus:shadow-outline h-14`
     return(
         <MainLayout>
                 <div className="flex items-center mb-8"><h2>Tournaments &gt; Create</h2></div>
                <div className=" flex flex-col items-center w-full" >
-                   <form className="flex w-4/5 mr-4 items-center justify-center ">
-                       <div className="w-1/2 flex flex-col items-center justify-center">
+                   <form className="flex lg:flex-row flex-col lg:w-4/5 lg:mr-4 w-full items-center justify-center ">
+                       <div className="lg:w-1/2 w-full flex flex-col items-center justify-center">
                                 <select  className={inputStyle} name = "dropdown" name="Select a game" defaultValue="Select a game">
                                 <option selected="selected">Select a game</option>
                                     <option value = "Clash-of-Clans">Clash of Clans</option>
@@ -34,7 +34,7 @@ const Home=()=>{
                          
 
                        </div>
-                       <div className="w-1/2 ml-4  items-center justify-center text-md">
+                       <div className="lg:w-1/2 lg:ml-4 w-full  items-center justify-center text-md">
                        <select  className={inputStyle} name = "dropdown" name="Select a status" defaultValue="Select Status">
                                    <option selected="selected">Select Status</option>
                                     <option value = "status1">Status1</option>

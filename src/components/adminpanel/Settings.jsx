@@ -5,13 +5,13 @@ import {HiOutlineLogout} from "react-icons/hi"
 import {RiGamepadLine} from "react-icons/ri"
 import {BiNews} from "react-icons/bi"
 const Settings = ({children}) => { 
-    const inputStyle=`text-md block shadow appearance-none border border-[#707070] 
-    rounded w-2/3 py-2 px-3 text-gray-700 mb-3 leading-tight
+    const inputStyle=`lg:text-md text-sm block shadow appearance-none border border-[#707070] 
+    rounded lg:w-2/3 w-full py-2 lg:px-3 text-gray-700 mb-3 leading-tight
      focus:outline-none focus:shadow-outline h-12`   
     return (
-        <div className="   w-full flex flex-col items-center justify-center pl-12 ">
-                   <form className="flex w-full m-auto items-center justify-center ">
-                       <div className="w-1/2 flex flex-col items-center justify-center">
+        <div className="   w-full flex flex-col items-center justify-center lg:pl-12 ">
+                   <form className="flex lg:flex-row flex-col w-full m-auto items-center justify-center ">
+                       <div className="lg:w-1/2 w-full flex flex-col items-center justify-center">
                                 <select  className={inputStyle} name = "dropdown" name="Select a game" defaultValue="Select a game">
                                 <option selected="selected">Select a game</option>
                                 <option value = "Clash-of-Clans">Clash of Clans</option>
@@ -34,7 +34,7 @@ const Settings = ({children}) => {
                          
 
                        </div>
-                       <div className="w-1/2 ml-4  items-center justify-center text-md">
+                       <div className="lg:w-1/2 lg:ml-4 w-full  items-center justify-center text-md">
                        <select  className={inputStyle} name = "dropdown" name="Select a status" defaultValue="Select Status">
                                    <option selected="selected">Select Status</option>
                                     <option value = "status1">Status1</option>

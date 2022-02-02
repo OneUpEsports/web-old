@@ -9,8 +9,8 @@ const MainLayout = ({children}) => {
         <SideBar/>
       
        
-        <div className="flex flex-col  w-4/5 h-full py-16 pl-6 ml-64 ">
-            <div className="lg:h-full h-fit ml-16">
+        <div className="flex flex-col  w-4/5 h-full py-16 lg:pl-6 lg:ml-64 ml-28">
+            <div className="lg:h-full h-fit lg:ml-16">
             {children}
             </div>
         </div>
