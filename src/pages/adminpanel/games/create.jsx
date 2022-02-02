@@ -43,7 +43,7 @@ const Home=()=>{
                        
                        
                           {/* Platform */}
-                                <div>
+                               <div>
                                 <h3 className="font-bold">PlattForm</h3>
                                 <input className="mr-2 h-5 w-5" type="checkbox" id="crossplay" name="crossplay" value="Crossplay"/>
                                 <label className="mr-4" for="crossplay">Crossplay</label>
