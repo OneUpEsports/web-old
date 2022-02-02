@@ -66,9 +66,7 @@ const SEO = ({
     const nextLink = nextPage && nextPage !== null && rootUrl + nextPage;
     let siteTitle;
     if (pathname === "/") {
-        siteTitle = `${site.siteMetadata.titleTemplate} By ${site.siteMetadata.title}`;
-    } else {
-        siteTitle = `${template} By ${metaTitle}`;
+        siteTitle = `${site.siteMetadata.titleTemplate} `;
     }
 
     const basSchema = [

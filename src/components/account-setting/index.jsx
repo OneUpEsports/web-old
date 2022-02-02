@@ -5,7 +5,9 @@ import Hang from "../../../static/icons/hang.png";
 import Tweet from "../../../static/icons/tweet.png";
 import { useEffect, useState } from "react";
 import { Country } from "country-state-city";
- import {Link} from "gatsby"
+import { Link } from "gatsby";
+import { Helmet } from "react-helmet";
+
 const ProfileSetting = () => {
     const [allCountries, setAllCountries] = useState([]);
     useEffect(() => {
@@ -22,6 +24,7 @@ const ProfileSetting = () => {
     };
     return (
         <div>
+            <Helmet title="OneUpGaming • Account" defer={false} />
             {/* background_color_container */}
             <div className="background_color_container flex justify-center lg:h-min ">
                 {/* main_container */}
@@ -211,10 +214,10 @@ const ProfileSetting = () => {
                             <h3 className="text-md lg:text-xl font-normal pb-2">
                                 Favourite Games
                             </h3>
-                            <Link to="/select-games" >
-                            <button className="text-base font-medium px-4">
-                                Reselect
-                            </button>
+                            <Link to="/select-games">
+                                <button className="text-base font-medium px-4">
+                                    Reselect
+                                </button>
                             </Link>
                         </div>
                         {/* chechk_box_text */}

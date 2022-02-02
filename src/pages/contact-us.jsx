@@ -7,6 +7,7 @@ import { normalizedData } from "@utils/functions";
 import PageBreadcrumb from "../components/pagebreadcrumb";
 import ContactUsInfoArea from "../container/contact-us/contact-info-card";
 import ContactFormArea from "../container/contact-us/contact-form";
+import { Helmet } from "react-helmet";
 
 const ContactUsPage = ({ data, location, pageContext }) => {
     const globalContent = normalizedData(data?.allGeneral?.nodes || []);
@@ -18,6 +19,7 @@ const ContactUsPage = ({ data, location, pageContext }) => {
                 ...globalContent["footer"],
             }}
         >
+            <Helmet title="OneUpGaming • Contact" defer={false} />
             <SEO title="Contact Us Page" pathname="/" />
             <PageBreadcrumb
                 pageContext={pageContext}
