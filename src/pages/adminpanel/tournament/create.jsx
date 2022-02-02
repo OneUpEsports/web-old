@@ -103,7 +103,7 @@ const Home=()=>{
                                 <input className="mr-2 h-5 w-5 " type="checkbox" id="xbox" name="xbox" value="xbox"/>
                                 <label for="xbox">Xbox</label>
                                 <input className="mr-2 h-5 w-5" type="checkbox" id="xb/xbx" name="xb/xbx" value="XB/XBX"/>
-                                <label className="mr-4" for="xb/xbx">Xbox/xbox-series</label><br/>
+                                <label className="mr-4" for="xb/xbx">Xbox/Xbox-series</label><br/>
                                 <input className="mr-2 h-5 w-5 " type="checkbox" id="mobile" name="mobile" value="Mobile"/>
                                 <label className="mr-4" for="mobile">Mobile</label><br/>
                                 <input className="mr-2 h-5 w-5 " type="checkbox" id="pc" name="pc" value="Pc"/>
