@@ -8,7 +8,7 @@ const Home=()=>{
         <MainLayout>
                <div className="flex items-center mb-8"><h2>Tournaments</h2> <Link to="/adminpanel/tournament/create"><button className="bg-[#3ed669] h-12 px-6 ml-4 rounded  text-white">Add</button></Link></div>
                <div className=" flex flex-col items-center w-full" >
-                   <div className=" grid grid-cols-14 grid-flow-col-dense lg:w-full lg:block hidden overflow-x-scroll  scrollbar-hide">
+                   <div className=" lg:grid grid-cols-14 grid-flow-col-dense w-full  hidden">
                        <div className=" col-span-4 pl-4"><h4 >Form</h4></div>
                        <div className="col-span-3"><h4 className="w-fit ml-4">Game</h4></div>
                        <div className=" col-span-1"><h4 className="w-fit m-auto">Joined</h4></div>
