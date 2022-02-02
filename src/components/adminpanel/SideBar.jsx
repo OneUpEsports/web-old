@@ -12,7 +12,7 @@ const SideBar = ({children}) => {
             <ul className="block list-none w-full">
                 
                 <li className="mb-6 m-auto flex flex-col  w-full items-center lg:pl-6 ">
-                    <Link  className="flex items-center text-lg" to="/"><img className="h-16 w-16 mr-2" src="/img/dashboard/icon-72x72.png.png" alt=""/><h4 className="text-md lg:block hidden">One Up Gaming</h4></Link>
+                 
                     <h4  className="text-md lg:block hidden"> Admin Panel</h4>
                 </li>
                 <hr className="lg:w-48 w-full mb-4 m-auto"/>
