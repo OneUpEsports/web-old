@@ -40,7 +40,7 @@ const Home=()=>{
                        <div>
 
                        <input className ={inputStyle} type="text" placeholder="Game Name"/>
-                        <input className ={inputStyle} type="text" placeholder="Rules"/>
+                       
                        
                           {/* Platform */}
                                 <div>
@@ -49,8 +49,8 @@ const Home=()=>{
                                 <label className="mr-4" for="crossplay">Crossplay</label>
                                 <input className="mr-2 h-5 w-5 " type="checkbox" id="ps4/5" name="ps4/5" value="PS4/5"/>
                                 <label className="mr-4" for="ps4/5">ps4/5</label>
-                                <input className="mr-2 h-5 w-5" type="checkbox" id="xb/xbx" name="xb/xbx" value="XB/XBX"/>
-                                <label className="mr-4" for="xb/xbx">XB/XBX</label><br/>
+                                <input className="mr-2 h-5 w-5" type="checkbox" id="xbox/xbox-series" name="xbox/xbox-series" value="xbox/xbox-series"/>
+                                <label className="mr-4" for="xbox/xbox-series">xbox/xbox-series</label><br/>
                                 <input className="mr-2 h-5 w-5 " type="checkbox" id="mobile" name="mobile" value="Mobile"/>
                                 <label className="mr-4" for="mobile">Mobile</label>
                                 <input className="mr-2 h-5 w-5 " type="checkbox" id="pc" name="pc" value="Pc"/>
