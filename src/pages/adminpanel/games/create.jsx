@@ -40,7 +40,7 @@ const Home=()=>{
                        <div>
 
                        <input className ={inputStyle} type="text" placeholder="Game Name"/>
-                        <input className ={inputStyle} type="text" placeholder="Rules"/>
+                       
                        
                           {/* Platform */}
                                 <div>
