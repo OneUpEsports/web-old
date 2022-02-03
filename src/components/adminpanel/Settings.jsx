@@ -44,7 +44,10 @@ const Settings = ({children}) => {
                                     <option value = "status2">Status2</option>
                                     <option value = "status3">Status2</option>
                                 </select>
-                         
+                                <textarea name="rules" id="rules" className='lg:text-md text-sm block shadow appearance-none border border-[#707070] 
+                                  rounded lg:w-2/3 w-full py-2 lg:px-3  mb-3 leading-tight
+                                  focus:outline-none focus:shadow-outline  bg-[#707070] text-white' rows="6" placeholder="Rules">
+                                </textarea>
 
                        </div>
                        <div className="lg:w-1/2 lg:ml-4 w-full  items-center justify-center text-md">
