@@ -15,47 +15,47 @@ const GameAccounts = () => {
                 <br/>
                 <div className="w-11/12 m-auto grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-8 text-white">
                     <div className="flex  items-center ">
-                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/apex.png" alt=""/>
+                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/ApexGameAccounts.png" alt=""/>
                         <input className="bg-secondary-100 border-2 border-gray-200 p-2 bg-gray-900 outline-none w-40 rounded h-8 " type="text" placeholder="Name"/>
                     </div>
                     <div className="flex items-center text-white">
-                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/L.png" alt=""/>
+                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/LOLGameAccounts.png" alt=""/>
                         <input className="bg-secondary-100 border-2 border-gray-200 p-2 bg-gray-900 outline-none w-40 rounded h-8 " type="text" placeholder="Name"/>
                     </div>
                     <div className="flex items-center">
-                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/cod.png" alt=""/>
+                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/CODMGameAccounts.png" alt=""/>
                         <input className="bg-secondary-100 border-2 border-gray-200 p-2 bg-gray-900 outline-none w-40 rounded h-8 " type="text" placeholder="Name"/>
                     </div>
                     <div className="flex items-center">
-                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/warzone.png" alt=""/>
+                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/CODMGameAccounts.png" alt=""/>
                         <input className="bg-secondary-100 border-2 border-gray-200 p-2 bg-gray-900 outline-none w-40 rounded h-8 " type="text " placeholder="Name"/>
                     </div>
                     <div className="flex items-center">
-                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/V.png" alt=""/>
+                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/ValorantGameAccounts.png" alt=""/>
                         <input className="bg-secondary-100 border-2 border-gray-200 p-2 bg-gray-900 outline-none w-40 rounded h-8 " type="text" placeholder="Name"/>
                     </div>
                     <div className="flex items-center">
-                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/fifa.png" alt=""/>
+                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/Fifa22GameAccounts.png" alt=""/>
                         <input className="bg-secondary-100 border-2 border-gray-200 p-2 bg-gray-900 outline-none w-40 rounded h-8 " type="text" placeholder="Name"/>
                     </div>
                     <div className="flex items-center">
-                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/clash.png" alt=""/>
+                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/ClashOfClansGameAccounts.png" alt=""/>
                         <input className="bg-secondary-100 border-2 border-gray-200 p-2 bg-gray-900 outline-none w-40 rounded h-8 " type="text" placeholder="Name"/>
                     </div>
                     <div className="hidden xl:block flex items-center">
                         
                     </div>
                     <div className="flex items-center">
-                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/shield.png" alt=""/>
+                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/RocketLeagueGameAccounts.png" alt=""/>
                         <input className="bg-secondary-100 border-2 border-gray-200 p-2 bg-gray-900 outline-none w-40 rounded h-8 " type="text" placeholder="Name"/>
                     </div>
                     <div className="flex items-center">
-                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/f.png" alt=""/>
+                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/FortniteGameAccounts.png" alt=""/>
                         <input className="bg-secondary-100 border-2 border-gray-200 p-2 bg-gray-900 outline-none w-40 rounded h-8 " type="text" placeholder="Name"/>
                     </div>
                     
                     <div className="flex items-center">
-                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/6.png" alt=""/>
+                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/RainbowGameAccounts.png" alt=""/>
                         <input className="bg-secondary-100 border-2 border-gray-200 p-2 bg-gray-900 outline-none w-40 rounded h-8 " type="text" placeholder="Name"/>
                     </div>
 
