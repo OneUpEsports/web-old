@@ -4,14 +4,13 @@ const GameAccounts = () => {
     return(
         <div className="absolute  bottom-0 right-0 h-full w-full bg-secondary-100 md:px-12 py-12 overflow-x-hidden overflow-y-scroll">
             <h2 className="text-left text-white w-full pl-6 md:pl-2">Game Accounts</h2>
+            For playing in our Tournaments you have to link your ingame ID for the Game
             <hr className="text-gray-900"/>
             <br/><br/>
             <div>
                
                 <div className=" md:w-fit w-full bg-gray-900 p-8 rounded-2xl border-2 border-gray-200 flex flex-col items-center m-auto">
                 <p className="w-11/12 m-auto text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam rerum quasi impedit magnam, sed odio, repellendus suscipit voluptatum ipsum harum quis, dicta fugit facere soluta nisi cumque assumenda numquam quas!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam facilis, ipsum voluptatum rerum recusandae ab autem, in officiis rem vitae voluptate beatae est earum iusto libero! Dicta laudantium quod odit.
                 </p>
                 <br/>
                 <div className="w-11/12 m-auto grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-8 text-white">
@@ -57,6 +56,11 @@ const GameAccounts = () => {
                     
                     <div className="flex items-center">
                         <img className="mx-2 w-22 h-22" src="/img/game-accounts/6.png" alt=""/>
+                        <input className="bg-secondary-100 border-2 border-gray-200 p-2 bg-gray-900 outline-none w-40 rounded h-8 " type="text" placeholder="Name"/>
+                    </div>
+
+                    <div className="flex items-center">
+                        <img className="mx-2 w-22 h-22" src="/img/game-accounts/CSGOGameAccounts.png" alt=""/>
                         <input className="bg-secondary-100 border-2 border-gray-200 p-2 bg-gray-900 outline-none w-40 rounded h-8 " type="text" placeholder="Name"/>
                     </div>
                     
