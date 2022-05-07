@@ -22,6 +22,7 @@ const Trophies=()=>{
                       <MultiPlatGame image="/img/dashboard/NoPath - Kopie (18).png" name="ROCKET LEAGUE" pclink="/tournaments/crossplay/rocket-league" pslink="/tournaments/crossplay/rocket-league" xboxlink="/tournaments/crossplay/rocket-league"/>
                       <PcGame image="/img/dashboard/NoPath - Kopie (20).png" name="VALORANT" link="/tournaments/pc/valorant"/>
                       <PcGame image="/img/dashboard/NoPath - Kopie (21).png" name="CSGO" link="/tournaments/pc/csgo"/>
+                      <MultiPlatGame image="/img/dashboard/NoPath - Kopie (22).png" name="Not found what you are looking for?" link="/tournaments/pc/csgo"/>
                       
                     
                 </div>
