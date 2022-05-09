@@ -21,26 +21,4 @@ const News = () => {
     );
 };
 
-export const query = graphql`
-    query newsPageQuery {
-        allGeneral {
-            nodes {
-                section
-                id
-                menu {
-                    ...Menu
-                }
-                footer {
-                    ...Footer
-                }
-            }
-        }
-        page(title: { eq: "newsPage" }, pageType: { eq: innerpage }) {
-            content {
-                ...PageContentAll
-            }
-        }
-    }
-`;
-
 export default News;
