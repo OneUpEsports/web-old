@@ -19,11 +19,10 @@ const Trophies=()=>{
                       <MultiPlatGame image="/img/dashboard/NoPath - Kopie (10).png" name="FORTNITE" pclink="/tournaments/crossplay/fortnite" pslink="/tournaments/crossplay/fortnite" xboxlink="/tournaments/crossplay/fortnite"/>
                       <PcGame image="/img/dashboard/NoPath - Kopie (12).png" name="LEAGUE OF LEGENDS" link="/tournaments/pc/league-of-legends"/>
                       <MultiPlatGame image="/img/dashboard/NoPath - Kopie (16).png" name="RAINBOW SIX SIEGE" pclink="/tournaments/pc/rainbow-six-siege" pslink="/tournaments/crossplay/rainbow-six-siege" xboxlink="/tournaments/xbox/rainbow-six-siege"/>
+                      <MultiPlatGame image="/img/dashboard/NoPath - Kopie (23).png" name="ROLLER CHAMPIONS" link="/tournaments/crossplay/roller-champions"/>
                       <MultiPlatGame image="/img/dashboard/NoPath - Kopie (18).png" name="ROCKET LEAGUE" pclink="/tournaments/crossplay/rocket-league" pslink="/tournaments/crossplay/rocket-league" xboxlink="/tournaments/crossplay/rocket-league"/>
                       <PcGame image="/img/dashboard/NoPath - Kopie (20).png" name="VALORANT" link="/tournaments/pc/valorant"/>
-                      <PcGame image="/img/dashboard/NoPath - Kopie (21).png" name="CSGO" link="/tournaments/pc/csgo"/>
-                      <MultiPlatGame image="/img/dashboard/NoPath - Kopie (22).png" name="Not found what you are looking for?" link="/tournaments/pc/csgo"/>
-                      
+                      <PcGame image="/img/dashboard/NoPath - Kopie (21).png" name="CSGO" link="/tournaments/pc/csgo"/>                      
                     
                 </div>
                 <div className="lg:hidden block">
