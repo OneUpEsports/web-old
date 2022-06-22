@@ -15,81 +15,18 @@
         {
             "id": "menu-3",
             "text": "Shop",
-            "link": "/shop",
-            "submenu": [
-                {
-                    "id": "menu-31",
-                    "text": "About Us",
-                    "link": "/about-us"
-                },
-                {
-                    "id": "menu-32",
-                    "text": "Games Page",
-                    "link": "/games"
-                },
-                {
-                    "id": "menu-33",
-                    "text": "FAQ's Page",
-                    "link": "/faq"
-                },
-                {
-                    "id": "menu-34",
-                    "text": "Sponsor",
-                    "link": "/sponsor"
-                },
-                {
-                    "id": "menu-35",
-                    "text": "Giveaway",
-                    "link": "/giveaway"
-                }
-            ]
-        },
-        {
-            "id": "menu-4",
-            "text": "NEWS",
-            "link": "/news",
-            "submenu": [
-                {
-                    "id": "menu-41",
-                    "text": "",
-                    "link": "/"
-                },
-                {
-                    "id": "menu-42",
-                    "text": "",
-                    "link": "/"
-                },
-                {
-                    "id": "menu-43",
-                    "text": "",
-                    "link": "/"
-                },
-                {
-                    "id": "menu-44",
-                    "text": "",
-                    "link": "/"
-                },
-                {
-                    "id": "menu-45",
-                    "text": "",
-                    "link": "/"
-                },
-                {
-                    "id": "menu-46",
-                    "text": "",
-                    "link": "/"
-                },
-                {
-                    "id": "menu-47",
-                    "text": "",
-                    "link": "/"
-                }
-            ]
+            "link": "/shop"
         },
         {
             "id": "menu-5",
             "text": "Contact",
             "link": "/contact-us"
+        },
+        {
+            "id": "menu-4",
+            "text": "Community",
+            "link": "https://discord.gg/WH8ANZ73Vs"    
+            
         }
     ]
 }
